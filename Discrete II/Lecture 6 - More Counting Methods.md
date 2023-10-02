@@ -1,0 +1,21 @@
+- ### Difference Method
+	- To find the size of set $A$
+		- Find a larger set $S$ such that $S = A \cup B$
+		- $A$ and $B$ are both disjoint sets
+		- $|A|=|S|-|B|$
+	- ###### Ex. Possible outcomes where white and black die have different values?
+		- Find $S$ with all possible outcomes $|S|=36$
+		- Subtract $B$ with the same values $|B|=6$
+		- $|A|=|S|-|B|=36-6=30$
+
+- ### Product Method
+	- Gives us how many different elements are possible
+	- The multiplication finds all the possible "matches" across sets
+	- $|A \times B| = |A| \cdot |B|$
+		- This is true *even if $A$ and $B$ are not disjoint*
+		- Useful when counting elements of a set involves dealing with tuples, sequences, or a series of choices
+	- ###### Ex. If I roll a white and black die, how many possible outcomes do I see?
+		- $A=$ All outcomes of a black die
+		- $B =$ All outcomes of a white die
+		- All outcomes $=$ $|A \times B| = |A| \cdot |B| = 36$
+	- 

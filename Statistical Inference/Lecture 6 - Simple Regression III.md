@@ -1,0 +1,87 @@
+
+- ### Residual
+	- ###### Ideal case
+		- Symmetric bell shaped
+		- Random, no obvious patterns
+	- ###### Assumptions of regression
+		- Normally distributed 
+		- Mean 0
+		- Constant variance
+		- Independent
+	- Normal distribution
+
+- ### Probability Distribution
+	- Gives the probabilities of occurrence of different possible outcomes
+	- ###### Discrete : Probability Mass Function (PMF)
+		- Positive: $f(x) \ge 0$ $\forall x$
+		- Total Probability 1: $\sum f(x) = 1$
+		- Probability at given point: $P(X = x) = f(x)$
+	- ###### Continuous: Probability Distribution Function
+		- Positive: $f(x) \ge 0$
+		- Total probability 1: $\int_{-\infty}^{\infty}f(x)dx=1$
+		- Probability at an interval: $P(a \le x \le b) = \int_{a}^{b}f(x) dx$
+		- Probability at any given point: $P(x=a) = 0$
+
+- ### Binomial Distribution
+	- ###### Bernoulli Trial
+		- Random experiment with two possible outcomes (dichotomous response)
+		- Probability of success: $p$ 
+			- Success is what event you are interested in 
+		- $P(X=1)=p$, $P(X=0)=1-p$
+	- ###### Binomial Distribution
+		- A sequence of $n$ independent Bernoulli Trials with the same probability of success $p$
+		- Interested in: The number of successes $X = k$
+		- $X$~$B(n,p)$
+		- $P(X=k) = {n \choose x} p^{k}(1-p)^{n-k}$
+	- Typical example: Number of heads when flipping quarters
+
+- ### History of Normal Distribution
+	- ###### De Moivre
+		- Binomial Expansion
+		- Binomial distribution converges when $p = \frac{1}{2}$ to something bell shaped and symmetric
+	- ###### Laplace
+		- Generalized to any $0 < p < 1$
+		- Calculated normalization constant
+		- De Moivre-Laplace Central Limit Theorem
+	- ###### Gauss
+		- Use bell shaped symmetric curve as a distribution of random error, correctly determined orbit of Ceres
+		- It had been called Laplace distribution, Gauss distribution, Laplace-Gauss distribution, until it was eventually called normal distribution
+
+- ### Normal Distribution
+	- Bell-Shaped and Symmetric
+	- Most prominent probability distribution
+	- Many phenomena generate random variables that are approximately normal
+	- ###### Probability Density Function (PDF)
+		- $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$, $-\infty < x < \infty$
+		- Mean: $\mu$, Variance: $\sigma^2$
+		- Standard Normal: $\mu = 0$, $\sigma^{2}= 1$
+			- Standard Normal table
+	- ###### Properties of Normal Distribution
+		- Its a PDF 
+			- Total Integral 1, approaching 0 at either end
+		- Symmetric 
+			- Mean, median, mode all at $x = \mu$
+		- Bell Shaped
+			- Points of inflection at $x = \mu \pm \sigma$
+		- Empirical Rule
+			- Approximately 68% of all measurements fall within 1 SD of the mean
+			- Approximately 95% of all measurements fall within 2 SD of the mean
+			- Approximately 99.7% of all measurements fall within 3 SD of the mean
+		- IQR/SD is approximately 1.35 ![[Pasted image 20230922131538.png|500]]
+	- ###### Checking Normal Distribution
+		- Formal statistical test
+		- QQ Plot
+			- `ggplot(data=df, aes(sample=x)) + stat_qq() + stat_qqline_()`
+			- If it is a normal distribution it will mostly be a straight line
+			- Life Expectancy vs GDP per capita QQ Plot ![[Pasted image 20230922131649.png|500]]
+
+- ### R functions for probability distribution
+	- Binomial: `pbinom`, `qbinom`, `dbinom`, `rbinom`  
+	- Normal: `pnorm`, `qnorm`, `dnorm`, `rnorm`  
+	- $p$: probability  
+	- $q$: quantile  
+	- $d$: distribution density  
+	- $r$: random sampling  
+	- $(d, p, q, r)$ apply to all statistical distributions in R
+	- ###### Simple R Examples 
+	  ![[Pasted image 20230922131944.png|500]]

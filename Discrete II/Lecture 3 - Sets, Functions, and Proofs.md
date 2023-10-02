@@ -1,0 +1,57 @@
+
+- ### Functions
+	- ###### What is a function?
+		- A function assigns an element of one set to an element of another set
+		- The mapping is done from one set, called the domain, to another called the codomain
+	- ###### Notation
+		- $f: A \mapsto B$ 
+			- $A$ is the domain
+			- $B$ is the codomain
+	- ###### Examples
+		- $f: \mathbb{R} \mapsto \mathbb{R}$
+		- $x \mapsto 4x^2$
+	- The familiar notation $f(a) = b$ indicates that $f$ assigns the elements $b \in B$ to $a$. Here, $b$ would be called the value of $f$ at argument $a$
+		- Ex. Using a formula for $b$: $f(x) = 4x^2$
+	- Algorithms are functions, each input has an output
+	- ###### Types of Functions
+		- ![[Drawing_2023-09-20_14.31.19.excalidraw.png]]
+		- Injective (One-to-One)
+			- $f:X \mapsto Y$ is injective if each $x \in X$ is mapped to a different $y \in Y$
+			- This function preserves *distinctness*, as it never maps distinct elements of its domain to the same element of its codomain
+		- Surjective (Onto)
+			- $f: X \mapsto Y$ is surjective if each $y \in Y$ has some $x \in X$ 
+			- For every element in the codomain, there exists an element in the domain that maps to it
+		- Bijective (One-to-One and Onto)
+			- $f: X \mapsto Y$ is bijective if each $x \in X$ has exactly one $y \in Y$ and vice versa
+			- We care about bijections because it allows us to count one set (codomain) and find the number of elements in another set (domain)
+	- ###### Examples
+		- $f : \mathbb{R} \mapsto \mathbb{R}, f(x) = 3x + 7$ 
+			- This function is bijective (linear function; thus every $x$ maps to unique $y$, and is covered in all real numbers) 
+			- **PROOF:** 
+				- This function is one-to-one since, if $x_1$ and $x_2$ are different, then $3x_1 + 7$ and $3x_2 + 7$ are different - This function is onto since, for any real value $y$, $f\left(\frac{y-7}{3}\right)= y$ (the inverse of $f(x)$) - Hence, $f(x) = 3x + 7$ is a bijection 
+		- $f : \mathbb{R} \mapsto \mathbb{R}, f(x) = x^2$ 
+			- This function cannot be either of the three types; there is no access to all real numbers 
+			- **PROOF:** 
+				- This function is not one-to-one since $f(2) = f(-2) = 4$ - This function is not onto since for $y = -3$, there is no $x$ that maps to it
+
+- ### Proofs
+	- A mathematical proof of a proposition is a chain of logical deductions from axioms and previously proved statements
+	- First two types of proofs we will learn
+		- ###### Direct Proof
+		- ###### Proof by Contrapositive
+	- ###### Proposition
+		- A statement that is either true or false
+	- ###### Predicate
+		- A statement whose truth depends on the value of variables
+	- ###### Axiom
+		- A proposition that is simply accepted as true
+			- i.e. There is a straight line segment between every pair of points
+	- ###### Logical Deductions (or Inference Rules)
+		- $\frac{P, P \Rightarrow Q}{Q}$ if $P$ is true and $P$ implies $Q$, then $Q$ is true
+		- $\frac{P \Rightarrow Q, Q \Rightarrow R}{P \Rightarrow R}$ if $P$ implies $Q$ and $Q$ implies $R$ then $P$ implies $R$
+		- $\frac{\neg P \Rightarrow \neg Q}{P \Rightarrow Q}$ if not $P$ implies not $Q$ then $P$ implies $Q$
+	- ###### Proving an implication via Direct Proof
+		- To prove $P \Rightarrow Q$
+			- Assume $P$ is true
+			- Show that $Q$ logically follows
+		

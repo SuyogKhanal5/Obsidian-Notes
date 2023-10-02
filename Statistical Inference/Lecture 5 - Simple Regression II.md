@@ -1,0 +1,93 @@
+
+### One Categorical Regressor
+- We will use the evals data frame
+	- Dependent Variable: teaching score
+	- Categorical Variables
+		- `gender`: male/female
+		- `rank`: teaching/tenure track/tenured  
+		- `ethnicity`: minority/not minority  
+		- `language`: English/non-English  
+		- `pic_outfit`: formal/not formal  
+		- `pic_color`: black&white/color  
+		- `cls_level`: lower/upper
+
+- ### Step 1: Exploratory Data Analysis
+	- Frequency/Count Table
+		- ![[Pasted image 20230919122605.png|500]]
+	- Visualization
+		- Univariate: Bar Graph
+		- Bivariate: Side-by-Side Boxplot, Histogram by Categories
+	- Summary Statistics by Categories
+	- Boxplot, Histogram and Summaries by Gender
+	- ![[Pasted image 20230919122815.png|500]]
+	- Boxplot, Histogram, and Summaries by Rank
+	- ![[Pasted image 20230919123015.png|500]]
+	- Side-By-Side Boxplots
+	- ![[Pasted image 20230919123124.png|500]]
+
+- ### Fit Regression by Gender
+	- `score_model1 <- lm(data=evals, score~gender)`
+	- Gender: 2 level $\iff$ dummy variable $x = \{0$  if female, $1$ if male$\}$$
+		- No need to create the dummy in R, we can use the original categorical one
+		- Level 0 is called reference (base level)
+		- Default in R, reference level is alphabetically or numerically arranged
+	- ###### Model: Teaching Score vs Gender
+		- Model: $E(y) = \beta_{0}+ \beta_1x$
+		- What is the case for male and female?
+			- Female: When $x=0$, $E(y) = \beta_{0} + \beta_{1} \cdot 0 = \beta_0$
+			- Male: When $x=1$, $E(y) = \beta_{0}+\beta_{1}\cdot 1 = \beta_{0}+\beta_{1}$
+		- What do the $\beta$s mean
+			- $\beta_0$: The mean teaching score for female teachers (reference level)
+			- $\beta_1$: The difference between mean teaching scores for male and female teachers
+				- If $\beta_{1}> 0$: On average male professors have higher teaching score than female professors
+				- If $\beta_{1}=0$: On average, there is no difference between male and female professors
+				- If $\beta_1<0$: On average, male professors have a lower teaching score than female professors
+	- ###### Regression Table
+		- What is the estimated average teaching score of female professors?
+		- What is the estimated average teaching score of male professors?
+		- Is the difference significant?
+		- Compare with summary statistics found previously
+		- ![[Pasted image 20230919124416.png|500]]
+
+- ### Fit Regression by Rank
+	- Rank: 3 levels $\iff$ 2 dummy variables
+	- Reference level: teaching (alphabetically)
+	- $x_{1} = \{1$ if tenure track, $0$ otherwise $\}$ and $x_2=\{1$ if tenured, $0$ if otherwise$\}$
+	- ###### Betas ($\beta$)
+		- $\hat{\beta_0}$: Estimated average teaching score of all teaching faculties (reference level)
+		- $\hat{\beta_1}$: Estimated difference of average teaching score between teaching faculties and tenure track faculties
+		- $\hat{\beta_2}$: Estimated difference of average teaching score between teaching faculties and tenured faculties
+	- ###### General Case:
+		- $k$ level categorical variable $\iff$ $k-1$ dummy variables
+		- Intercept: Estimated average in reference level
+		- Slope: Difference of average between corresponding category and reference level
+	- ###### Regression Table
+		- What is the estimated average teaching score of all teaching faculties?  
+		- What is the estimated average teaching score of all tenure track faculties?  
+		- What is the estimated average teaching score of all tenured faculties?  
+		- Is this a significant model?  
+		- Compare with the summary statistics found previously
+		- ![[Pasted image 20230919125229.png|500]]
+	- ###### How to solve the insignificance?
+		- You can combine levels
+		- How do we know which levels to combine?
+		- ![[Pasted image 20230919125619.png|500]]
+	- ###### Combine "tenure track" and "tenured"
+		- What is the difference of average teaching score between teaching faculties and others? Which one is higher? Is it significant?
+		- ![[Pasted image 20230919130509.png|500]]
+		- Be careful if using nested `ifelse` in R
+			- Use `as.factor()` if needed
+		- You can also combine differently and compare
+
+- ### Other Regression Fits
+	- ![[Pasted image 20230919130730.png|500]]
+
+- ### Fitted Value, Residual and Diagnostics
+	- Linear model using gender
+		- Will all female professors have the same fitted value? Do they have the same residual?
+		- Residual plot – randomness?  
+		- What is the percentage of all variability in y can be explained through your linear model?
+		- ![[Pasted image 20230919130855.png|500]]
+		- ![[Pasted image 20230919130907.png|500]]
+		- Be careful if you use `lm(df, y~relevel(x, ref= ))`, or `lm(df, y~as.factor(x))`, you will get an error message in `get_regression_points()`and `get_regression_summaries()`
+		
