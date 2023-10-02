@@ -14,8 +14,17 @@
 	- $|A \times B| = |A| \cdot |B|$
 		- This is true *even if $A$ and $B$ are not disjoint*
 		- Useful when counting elements of a set involves dealing with tuples, sequences, or a series of choices
+		- General: $|A_{1} \times A_{2} \times \dots \times A_{n}| = |A_{1}| \cdot |A_{2}| \dots |A_{n}|$
 	- ###### Ex. If I roll a white and black die, how many possible outcomes do I see?
 		- $A=$ All outcomes of a black die
 		- $B =$ All outcomes of a white die
 		- All outcomes $=$ $|A \times B| = |A| \cdot |B| = 36$
-	- 
+	- ###### Ex. A restaurant has a menu with 5 appetizers, 6 entrees, 3 salads, and 7 desserts. How many ways are there to choose a complete meal?
+		- $A=$ Set of all appetizers
+		- $E=$ Set of all entrees
+		- $S=$ Set of all salads
+		- $D=$ Set of all desserts
+		- $|A \times E \times S \times D| =|A| \cdot |E| \cdot |S| \cdot |D|= 5 \cdot 6 \cdot 3 \cdot 7 = 630$
+	- ###### What if now I am allowed to skip some or all the courses?
+		- We just add one extra element to each set
+		- $|A \times E \times S \times D| =|A| \cdot |E| \cdot |S| \cdot |D|= 6 \cdot 7 \cdot 4 \cdot 8 = 960$

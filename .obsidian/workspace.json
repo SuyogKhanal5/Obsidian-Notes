@@ -154,15 +154,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
     }
   },
   "active": "962077ad10e8fd9a",
   "lastOpenFiles": [
+    "Discrete II/Lecture 6 - More Counting Methods.md",
     "Discrete II/Lecture 2 - CS205 Recap.md",
     "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
     "Discrete II/Lecture 4 - More Proofs.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
     "Discrete II/Lecture 5 - Induction and Counting.md",
     "Statistical Inference/Lecture 8 - Simple Regression V.md",
     "Statistical Inference/Lecture 2 - Explore Data.md",
