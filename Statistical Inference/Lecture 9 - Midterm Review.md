@@ -1,0 +1,171 @@
+- ### What have we learned?
+	- Data Types and Structures
+	- Data Exploration
+		- Summary Statistics
+		- Data Visualization
+	- Distributions
+		- Binomial distribution
+		- Normal distribution
+	- Simple Regression
+		- One numerical independent variable
+		- One categorical independent variable
+	- Logistic regression
+	- Regression assumptions
+	- Regression to the mean
+
+- ### Data Types and Structure
+	- ###### Know the difference between the different data types
+		- Character
+		- Numeric
+		- Integer
+		- Logical
+		- Complex
+	- ###### Be careful for the difference between characters and factors
+		- Factor levels represent characters, but they are actually integers
+		- `as.factor()` converts a vector to factor
+	- ###### Know the difference between the data structures
+		- Vector
+		- List
+		- Matrix
+		- *Data Frame*
+
+- ### Data Exploration
+	- Use `gleam()` instead of `View()` in R-Markdown
+	- ###### View data
+		- Variables, observations
+		- Summary Statistics
+	- ###### Useful R functions
+		- Pipe Operator: `%>%`
+			- Read in data frame, do some operations
+			- Save data frame after operations into another data frame to use later
+		- Select Rows: `filter()`
+		- Select Columns: `select()`
+		- Add Rows: `rbind()`
+		- Add Columns: `mutate()`, `'cbind()'`
+		- Rename Columns: `rename()`
+		- Merge Data Frames: `merge()`
+		- Summary Statistics: `group_by()`, `summarize()`
+
+- ### Data Visualization
+	- ###### Grammar of graphics
+		- *aes*thetic attributes of *geom*etric objects
+	- ###### 5 NG: Scatter Plot, Line, Bar Graph, Box Plot, Histogram
+		- Single Plot
+		- Side-by-Side Plot
+		- Add flavor: Color, Size
+	- ###### Functions in R
+		- `ggplot() + geom_GRAPHTYPE()`
+		- `geom_litter()`
+		- `geom_hline()`: Horizontal Line
+		- `geom_vline()`: Vertical Line
+		- `geom_abline()`: $y=bx+a$ line
+		- `geom_smooth()`: On top of scatterplot, add smooth line ($lm$)
+		- `stat_qq()`, `stat_qq_line()`: QQ plot
+		- `label()`: Add labels to axis/graph
+
+- ### Distributions
+	- We will not be asked much about math, only what we have covered in class 
+	- ###### Binomial
+		- A sequence of independent Bernoulli trials with same probability of success
+		- Random Variable: Number of Successes 
+		- Converge to normal when the number of trials is large
+	- ###### Normal
+		- Found initially as a limit distribution
+		- Can describe a lot of real life phenomenon
+		- Bell shaped, symmetric
+		- Empirical rule
+		- We assume random errors follow normal distribution in regression
+	- ###### QQ Plot
+		- Approximately normal: If QQ plot is almost a straight line 
+	- ###### Functions in R
+		- Binomial: `pbinom`, `qbinom`, `dbinom`, `rbinom`  
+		- Normal: `pnorm`, `qnorm`, `dnorm`, `rnorm`  
+		- $p$: probability  
+		- $q$: quantile  
+		- $d$: distribution density  
+		- $r$: random sampling  
+
+- ### Simple Regression I: One Numerical X
+	- ###### Exploratory Data Analysis
+		- Correlation
+			- Measures strength of linear relation
+			- $|r| \le 1$
+		- Graphs: Scatterplot, histogram
+	- ###### Regression
+		- Regression table
+			- $y$-intercept: The expected $y$ when $x=0$
+			- Slope: The expected increase in $y$ when $x$ increases by 1
+			- Significance
+		- Fitted Value and Residuals
+			- Calculate fitted value and residual
+		- Model Diagnostics
+			- $R^2$: The percentage of total sample variation in $y$ that can be explained by using $x$ in the straight line model
+			- $R^{2}= r^2$
+
+- ### Simple Regression II: One Categorical X
+	- ###### Exploratory Data Analysis
+		- Frequency table, Summary Statistics by Category
+		- Graphs: Side-by-Side Boxplot, Histogram by Category
+		- You may need `as.factor()`
+	- ###### Regression Table
+		- Intercept: The estimated average in reference level
+		- Slope: The difference of average between the corresponding category and reference level
+		- Compare with summary statistics
+	- ###### If needed, redefine the categorical
+		- Try different reference level
+		- Combine reference levels
+	- ###### Fitted Value and Residuals
+		- Observations from same level will have same fitted value
+	- Model Diagnostics
+
+- ### Assumptions of Regression
+	- Assumptions of random error
+	- ###### Mean 0
+		- Overall sum of residual will always be 0
+		- Sum of residuals at different intervals should also be close to 0
+		- Linearity
+	- ###### Constant Variance
+		- Homoscedasticity: Constant Variance, residuals are in parallel
+		- Heteroscedasticity: Non-Constant Variance, residuals form cone shape
+	- ###### Normal Distribution
+		- Symmetric
+		- Bell Shaped
+		- Outliers?
+	- ###### Independency 
+		- Patterns?
+		- Time Series Analysis
+	- Form acronym: **LINE** 
+
+- ### Regression to the Mean
+	- ###### History
+		- Galton's Data: Sweet Peas, Human Height
+		- First Regression Line
+	- ###### Regression to the mean
+		- If a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement
+		- If it is extreme on its second measurement, it will tend to have been closer to the average on its first
+	- The concept and perspective
+
+- ### Logistic Regression
+	- Intrinsically Linear Model
+	- ###### Exploratory Data Analysis
+		- Summary Statistics by Response
+		- Graphs: Side-by-Side Boxplot
+	- ###### Regression
+		- Regression Table
+			- Odds Ratio: The increase (or decrease) of odds of success when $x$ increases by 1 unit, it is `exp(slope)` in R
+		- Model Diagnostics
+			- No $R^2$ but there is pseudo-$R^2$
+
+- ### Fit Regressions in R
+	- ###### Simple Linear Regression
+		- Fit Regression: `lm()`
+		- Get Regression Table: `get_regression_table()`, `summary()`, or `modelname$coef$`
+		- Get Fitted Value and Residuals: 
+		- Get Model Diagnostics: `get_regression_summaries()`, or `summary()$r.squared`
+		- Make prediction: `predict()`
+	- ###### Logistic Regression
+		- Fit regression: `glm()` 
+		- Get regression table: `summary()`, `modelname$coefficients`, or `modelname$coef`
+		- Get fitted value and residuals: `modelname$fitted.values`, or `modelname$residuals` 
+		- Get odds ratio: `logistic.display()` or `exp(modelname$coeff)`  
+		- Make prediction: `predict()`

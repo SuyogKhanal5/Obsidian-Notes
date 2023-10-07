@@ -1,0 +1,19 @@
+- ### Product Method Examples
+	- ###### How can you make the dice problem impossible with the Product Method?
+		- You can make both die the same color
+		- You would be overcounting
+	- ###### Ex. You are signing up for an account. The password has the following requirements: It must be 6 to 8 characters long, much consist of only uppercase letters and digits, and must have at least one digit. How many possible passwords are there?
+		- $A_{6} =$ all passwords with length 6
+		- $A_{7} =$ all passwords with length 7
+		- $A_{8} =$ all passwords with length 8
+		- All passwords = $|A_{6}| + |A_{7}|+ |A_8|$
+		- Each character can be one of 36
+		- $|A_{6}|= 10 \cdot 36^5$
+		- $|A_{7}| = 10 \cdot 36^6$
+		- $|A_{8}| = 10 \cdot 36^7$
+		- All passwords = $1.0314425 \cdot 10^{31}$
+	- ###### Ex. How many ways to assign 100 passengers to 100 seats?
+		- 100 different generators
+		- 1st person seated, then 99 more generators, 98, $\dots$
+		- 100 choices for 1st, 99 for second, 98, $\dots$
+		- This goes to $100!$

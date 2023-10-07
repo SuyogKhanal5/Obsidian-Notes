@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5fa3dc8de272978f",
+        "id": "1447bbce88dd06d4",
         "type": "tabs",
         "children": [
           {
-            "id": "962077ad10e8fd9a",
+            "id": "c3b6ec9f82a1a88e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete II/Lecture 6 - More Counting Methods.md",
+                "file": "Statistical Inference/Lecture 9 - Midterm Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete II/Lecture 6 - More Counting Methods.md",
+                "file": "Statistical Inference/Lecture 9 - Midterm Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete II/Lecture 6 - More Counting Methods.md",
+                "file": "Statistical Inference/Lecture 9 - Midterm Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete II/Lecture 6 - More Counting Methods.md"
+                "file": "Statistical Inference/Lecture 9 - Midterm Review.md"
               }
             }
           },
@@ -158,23 +158,27 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "962077ad10e8fd9a",
+  "active": "c3b6ec9f82a1a88e",
   "lastOpenFiles": [
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
-    "Discrete II/Lecture 4 - More Proofs.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
+    "Statistical Inference/Lecture 3 - Explore Data II.md",
     "Statistical Inference/Lecture 2 - Explore Data.md",
-    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw.md",
-    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
+    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
+    "Statistical Inference/Lecture 8 - Simple Regression V.md",
     "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Statistical Inference/Lecture 4 - Simple Regression I.md",
-    "Statistical Inference/Lecture 3 - Explore Data II.md",
+    "Statistical Inference/Lecture 9 - Midterm Review.md",
+    "Discrete II/Lecture 2 - CS205 Recap.md",
+    "Discrete II/Lecture 7 - Product Method Examples.md",
+    "2023-10-05.md",
+    "Discrete II/Lecture 6 - More Counting Methods.md",
+    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Discrete II/Lecture 4 - More Proofs.md",
+    "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
+    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw.md",
+    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
     "Images/Pasted image 20230929131222.png",
     "Images/Pasted image 20230929130951.png",
     "Images/Pasted image 20230929130747.png",
@@ -189,7 +193,6 @@
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
     "Excalidraw/Drawing 2023-09-19 12.16.52.excalidraw.md",
     "Excalidraw",
-    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
     "Images",
     "Discrete II",
     "Statistical Inference"
