@@ -1,0 +1,41 @@
+- ### Stacks
+	- Collection of objects, can add or remove to the stack
+	- FILO - *first in* is *last out*
+	- When an object is being removed, the stack will remove the most recent object being added, like how a stack of books is. In contrast, a queue will remove the first object added, like how a line or queue might work.
+	- **API** - operations that characterize the behavior of a data type
+	- **Client** - program that uses the API operations
+	- **Implementation** - code that implements the API operations
+	- Performance goal is $O(1)$
+	- Sample Class ![[Pasted image 20231007173754.png]]
+	- The performance goal for Stacks is O(1)
+	- Array `s[]` stores n items on a stack
+	- `push()`: Add new item at `s[n]`
+	- `pop()`: Remove item at `s[n-1]`
+	- **Overflow** - when $n$ exceeds capacity, use "resizing array" for array implementation
+	- **Underflow** - throw exception if` pop()` called on an empty stack 
+	- Null and duplicate items are allowed to be added to the stack
+	- **Loitering** - Holding a reference to an object when it is no longer needed
+	- Pop and Loitering ![[Pasted image 20231007173959.png]]
+	- Popping an empty stack will result in a null pointer error
+
+- ### Resizing Arrays
+	- `push()` and `pop()` are too expensive to be using to resize arrays, so array resizing needs to happen as infrequently as possible
+	- To grow an array, create an array twice the size and copy all items
+	- To shrink an array, half the size of the array when it is a quarter full
+	- If the array is half full, and items are being added and removed, it gets too expensive, since the array will be doubled and halved over and over again. Doing it when it is a quarter full avoids this
+	- ###### Linked List vs Resize Array
+		- Linked List has stronger performance guarantee, an O(1) worst case, and has more memory
+		- Resize Array has a weaker performance guarantee, an O(1) amortized, and has less memory, however, it has a better use of cache
+
+- ### Queues
+	- FIFO - *first in* is *last out*
+	- `enqueue()` is the same as `push()`, we add new data to the queue
+	- `dequeue()` however doesn't take from the most recent entry to the queue, it takes from the oldest
+	- Sample Queue Class ![[Pasted image 20231007174320.png]]
+- ### Generics
+	- If we implemented StackOfStrings, but also wanted StackOfApples, and StacksOfURLS, we would want to use generics ![[Pasted image 20231007174452.png]]![[Pasted image 20231007174550.png]]
+	- You cannot create generic arrays in java
+	- ###### Wrapper Types
+		- Each primitive data type has a wrapper reference type
+		- **Autoboxing** - Automatic cast from primitive to wrapper type
+		- **Unboxing** - Automatic cast from wrapper type to primitive type

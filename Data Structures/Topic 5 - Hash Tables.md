@@ -1,0 +1,79 @@
+- ### Hash Functions
+	- ###### Simple Hashing Idea
+		- If keys are small integers, we can use an array to implement a symbol table
+		- Interpret the key as an array index and store the value associated with key $i$ in array position $i$
+		- Issue: Need a table of size $2^{32}$ to store 4-byte integers (too large)![[Pasted image 20231007184236.png]]
+	- ###### Basic Plan for Hashing
+		- Saved items in a key-indexed table
+		- **Hash Function** - Method for computing array index from key
+			- Ex. `hash("it")` corresponds to array index 3, and `hash("times")` also corresponds to array index 3. Collision problem
+	- ###### Issues:
+		- Computing hash function
+		- **Equality test**: Method for checking whether two keys are equal
+		- **Collision resolution**: Algorithm and data structure to handle to keys that hash to the same array index
+	- ###### Classic Space-Time tradeoff
+		- No space limitation: Trivial hash function with key as index
+		- No time limitation: Trivial collision resolution with sequential search
+		- Space and time limitations: Hashing (the real world)
+	- ###### Computing the hash function
+		- Idealistic goal: Scramble all the keys uniformly to produce a table index
+		- It should be deterministic, equal keys must give the same value
+		- Efficiently computable
+		- Each table index equally likely for each key
+		- Need different approach for each key type
+	- ###### Java hash code conventions
+		- All java classes inherit a method called `hashCode()` which returns a 32 bit int
+		- Requirement: 
+			- If `x.equals(y)`, then `(x.hashCode() == y.hashCode())`
+		- Highly desirable: 
+			- If `!x.equals(y)`, then `(x.hashCode() != y.hashCode())`
+	- HashCode Implementation for Integers, Booleans, and Doubles ![[Pasted image 20231007184607.png]]
+	- HashCode String Implementation ![[Pasted image 20231007184626.png]]
+	- Implementing HashCode for User-Defined Types ![[Pasted image 20231007184658.png]]
+	- ###### Standard Recipe for user-defined types
+		- Combine each significant field using the $31x+y$ rule
+			- If the field is a primitive type, use wrapper type `hashCode()`
+			- If the field is `null`, use 0
+			- If the field is a reference type, use `hashCode()` (applies rule recursively)
+			- If the field is an array, apply to each entry (or use `Arrays.deepHashCode()`)
+	- ###### Modular Hashing
+		- Hash Code is an int between $-2^{31}$ and $2^{31} - 1$
+		- Hash function returns an int between $0$ and $m - 1$ (for use as the array index) ($m$ is typically a prime or power of two, is the hash table size) ![[Pasted image 20231007184910.png]]
+	- ###### Uniform Hashing Assumption 
+		- Each key is equally likely to hash an integer between $0$ and $m - 1$
+		- Many problems and situations can make this not the case
+		- String Data Type proves this wrong most often
+
+- ### Separate Chaining
+	- ###### Separate-Chaining Symbol Table
+		- Use an array of $m$ linked lists
+		- Hash: Map key to integer $i$ between $0$ and $m - 1$
+		- Insert: Put at front of $i^{\text{th}}$ chain (if not already in chain)
+		- Search: Sequential search in $i^{\text{th}}$ chain![[Pasted image 20231007185130.png]]![[Pasted image 20231007185201.png]]
+	- Separate-Chaining Symbol Table Java Implementation ![[Pasted image 20231007185238.png]]![[Pasted image 20231007185305.png]]
+	- ###### Resizing in separate-chaining table
+		- Goal: Average length of list $\frac{n}{m} =$ constant
+		- Double length of array m when$\frac{n}{m} \ge 8$
+		- Halve length of array m when $\frac{n}{m} \le 2$
+		- Need to rehash all keys when resizing (`x.hashCode()` does not change, but `hash(x)` can)![[Pasted image 20231007185453.png]]
+	- Deletion in separate-chaining symbol table ![[Pasted image 20231007185508.png]]
+
+- ### Linear Probing
+	- **Open Addressing**
+		- Maintain keys and values in two parallel arrays
+		- When a new key collides, find next empty slot, and put it there![[Pasted image 20231007185537.png]]
+	- ###### Linear Probing Hash Table
+		- Hash: Map key to integer $i$ between $0$ and $m - 1$
+		- Insert: Put at table index $i$ if free, if not try $i + 1$, $i + 2$, etc.
+		- Search: Search table index $i$, if occupied but no match, try $i + 1$, $i + 2$, etc.
+		- Array length $m$ must be greater than number of key-value pairs $n$ ![[Pasted image 20231007185647.png]]![[Pasted image 20231007185652.png]]
+	- ###### Clustering
+		- **Cluster** - A contiguous block of items
+		- New keys likely to hash into middle of big clusters
+	- ###### Resizing in linear-probing hash table
+		- Goal: Average length of list $\frac{n}{m} \le \frac{1}{2}$ 
+		- Double length of array $m$ when $\frac{n}{m} \ge \frac{1}{2}$
+		- Half length of array m when $\frac{n}{m} \le \frac{1}{8}$
+		- Need to rehash all keys when resizing![[Pasted image 20231007185919.png]]
+	- Deletion in a linear-probing hash table ![[Pasted image 20231007185941.png]]
+	- 

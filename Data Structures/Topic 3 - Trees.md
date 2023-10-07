@@ -1,0 +1,102 @@
+- ### Binary Search
+	- Needs sorted array
+	- Examines middle element
+		- If it matches, return index
+		- If it is larger, search half with lower values
+		- If it is smaller, searcher half with greater values
+	- Best case is $O(1)$, Worst/Average is $O(\log(N))$
+
+- ### Decision Tree
+	- **Decision Tree** - theoretical tool used to analyze the running time of algorithms. It illustrates the possible executions on inputs. Use the following implementation of binary search to build the tree for any size array.![[Pasted image 20231007180452.png]]![[Pasted image 20231007180459.png]]
+	- Maximum number of comparisons to find an element is proportional to the height of the tree ![[Pasted image 20231007180514.png]]
+
+- ### Binary Trees
+	- **Symbol Table** - Pretty much just a dictionary, has a key that corresponds to a value ![[Pasted image 20231007180606.png]]
+	- A Binary Search Tree (BST) is reference to a node, like a linked list, this node points to another. There is no single variable for the entire thing.![[Pasted image 20231007180643.png]]![[Pasted image 20231007180709.png]]![[Pasted image 20231007180759.png]]
+	- When finding the depth of a binary tree, *the root has a height of 0* ![[Pasted image 20231007180824.png]]
+		- Calculating the maximum number of nodes per layer is the function $2^n$ where $n$ is the height of the tree (starting from a root of height 0)
+	- `put()` will search for a key, and if it exists, it will change its value to the given value. If not, it will add a new node with the given value ![[Pasted image 20231007181032.png]]
+	- Tree shape depends on order of insertion.
+
+- ### Tree Iteration
+	- **Inorder Traversal** traverses the left tree, then enqueues the key, and then traverses the right tree ![[Pasted image 20231007181122.png]]
+	- **Preorder traversal** enqueues a key at the start, then traverses the left subtree and then the right subtree![[Pasted image 20231007181151.png]]
+	- **Postorder traversal** traverses the left tree, then the right tree, then enqueues the key
+
+- ### Ordered Operations
+	- To find the max or min go as far to the left or right as possible ![[Pasted image 20231007181226.png]]
+	- **Floor** – Largest key in BST less than or equal to the query key ![[Pasted image 20231007181301.png]]
+	- **Ceiling** – Smallest key in BST greater than or equal to the query key
+
+- ### Deletion
+	- Lazy approach to deletion ![[Pasted image 20231007181340.png]]
+	- Delete Minimum Key ![[Pasted image 20231007181353.png]]
+	- ###### Hibbard deletion
+		- *0 children* - Set parent of a node to null, and will be removed during recursive call for garbage collection
+		- *1 child* – Set the parent link of the child of the deleted node to the deleted node's parent
+		- *2 or more children*: ![[Pasted image 20231007181501.png]]
+		- Implementation: ![[Pasted image 20231007181532.png]]
+
+- ### 2-3 Trees
+	- ###### 2-3 trees allow 1 or 2 keys per node
+		- 2-node: one key, two children
+		- 3-node: two keys, three children
+	- 2-3 trees goes in symmetric order, and inorder traversal yields keys in ascending order
+	- Every path from root to null link has the same length ![[Pasted image 20231007181629.png]]![[Pasted image 20231007181642.png]]
+	- Insertion into a 2-node creates a 3-node ![[Pasted image 20231007181705.png]]
+	- Insertion into a 3-node at bottom ![[Pasted image 20231007181718.png]]
+- ### Red-Black BST
+	- ###### How can you implement 2-3 trees with binary trees?
+		- *Regular BST*
+			- Cannot tell difference between 3-node and 2-node
+			- Cannot map from BST back to 2-3 tree
+		- *Regular BST with red "glue" nodes*
+			- Wastes space for extra node
+			- Code probably messy
+		- *Regular BST with red "glue" links*
+			- Widely used in practice
+			- Arbitrary restriction" red links lean left
+			- Steps to implement
+				- Represent 2-3 Tree as BST
+				- Use "internal" left-leaning links as "glue" for 3-nodes
+	- Red-Black BST ![[Pasted image 20231007182100.png]]
+	- ###### Properties of RB-BSTs 
+		- Nodes cannot have more than one red link.
+		- Every path from root to null link has the same number of black links.
+		- Red links lean left.
+	- Search is the same as elementary BST, but runs faster because of balance ![[Pasted image 20231007182203.png]]
+	- The data for color stored within each node
+	- ###### When inserting into a Red-Black BST maintain these:
+		- Correspondence with 2-3 trees
+		- Symmetric order
+		- Perfect black balance (but not necessarily color invariants)
+		- To restore color invariants, apply rotations and color flips ![[Pasted image 20231007182250.png]]
+	- ###### Left Rotation – Orient a (temporarily) right-leaning red link to lean left
+		- We are switching from having the smaller of the two keys at the root to having the larger of the two keys at the root.
+		- Preserve the link color and return the node to update the parent
+		- Example Code ![[Pasted image 20231007182328.png]]
+		- Before and After ![[Pasted image 20231007182344.png]]![[Pasted image 20231007182349.png]]
+		- ###### Right rotation – Orient a left-leaning red link to (temporarily) lean right
+			- Maintain symmetric order and perfect black balance
+			- Code + Before/After ![[Pasted image 20231007182440.png]] ![[Pasted image 20231007182448.png]]
+		- Color Flip – Recolor to split a (temporary) 4-node ![[Pasted image 20231007182517.png]]![[Pasted image 20231007182522.png]]
+	- Insertion into a LLRB tree ![[Pasted image 20231007182552.png]]
+
+- ### B-Trees
+	- **B-Trees** - An extension of the balanced-tree algorithms that can support external search in symbol tables that are kept on a disk or on the web
+	- ###### Generalize 2-3 trees by allowing up to $m$ keys per node
+		- Every node should have at least $\frac{m}{2}$ keys, except the root node
+		- Every path from root to leaf has the same number of links
+	- ###### Search in a B-Tree
+		- Start at root
+		- Check if node contains the key you need
+		- Otherwise, find the interval for the search key and take the corresponding link
+			- Could use binary search but all operations are considered free
+	- ###### Insertion into a B-Tree
+		- Search for a new key
+		- Insert at the bottom
+		- Split nodes with $m+1$ keys on the way back up the B-Tree (moving middle key to parent)
+	- ###### Balance in B-Tree
+		- Proposition: A search of an insertion in a B-Tree of order $m$ with $n$ keys requires between and probes
+		- All nodes (except possibly root) have between $\frac{m}{2}$  and $m$ keys
+		- In Practice: Number of probes will probably not exceed 4, since $n$ would have to be more than 62 billion

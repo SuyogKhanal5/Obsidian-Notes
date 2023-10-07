@@ -1,0 +1,51 @@
+- ### Sample Class and Elementary Implementation
+	- **Collection** - Data Type that stores a group of items
+		- Examples: Stack, Queue, Priority Queue, Symbol Table, Set
+	- Priority Queue removes either the largest or smallest item
+	- Priority Queue Sample Class ![[Pasted image 20231007183319.png]]
+- ### Binary Heaps
+	- **Binary Heap** - Array representation of a heap ordered complete binary tree
+	- Heap ordered binary tree
+		- Keys in nodes
+		- Parent's key no smaller than children's keys
+	- Array Representation
+		- Indices start at 1
+		- Take notes in level order
+		- No explicit links needed
+	- Diagram ![[Pasted image 20231007183424.png]]
+	- Proposition: Largest key is `a[1]`, which is root of binary tree
+	- ###### Proposition: Can use array indices to move through tree
+		- Parent of node at $k$ is at $\frac{k}{2}$
+		- Children of node at $k$ are $2k$ and $2k + 1$
+	- ###### Promotion
+		- Scenario: A key becomes larger than its parent's key
+		- *To eliminate*:
+			- Exchange key in child with the key in the parent
+			- Repeat until the heap order is restores
+		- Diagram and Solution ![[Pasted image 20231007183613.png]]![[Pasted image 20231007183645.png]]
+	- ###### Insertion
+		- Add node at end, then swim it up
+		- Code and Diagram ![[Pasted image 20231007183727.png]]![[Pasted image 20231007183731.png]]
+	- ###### Demotion:
+		- Scenario: A key becomes smaller than one (or both) of its children
+		- *To eliminate*:
+			- Exchange key in parent with key in larger child
+			- Repeat until heap order restored
+		- Code and Diagram ![[Pasted image 20231007183811.png]]![[Pasted image 20231007183822.png]]
+	- ###### Delete Max
+		- Exchange root with node at the end, then sink it down![[Pasted image 20231007183849.png]]
+	- ###### Binary Heap Considerations
+		- *Underflow*: Throw exception if deleting from empty PQ
+		- *Overflow*: Add no-arg constructor and use resizing array
+		- *Minimum-oriented priority queue*: Replace less() with greater()
+		- *Other operations*: Remove an arbitrary item, or change a priority of an item
+		- *Immutability of keys*: Assume client does not change keys when they’re on the PQ, but use immutable keys just in case ![[Pasted image 20231007183945.png]]
+
+- ### Heapsort
+	- View input array as a complete binary tree
+	- Build a max-heap with all $n$ keys
+	- Repeatedly remove the maximum key![[Pasted image 20231007184020.png]]![[Pasted image 20231007184025.png]]
+	- ###### Heapsort is time and space optimal but
+		- Inner loop longer than quicksort's
+		- Makes poor use of cache
+		- Not stable

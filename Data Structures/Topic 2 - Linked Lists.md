@@ -1,0 +1,29 @@
+- ### Singly Linked List
+	- **Linked List** - Recursive data structure that is null or a reference to a node. It is a sequence of nodes joined together
+		- First node is called the head
+		- Last node is called the tail
+	- **Node** - Data type that contains a reference to a node
+	- Use a private nested class Node to implement the node abstraction. Start with nodes having two values, a string and a node
+	- Linked List Example![[Pasted image 20231007175149.png]]
+		- `first.next.item` will return "Bob"
+	- Node Example ![[Pasted image 20231007175203.png]]
+	- To create a linked list, you have to create and link each node one by one ![[Pasted image 20231007175241.png]]
+	- ###### Standard operations for a linked list:
+		- Add a node at the start
+		- Remove and return the node at the beginning
+		- Add a node at the end (requires a reference to the last node)
+		- Traverse the list (visit every node, in sequence)
+	- Remove and return the first node  ![[Pasted image 20231007175340.png]]
+	- Add a node to the start ![[Pasted image 20231007175350.png]]
+	- Visit every node ![[Pasted image 20231007175402.png]]
+	- Maintain the pointer "first" to the first node in a linked list
+	- ![[Pasted image 20231007175735.png]]![[Pasted image 20231007175758.png]]
+
+- ### Doubly Linked List
+	- A linked list where every node refers to its previous and its next nodes
+	- Each node has three parts: data, a link to previous node, and a link to next node
+	- Each end points to null ![[Pasted image 20231007175947.png]]
+- ### Circular Linked List
+	- The next node of the tail node leads to the first node
+	- For doubly linked lists that are circular the previous node of the head leads to the tail 
+	- Be careful iterating over these, you'll end up in an infinite loop ![[Pasted image 20231007180146.png]]
