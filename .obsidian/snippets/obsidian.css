@@ -1,12 +1,12 @@
-h1 {
+.h1 {
 	color: red;
 }
 
-h3 {
+.h3 {
 	color: orange;
 }
 
-h6 {
+.h6 {
 	color: goldenrod;
 }
 

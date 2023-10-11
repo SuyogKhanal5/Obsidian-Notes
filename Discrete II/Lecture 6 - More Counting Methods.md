@@ -14,6 +14,7 @@
 	- $|A \times B| = |A| \cdot |B|$
 		- This is true *even if $A$ and $B$ are not disjoint*
 		- Useful when counting elements of a set involves dealing with tuples, sequences, or a series of choices
+		- The elements of $A \times B$ are ordered pairs
 		- General: $|A_{1} \times A_{2} \times \dots \times A_{n}| = |A_{1}| \cdot |A_{2}| \dots |A_{n}|$
 	- ###### Ex. If I roll a white and black die, how many possible outcomes do I see?
 		- $A=$ All outcomes of a black die

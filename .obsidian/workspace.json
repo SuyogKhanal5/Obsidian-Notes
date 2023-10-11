@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1447bbce88dd06d4",
+        "id": "3a3c7b0a5066fc0f",
         "type": "tabs",
         "children": [
           {
-            "id": "c3b6ec9f82a1a88e",
+            "id": "54ce9ad499d2f6ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 9 - Midterm Review.md",
+                "file": "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "949446fe605b4f62",
+            "id": "3116779fbb922376",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Topic 6 - Undirected Graphs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4764868af616d451",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structures/Topic 7 - Sorting.md",
+                "file": "Statistical Inference/Lecture 10 - Multiple Regression.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Topic 7 - Sorting.md",
+                "file": "Statistical Inference/Lecture 10 - Multiple Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Topic 7 - Sorting.md",
+                "file": "Statistical Inference/Lecture 10 - Multiple Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Topic 7 - Sorting.md"
+                "file": "Statistical Inference/Lecture 10 - Multiple Regression.md"
               }
             }
           },
@@ -178,50 +166,50 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "4764868af616d451",
+  "active": "3116779fbb922376",
   "lastOpenFiles": [
-    "Images/Pasted image 20231007191809.png",
-    "Images/Pasted image 20231007191638.png",
-    "Images/Pasted image 20231007191629.png",
-    "Images/Pasted image 20231007191619.png",
-    "Images/Pasted image 20231007191557.png",
-    "Images/Pasted image 20231007191555.png",
-    "Images/Pasted image 20231007191350.png",
-    "Images/Pasted image 20231007191342.png",
-    "Images/Pasted image 20231007191334.png",
-    "Images/Pasted image 20231007191303.png",
+    "Statistical Inference/Lecture 10 - Multiple Regression.md",
+    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
+    "Discrete II/Lecture 7 - Product Method Examples.md",
+    "Discrete II/Lecture 6 - More Counting Methods.md",
+    "Images/Pasted image 20231010131315.png",
+    "Images/Pasted image 20231010130237.png",
+    "Images/Pasted image 20231010125030.png",
+    "Statistical Inference/Lecture 8 - Simple Regression V.md",
+    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
+    "Statistical Inference/Lecture 9 - Midterm Review.md",
+    "Discrete II/Lecture 2 - CS205 Recap.md",
+    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
+    "Images/Pasted image 20231009140335.png",
+    "Images/Pasted image 20231009140250.png",
+    "Images/Pasted image 20231009140226.png",
+    "Images/Pasted image 20231009140219.png",
+    "Images/Pasted image 20231009140208.png",
+    "Images/Pasted image 20231009140158.png",
+    "Images/Pasted image 20231009140150.png",
     "Data Structures/Topic 6 - Undirected Graphs.md",
     "Data Structures/Topic 7 - Sorting.md",
-    "Images/Pasted image 20231007190904.png",
     "Data Structures/Topic 5 - Hash Tables.md",
-    "Data Structures/Topic 4 - Priority Queues.md",
     "Data Structures/Topic 3 - Trees.md",
     "Data Structures/Topic 2 - Linked Lists.md",
     "Data Structures/Topic 1 - Stacks and Queues.md",
-    "Statistical Inference/Lecture 9 - Midterm Review.md",
+    "Data Structures/Topic 4 - Priority Queues.md",
+    "Data Structures/Data Structures.md",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",
     "Statistical Inference/Lecture 3 - Explore Data II.md",
     "Statistical Inference/Lecture 2 - Explore Data.md",
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Statistical Inference/Lecture 4 - Simple Regression I.md",
-    "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
     "2023-10-05.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Discrete II/Lecture 4 - More Proofs.md",
-    "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
-    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw.md",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
     "Excalidraw",
     "Images",
