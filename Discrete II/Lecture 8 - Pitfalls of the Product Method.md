@@ -1,0 +1,56 @@
+- ### When to use Partition vs. Product Rule?
+	- *Key*: Do you have to choose an arrangement of a set $A$ *AND* and arrangement of set $B$, or an arrangement of $A$ *OR* an arrangement of $B$
+	- If you choose arrangements *for both* you will use the *product rule*: The set of all possible choices is the cartesian product of the choices for one, and the choices for the other
+	- If you choose an arrangement from one *OR* from the other, you use the *sum rule*: The set of all possible choices is the sum (disjoint union) of the choices for one and the choices for the other
+
+- ### Generalized Product Rule
+	- ###### Order is important
+		- Suppose every object of a set $S$ can be constructed by a sequence of $n$ choices with $P_1$ possibilities for the first choice, $P_2$ possibilities for the second choice, and so on
+		- *IF* we meet the following conditions:
+			- Each sequence of choices constructs an object in $S$ 
+			- *No two different sequences **create the same object***
+		- *THEN* the following is true:
+			- $|S|=P_1 \times P_2 \times \dots \times P_n$
+	- ###### Consider the previous password problem
+		- If we use the Generalized Product Rule:
+			- Pick position of first digit: 6 ways
+			- Pick value: 10 ways (*this is where the error is*)
+			- Pick values for the remaining 5 positions: $36^5$
+		- $|A_6| = 6 \cdot 10 \cdot 36^5 \ne 36^6 - 26^6$
+		- We are overcounting
+			- Counting same element multiple times as if it was different
+			- We are doing this since the order of which character in the password that we pick does not matter
+				- Ex. We have the password `1f3adz`, we pick the digits in this order: `1` $\rightarrow$  `f` $\rightarrow$  `3` $\rightarrow$  `a` $\rightarrow$  `d` $\rightarrow$  `z`. However, what if we start with `3` first? We would do `_` $\rightarrow$  `_` $\rightarrow$  `3` $\rightarrow$  `_` $\rightarrow$  `_` $\rightarrow$  `_` and then pick another digit and still end up with `1f3adz`, but the product rule counts this as another combination
+				- Ordering is being imposed on the problem when it does not apply
+	- ###### Ex. How many binary string of length 8 have exactly two 0s?
+		- Pick location of the first 0: $8$ ways
+		- Pick location of the second 0: $7$ ways
+		- Naïve (wrong) answer: $8 \cdot 7 = 56$
+		- This is also overcounting
+			- *First 0* at position 1, ***second 0*** at position 2, and *first 0* at position 2 ***second 0*** at position 1 is being counted as different elements
+				- *0**0***111111 and ***0**0*111111 are the same thing, but counted twice!
+		- *Correct Answer*:
+			- Use the partition method
+			- $A_1 =$ All strings with two 0s such that the first 0 from the left appears at position 1
+			- $A_2 =$ All strings with two 0s such that the first 0 from the left appears at position 2
+			- $\vdots$
+			- $A_8 =$ All strings with two 0s such that the first 0 from the left appears at position 8
+			- $|A_1| = 7, |A_2| = 6, \dots, |A_8| = 0$
+			- $|A| = 28$
+	- ###### Ex. Given two rooks labeled 1 and 2, how many ways to place them so that they don't threaten each other?
+		- Here generalized product rule works since neither rook can be confused for the other
+		- There are $64$ possibilities 
+		- Place rook 1 anywhere: $64$ ways
+		- For rook 2 to threaten rook 1, we have to place him in the same column or row
+		- Use the difference method
+		- We start with $63$ open spaces, which gives us $64 \cdot 63$ possibilities for placement but how many of them threaten the rook? 
+		- There are $14$ ways to threaten ($7$ vertical, $7$ horizontal), so we will have $64 \cdot 14$ possible threatens 
+		- $|A| = |S|-|B| = (64 \cdot 63) - (64 \cdot 14) = 3136$ combinations
+	- ###### Ex. How many ways to place a knight, bishop, and pawn so that no two share a row or column?
+		- Pick a *row* for bishop: $8$ ways
+		- Pick a ***column*** for bishop: $8$ ways
+		- Pick a *row* for knight: $7$ ways
+		- Pick a ***column*** for knight: $7$ ways
+		- Pick a *row* for pawn: $6$ options
+		- Pick a ***column*** for pawn: $6$ options
+		- So $8^2 \cdot 7^2 \cdot 6^2$ ways
