@@ -117,6 +117,8 @@ Trials
 Typical
 Theorem
 Triangle
+Two
+Terms
 and
 assumptions
 are
@@ -168,6 +170,7 @@ alphabetically
 arranged
 approximately
 approaching
+age
 Structures
 Summary
 Statistics
@@ -212,6 +215,8 @@ Summarize
 Summaries
 Standard
 Since
+Smooth
+Separately
 Exploration
 Empirical
 Exploratory
@@ -307,6 +312,7 @@ determined
 distributions
 deck
 divide
+did
 Normal
 Numeric
 NG
@@ -410,6 +416,7 @@ interval
 inflection
 involving
 irrelevant
+integer
 variable
 vector
 value
@@ -539,6 +546,8 @@ relationships
 randomness
 response
 reuse
+relationship
+regressors
 to
 the
 types
@@ -688,6 +697,7 @@ Calculated
 Central
 Ceres
 Checking
+Combination
 Integer
 If
 II
@@ -767,6 +777,7 @@ Focus
 Fits
 Function
 Formal
+Formula
 structures
 some
 scatterplot
@@ -855,6 +866,7 @@ something
 spot
 standard
 spots
+similar
 Matrix
 Markdown
 Merge
@@ -970,6 +982,7 @@ All
 Addresses
 Application
 Applications
+Age
 Grammar
 Graph
 Graphs
