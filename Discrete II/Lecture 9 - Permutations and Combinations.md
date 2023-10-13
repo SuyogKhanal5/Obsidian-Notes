@@ -1,0 +1,24 @@
+- ### Permutations and Combinations
+	- Many counting problems can be solved by finding the number of ways to arrange a specified number of distinct elements of a set of a particular size, where *the order of these elements matters*
+		- We use **Permutations** here
+	- Many other counting problems can be solved by finding the number of ways to select a particular number of elements from a set of a particular size, where *the order of the elements selected does not matter*
+		- We use **Combinations** here
+	- ###### Ex. Find the 4-digit permutations of the numbers 2, 3, 4, and 5
+		- We have 4 places to place the numbers: _ _ _ _
+		- We need 3 random generators since the order that we pick them matters 
+		- $4$ options for the first spot $3$ for the second spot, $2$ for the third, $1$ for the last spot, $4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24$
+	- ###### Ex. What if I now want to find the total number of permutations involving the same numbers, but now we can reuse numbers
+		- We now need 4 random generators, we have $4$ options for every digit
+		- In this problem order is irrelevant, this is a combination problem
+	- ###### Ex. How many different 5-card hands can be made from a standard deck of cards?
+		- Order irrelevant since it doesn't matter what order we choose the cards
+		- $5$ spots for our $5$-card hand: _ _ _ _ _
+		- $52$ possible cards
+		- Since order matters: $52! = 52 \cdot 51 \cdot 50 \cdot 49 \cdot 48 = 311,875,200$
+		- But here we are doing permutations when we need to do combinations
+		- To fix this, we need to divide by the number of hands by the number of permutations of cards: $5! = 120$
+		- $\frac{52 \cdot 51 \cdot 50 \cdot 49 \cdot 48}{5!}=2,598,960$
+	- ###### Combination Formula
+		- $P{n \choose k} = \frac{n!}{(n-k)!k!}$
+	- ###### Permutations Formula
+		- $P^{n}_{k} = $ 

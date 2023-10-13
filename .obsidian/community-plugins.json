@@ -1,9 +1,9 @@
 [
-  "obsidian-completr",
-  "quick-latex",
   "terminal",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-completr",
+  "quick-latex"
 ]

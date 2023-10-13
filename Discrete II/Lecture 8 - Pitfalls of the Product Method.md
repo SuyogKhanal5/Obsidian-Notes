@@ -54,3 +54,29 @@
 		- Pick a *row* for pawn: $6$ options
 		- Pick a ***column*** for pawn: $6$ options
 		- So $8^2 \cdot 7^2 \cdot 6^2$ ways
+	- ###### Ex. An IP address is a string of 32 bits. It begins with a network number (netid) followed by a host number (hostid). 
+		- ###### There are three forms of addresses: 
+			- ###### Class A addresses: 0 followed by a 7-bit netid and a 24-bit hostid. 
+			- ###### Class B addresses: 10 followed by a 14-bit netid and a 26-bit hostid. 
+			- ###### Class C addresses: 110, followed by a 21-bit netid and a 8-bit hostid. 
+			- ###### Restrictions: 
+				- ###### 1111111 is not allowed to be the netid of a Class A network
+				- ###### Hostids cannot be all 0s or all 1s.
+		- ###### How many IP addresses are there?
+		- Start with partition method
+		- Class A: First bit can only be 0
+			- We have $2^7$ possible netids, subtract $1$ since we cannot have $1111111$, so we have $2^{7}-1$
+			- We also have $2^{24}$ hostids, but we can't have all $0$s or all $1$s so we actually have $2^{24}-2$ 
+			- Class A possibilities: $(2^{7}-1)$$\cdot(2^{24}-2)$
+		- Class B: First two bits can only be $10$ 
+			- We have $2+2^{30}$ options left
+			- We have $2^{14}$ possibilities for netid
+			- We have $2^{26}$ possibilities for hostid, but we can't have all $1$s or $0$s, so we actually have $2^{26}-2$
+			- Class B possibilities: $(2^{14})\cdot(2^{16}-2)$
+		- Class C: First three bits can only be $110$
+			- We have $3 + 2^{29}$ options left
+			- We have $2^{21}$ possibilities for netid
+			- We have $2^{8}$ possibilities for hostid, but we can't have all $1$s or $0$s so we actually have $2^{8}-2$
+			- Class C possibilities: $(2^{21})\cdot(2^{8}-2)$
+		- $|\text{Possible IP Addresses}|=|A| + |B| + |C|$
+	- ###### Triangle Problem Goes Here

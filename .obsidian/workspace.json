@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54ce9ad499d2f6ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3116779fbb922376",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
+                "file": "Discrete II/Lecture 9 - Permutations and Combinations.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,10 +25,48 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete II/Lecture 9 - Bijection Method.md",
+                "file": "Statistical Inference/Lecture 6 - Simple Regression III.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "800ffad3acc951cd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "C:\\Obsidian Notes",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "C:\\Windows\\System32\\cmd.exe",
+                    "name": "",
+                    "platforms": {
+                      "win32": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": {
+                    "columns": 170,
+                    "data": "Microsoft Windows [Version 10.0.19045.3570]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Obsidian Notes>git add .\r\nwarning: in the working copy of '.obsidian/community-plugins.json', LF will be replaced by CRLF the next time Git touche\r\ns it\r\nwarning: in the working copy of '.obsidian/plugins/obsidian-completr/scanned_words.txt', LF will be replaced by CRLF the\r\n next time Git touches it\r\nwarning: in the working copy of '.obsidian/plugins/terminal/data.json', LF will be replaced by CRLF the next time Git to\r\nuches it\r\nwarning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it    \r\nwarning: in the working copy of 'Discrete II/Lecture 8 - Pitfalls of the Product Method.md', LF will be replaced by CRLF\r\n the next time Git touches it\r\nwarning: in the working copy of 'Discrete II/Lecture 9 - Permutations and Combinations.md', LF will be replaced by CRLF \r\nthe next time Git touches it\r\n\r\nC:\\Obsidian Notes>git commit -a",
+                    "rows": 55
+                  }
+                }
+              },
+              "pinned": true
             }
           }
         ],
@@ -110,7 +136,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete II/Lecture 9 - Bijection Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +152,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete II/Lecture 9 - Bijection Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +173,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Discrete II/Lecture 9 - Bijection Method.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,10 +204,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "80d1a3b6485a3270",
+  "active": "800ffad3acc951cd",
   "lastOpenFiles": [
+    "Statistical Inference/Lecture 6 - Simple Regression III.md",
+    "Discrete II/Lecture 9 - Permutations and Combinations.md",
     "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-    "Discrete II/Lecture 9 - Bijection Method.md",
+    "Statistical Inference/Lecture 5 - Simple Regression II.md",
+    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
     "Statistical Inference/Lecture 10 - Multiple Regression.md",
     "Discrete II/Lecture 5 - Induction and Counting.md",
     "Discrete II/Lecture 7 - Product Method Examples.md",
@@ -218,9 +243,6 @@
     "Computer Architecture",
     "Statistical Inference/Lecture 3 - Explore Data II.md",
     "Statistical Inference/Lecture 2 - Explore Data.md",
-    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Statistical Inference/Lecture 4 - Simple Regression I.md",
     "2023-10-05.md",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
