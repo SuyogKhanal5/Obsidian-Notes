@@ -1,6 +1,7 @@
 - ### Permutations and Combinations
 	- Many counting problems can be solved by finding the number of ways to arrange a specified number of distinct elements of a set of a particular size, where *the order of these elements matters*
 		- We use **Permutations** here
+		- Everything is considered a different element
 	- Many other counting problems can be solved by finding the number of ways to select a particular number of elements from a set of a particular size, where *the order of the elements selected does not matter*
 		- We use **Combinations** here
 	- ###### Ex. Find the 4-digit permutations of the numbers 2, 3, 4, and 5
@@ -12,13 +13,17 @@
 		- In this problem order is irrelevant, this is a combination problem
 	- ###### Ex. How many different 5-card hands can be made from a standard deck of cards?
 		- Order irrelevant since it doesn't matter what order we choose the cards
+		- Repetition is not allowed too
 		- $5$ spots for our $5$-card hand: _ _ _ _ _
 		- $52$ possible cards
-		- Since order matters: $52! = 52 \cdot 51 \cdot 50 \cdot 49 \cdot 48 = 311,875,200$
-		- But here we are doing permutations when we need to do combinations
+		- So we have $52! = 52 \cdot 51 \cdot 50 \cdot 49 \cdot 48 = 311,875,200$
+		- But here we are overcounting, we are having order matter
 		- To fix this, we need to divide by the number of hands by the number of permutations of cards: $5! = 120$
+		- We have to do repeated subtraction for each group that overcounts, which is why we divide
 		- $\frac{52 \cdot 51 \cdot 50 \cdot 49 \cdot 48}{5!}=2,598,960$
 	- ###### Combination Formula
 		- $P{n \choose k} = \frac{n!}{(n-k)!k!}$
+		- We have $n$ objects and we want to choose $k$ of them
 	- ###### Permutations Formula
-		- $P^{n}_{k} = $ 
+		- $P_{k}^{n}= \frac{n!}{(n-k)!}$
+		- We have $k$ different places to put any of $n$ objects

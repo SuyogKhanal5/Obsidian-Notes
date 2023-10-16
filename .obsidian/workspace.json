@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "764e211ae80d29b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c77c177cad4c9788",
+            "id": "5edc14c5179eec3c",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -49,7 +37,7 @@
                   },
                   "serial": {
                     "columns": 123,
-                    "data": "Microsoft Windows [Version 10.0.19045.3570]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Obsidian Notes>git add lec\r\nfatal: pathspec 'lec' did not match any files\r\n\r\nC:\\Obsidian Notes>git add .              \r\nwarning: in the working copy of '.obsidian/plugins/obsidian-completr/scanned_words.txt', LF will be replaced by CRLF the\r\n next time Git touches it\r\nwarning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'Statistical Inference/Lecture 11 - Multiple Regression II.md', LF will be replaced by C\r\nRLF the next time Git touches it\r\n\r\nC:\\Obsidian Notes>git commit ",
+                    "data": "Microsoft Windows [Version 10.0.19045.3570]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Obsidian Notes>git add .",
                     "rows": 50
                   }
                 }
@@ -58,19 +46,18 @@
             }
           },
           {
-            "id": "c5a94137f279cc83",
+            "id": "4e2b61dceef5d8b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 10 - Multiple Regression.md",
+                "file": "Discrete II/Lecture 10 - Repetition for Permutations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,6 +172,14 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "acd36e378df4b5b7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
@@ -204,8 +199,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c77c177cad4c9788",
+  "active": "5edc14c5179eec3c",
   "lastOpenFiles": [
+    "Discrete II/Lecture 10 - Repetition for Permutations.md",
+    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
+    "Discrete II/Lecture 9 - Permutations and Combinations.md",
+    "Discrete II/Lecture 7 - Product Method Examples.md",
+    "Untitled.canvas",
+    "Computer Architecture/Topic 3 - The C Programming Language.md",
+    "Computer Architecture/Topic 2 - The Unix Shell.md",
+    "Images/Pasted image 20231014202038.png",
+    "Images/Pasted image 20231014202030.png",
+    "Images/Pasted image 20231014202023.png",
+    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
     "Statistical Inference/Lecture 11 - Multiple Regression II.md",
     "Images/Pasted image 20231013131106.png",
     "Images/Pasted image 20231013130251.png",
@@ -215,22 +221,15 @@
     "Statistical Inference/Lecture 10 - Multiple Regression.md",
     "Images/Pasted image 20231013123510.png",
     "Images/Pasted image 20231013123250.png",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
     "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
     "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
     "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Images/Pasted image 20231010131315.png",
-    "Images/Pasted image 20231010130237.png",
-    "Images/Pasted image 20231010125030.png",
     "Statistical Inference/Lecture 8 - Simple Regression V.md",
     "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Statistical Inference/Lecture 9 - Midterm Review.md",
     "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
     "Data Structures/Topic 6 - Undirected Graphs.md",
     "Data Structures/Topic 7 - Sorting.md",
     "Data Structures/Topic 5 - Hash Tables.md",
@@ -238,12 +237,9 @@
     "Data Structures/Topic 2 - Linked Lists.md",
     "Data Structures/Topic 1 - Stacks and Queues.md",
     "Data Structures/Topic 4 - Priority Queues.md",
-    "Data Structures/Data Structures.md",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",
-    "Statistical Inference/Lecture 3 - Explore Data II.md",
-    "Statistical Inference/Lecture 2 - Explore Data.md",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
     "Excalidraw",
     "Images",
