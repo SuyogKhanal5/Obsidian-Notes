@@ -1,0 +1,107 @@
+- ### New Dataset: Boston Housing Data
+	- Package `MASS`
+	- Housing data for 506 census tracts of Boston from the 1970 census 
+	- Variables (contains more)  
+		- `medv` (target variable): median value of owner-occupied homes (in $1000) 
+		- `lstat`: % of lower status of the population  
+		- `age`: % of owner-occupied units built prior to 1940s  
+		- `dis`: weighted distance to five Boston employment centers  
+		- `zn`: % of residential land zoned for lots over 25,000 sqft  
+		- `indus`: proportion of non-retail business acres per town
+
+- ### medv vs. lstat
+	- Correlation Matrix![[Pasted image 20231017122035.png]]
+	- Scatterplot![[Pasted image 20231017122049.png]]
+	- ###### What if we forced a linear regression?
+		- Regression Table![[Pasted image 20231017122132.png]]
+		- Residual Plot![[Pasted image 20231017122148.png]]
+		- $R^{2}= 0.544$
+		- Our assumptions are not satisfied, mean doesn't look like zero at different intervals
+
+- ### Quadratic Regression
+	- A quadratic model could be better than linear model
+	- R doesn't know that you want to have a quadratic regression, so we create a new variable squaring our term
+	- ###### Need to create second order term
+		- `Boston <- Boston %>% mutate(lstat2=lstat^2)`
+		- `model2 <- lm(data=Boston, medv~lstat+lstat2)`
+	- $R^2=0.641$
+	- ###### Higher order models
+		- Polynomial Regression
+		- Use cross validation to see what degree of regression works best
+		- Be careful of overfitting!
+	- ###### Adding quadratic curve and Residual Plot![[Pasted image 20231017123021.png]]
+		- `ggplot(data=Boston, aes(x=lstat, y=medv)) + geom_point() + stat_smooth(method = "lm", formula = y ~ x + I(x^2))`
+
+- ### Simpson's Paradox
+	- ###### Statistical Paradox
+		- Apparently sound reasoning
+		- Senseless, logically unacceptable, self-contradictory 
+	- ###### Simpson's Paradox
+		- First described by Simpson
+		- Early work by Pearson  
+		- Best known example by Bickel at Berkeley  
+		- Contingency table when there is a hidden third variable  
+		- Combining tables may produce misleading summaries
+	- ###### Berkeley example
+		- 1973 admission to Berkeley graduate school
+		- Contingency Table: Male/Female vs. Accepted/Rejected![[Pasted image 20231017123859.png]]
+		- Looks like men are more likely to be admitted (also showed that difference was too large to be chance)
+		- Hidden variable was here: Department
+		- Most departments had a small but statistically significant bias in favor of women, contradicting results ![[Pasted image 20231017124037.png]]
+		- Explanation of paradox: women tended to apply to competitive departments with low rates of admission
+	- ###### Lessons from Simpson's Paradox
+		- At an aggregated level, there is danger that unreported variables may cause a reversal of findings
+		- How much effort to expend on unreported variables?
+			- No universal agreement
+		- The results may need to be adjusted for hidden variables
+			- Always think more and be careful
+
+- ### Overall Significance and Individual Effect 
+	- ###### In multiple regression
+		- Significancy of individual parameters
+			- Check $p$-value in `get_regression_table()` for each individual independent variable
+		- Significancy of the overall effect
+			- Check $p$-value in `get_regression_table()`
+	- It could be possible that overall $p$-value is significant, but some individual $p$-values are not
+
+- ### Collinearity
+	- **Multicollinearity** - Two or more independent variables are related
+	- ###### Detecting Multicollinearity
+		- Significant correlations between pairs of independent variables
+			- Getting correlation matrix
+			- Extreme: $\ge 0.8$
+		- Insignificant for some, or nearly all, or all of the individual parameters while significant $p$-value for the overall model
+		- Signs opposite from what is expected in the estimated parameters
+	- ###### What to do with collinearity
+		- You want to make an *inference*, such as what is the increase in the median value of the houses if the average distance increases by 1 unit?  
+			- Drop one or more of the independent variables  
+			- Which one to keep/drop?  
+		- You want to make an *estimation*, such as what is the estimated median value of the houses if the average distance is 6 and the 50% of units were built prior to 1940?  
+			- You can keep all the variables in the model, and the predictions follow the same pattern  
+			- Don’t make inferences about individual betas  
+			- Make estimation and prediction *within* the range of the data  
+		- Generally independent variables should be correlated only minimally
+
+- ### Estimation and Prediction
+	- ###### Ex. Median Value vs. % of Lower Status 
+		- $\hat{y}=34.6-0.95x$
+		- What is the estimated median value of houses in the census tracts which have % of Lower Status $=20$
+			- $34.6-0.95(20)=15.6$
+		- If there is a new census tract with % of Lower Status $=50$, What is the predicted median value of this census tract
+			- $34.6-0.95(50)=-12.9$, negative housing price?
+		- Distribution of % of Lower Status![[Pasted image 20231017125526.png]]
+		- General Procedure 
+			- Estimation and prediction should be made *within* the range of data
+			- If you are asked to make predictions anyway, say something like "assuming the relationship between $\dots$ and $\dots$ holds/follows the same pattern..."
+
+- ### Extrapolation
+	- **Extrapolation** - Estimation/Prediction outside the range of values in the data
+		- May have the wrong conclusion because the pattern might not hold outside the range
+
+- ### Model Selection
+	- This is a hard topic
+	- There are more statistical methods to do this
+	- ###### Simple Methods
+		- Check scatterplot
+		- Check $p$-values
+		- Check $R^2$

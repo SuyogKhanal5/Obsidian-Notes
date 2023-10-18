@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5edc14c5179eec3c",
+            "id": "65fa946a82b4f21d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6080d66b79dec6f1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -37,27 +49,16 @@
                   },
                   "serial": {
                     "columns": 123,
-                    "data": "Microsoft Windows [Version 10.0.19045.3570]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Obsidian Notes>git add .",
+                    "data": "Microsoft Windows [Version 10.0.19045.3570]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Obsidian Notes>git add .\r\nwarning: in the working copy of '.obsidian/community-plugins.json', LF will be replaced by CRLF the next time Git touche\r\ns it\r\nwarning: in the working copy of '.obsidian/plugins/obsidian-completr/scanned_words.txt', LF will be replaced by CRLF the\r\n next time Git touches it\r\nwarning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'Statistical Inference/Lecture 12 - More Regression.md', LF will be replaced by CRLF the\r\n next time Git touches it\r\n\r\nC:\\Obsidian Notes>git commi",
                     "rows": 50
                   }
                 }
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4e2b61dceef5d8b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete II/Lecture 10 - Repetition for Permutations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,8 +200,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5edc14c5179eec3c",
+  "active": "6080d66b79dec6f1",
   "lastOpenFiles": [
+    "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
+    "Statistical Inference/Lecture 12 - More Regression.md",
+    "Images/Pasted image 20231017125526.png",
+    "Images/Pasted image 20231017124037.png",
+    "Images/Pasted image 20231017123859.png",
+    "Images/Pasted image 20231017123021.png",
+    "Images/Pasted image 20231017122148.png",
+    "Images/Pasted image 20231017122132.png",
+    "Images/Pasted image 20231017122049.png",
+    "Images/Pasted image 20231017122035.png",
     "Discrete II/Lecture 10 - Repetition for Permutations.md",
     "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
     "Discrete II/Lecture 9 - Permutations and Combinations.md",
@@ -210,17 +221,9 @@
     "Computer Architecture/Topic 2 - The Unix Shell.md",
     "Images/Pasted image 20231014202038.png",
     "Images/Pasted image 20231014202030.png",
-    "Images/Pasted image 20231014202023.png",
     "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
     "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-    "Images/Pasted image 20231013131106.png",
-    "Images/Pasted image 20231013130251.png",
-    "Images/Pasted image 20231013125136.png",
-    "Images/Pasted image 20231013124912.png",
-    "Images/Pasted image 20231013124513.png",
     "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Images/Pasted image 20231013123510.png",
-    "Images/Pasted image 20231013123250.png",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
@@ -236,7 +239,6 @@
     "Data Structures/Topic 3 - Trees.md",
     "Data Structures/Topic 2 - Linked Lists.md",
     "Data Structures/Topic 1 - Stacks and Queues.md",
-    "Data Structures/Topic 4 - Priority Queues.md",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",

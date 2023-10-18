@@ -1,0 +1,60 @@
+ - ### Permutations without Repetitions
+	 - ###### Ex.  A math debating team consists of $4$ speakers
+		 - In how many ways can the speakers be arranged in a row for a photo?
+			 - 4 generators, $4$ options for the first, $3$ for the second, etc. $4!$
+		 - How many ways can the captain and vice captain be chosen?
+			 - Two generators, $4$ options for the first, $3$ for the second, $4 \cdot 3 = 12$
+	- ###### Ex. There are $7$ horses in a race
+		- In how many different orders can they finish?
+			- $7$ generators, no repetition allowed, order matters, $7!$
+		- How many trifectas are allowed?
+			- $3$ generators, no repetition allowed, order matters, $7 \cdot 6 \cdot 5 = 210$
+
+- ### Permutations with Restrictions
+	- ###### Ex. How many ways can $5$ boys be arranged on a bench if:
+		- There are no restrictions?
+			- $9!$
+		- Boys and girls alternate?
+			- We cannot start with a girl because otherwise we run out of girls before boys
+			- First position must be a boy, we have $5$ choices from the boys
+			- Next must be girl, we have $4$ choices from the girls
+			- Then we need a boy, we have $4$ from the boys
+			- $\vdots$
+			- $5 \cdot 4 \cdot 4 \cdot 3 \cdot 3 \cdot 2 \cdot 2 \cdot 1 \cdot 1$
+		- Boys and girls are in separate groups?
+			- Two subgroups, one for the boys and one for the girls
+			- $5! \cdot 4!$ for the boys on the left, and $4! + 5!$ for the boys on the right
+			- $2(5! \cdot 4!)$
+		- Anne and Jim wish to stay together?
+			- Anne and Jim can sit in any position $2 \cdot 8!$
+	- ###### Ex. How many arrangements of the letters of $\text{REMAND}$ are possible if:
+		- There are no restrictions?
+			- $6!$
+		- They begin with $\text{RE}$?
+			- First two positions fixed, so $4!$
+		- They *do not* begin with $\text{RE}$?
+			- $6! - 4! = 696$
+		- They have $\text{RE}$ together in order?
+			- $5!$
+
+- ### Permutations with Repetitions
+	- ###### Ex. How many permutations of the word $\text{PARRAMATTA}$ are possible
+		- The word is length $10$
+			- Element $P$ appears once
+			- Element $A$ appears four times
+			- Element $R$ appears twice
+			- Element $M$ appears once
+			- Element $T$ appears twice
+		- $10!$ assumes every element is unique, so we divide by the number of same elements' permutations: $\frac{10!}{1!4!2!1!2!} = 37,800$
+	- ###### Permutation Repetition Formula
+		- If we have $n$ elements, of which $x$ are alike of one kind, $y$ of another kind, $z$ of another kind, etc. Then the number of ordered selections is given by the formula $\frac{n}{x!y!z!}$
+	- ###### Ex. How many different numbers can you make from $11122337$?
+		- Length is $8$
+		- Three $1$s
+		- Two $2$s
+		- Two $3$s
+		- One $7$
+		- $\frac{8!}{3!2!2!1!} = 1,680$
+
+ - ### The Almighty Pirates Problem
+	 - ###### $k$ distinct pirates want to divide up $n$ identical invisible bars of gold. How many ways are there to divide the loot when each pirate must get at least $r$ bars of gold?
