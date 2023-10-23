@@ -4,85 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3a3c7b0a5066fc0f",
+        "id": "806be8849f80a8ae",
         "type": "tabs",
         "children": [
           {
-            "id": "764e211ae80d29b1",
+            "id": "7037b40524c6f586",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5a94137f279cc83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete II/Lecture 9 - Permutations and Combinations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24dd2a3c20a3ff71",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "D:\\Obsidian-Notes",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": {
-                    "columns": 170,
-                    "data": "Microsoft Windows [Version 10.0.19045.3570]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nD:\\Obsidian-Notes>git pull\r\nremote: Enumerating objects: 46, done.\r\nremote: Counting objects: 100% (46/46), done.\r\nremote: Compressing objects: 100% (25/25), done.\r\nremote: Total 46 (delta 21), reused 46 (delta 21), pack-reused 0\r\nUnpacking objects: 100% (46/46), 1.17 MiB | 666.00 KiB/s, done.\r\nFrom https://github.com/SuyogKhanal5/Obsidian-Notes\r\n   2584421..1a83b3d  main       -> origin/main\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n        .obsidian/community-plugins.json\r\n        .obsidian/plugins/obsidian-completr/scanned_words.txt\r\n        .obsidian/workspace.json\r\n        Discrete II/Lecture 9 - Permutations and Combinations.md\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nUpdating 2584421..1a83b3d\r\n\r\nD:\\Obsidian-Notes>git commit ",
-                    "rows": 55
-                  }
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c3f65fed0625a5bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete II/Lecture 9 - Permutations and Combinations.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,12 +149,27 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "24dd2a3c20a3ff71",
+  "active": "7037b40524c6f586",
   "lastOpenFiles": [
+    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
     "Discrete II/Lecture 9 - Permutations and Combinations.md",
+    "Statistical Inference/Lecture 12 - More Regression.md",
+    "Images/Pasted image 20231017125526.png",
+    "Images/Pasted image 20231017124037.png",
+    "Images/Pasted image 20231017123859.png",
+    "Images/Pasted image 20231017123021.png",
+    "Images/Pasted image 20231017122148.png",
+    "Images/Pasted image 20231017122132.png",
+    "Images/Pasted image 20231017122049.png",
+    "Images/Pasted image 20231017122035.png",
+    "Images/Pasted image 20231014202038.png",
+    "Images/Pasted image 20231014202030.png",
+    "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
+    "Discrete II/Lecture 10 - Repetition for Permutations.md",
+    "Computer Architecture/Topic 3 - The C Programming Language.md",
+    "Computer Architecture/Topic 2 - The Unix Shell.md",
     "Statistical Inference/Lecture 11 - Multiple Regression II.md",
     "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
     "Discrete II/Lecture 7 - Product Method Examples.md",
     "Discrete II/Lecture 6 - More Counting Methods.md",
     "Discrete II/Lecture 5 - Induction and Counting.md",
@@ -233,27 +181,13 @@
     "Statistical Inference/Lecture 3 - Explore Data II.md",
     "Statistical Inference/Lecture 2 - Explore Data.md",
     "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Images/Pasted image 20231013131106.png",
-    "Images/Pasted image 20231013130251.png",
-    "Images/Pasted image 20231013125136.png",
-    "Images/Pasted image 20231013124912.png",
-    "Images/Pasted image 20231013124513.png",
-    "Images/Pasted image 20231013123510.png",
-    "Images/Pasted image 20231013123250.png",
     "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Images/Pasted image 20231010131315.png",
-    "Images/Pasted image 20231010130237.png",
-    "Images/Pasted image 20231010125030.png",
     "Statistical Inference/Lecture 9 - Midterm Review.md",
     "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
     "Data Structures/Topic 7 - Sorting.md",
     "Data Structures/Topic 5 - Hash Tables.md",
     "Data Structures/Topic 3 - Trees.md",
-    "Data Structures/Topic 2 - Linked Lists.md",
-    "Data Structures/Topic 1 - Stacks and Queues.md",
-    "Data Structures/Topic 4 - Priority Queues.md",
-    "Data Structures/Data Structures.md",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",
