@@ -21,4 +21,4 @@
 	- ###### Combination Formula
 		- $P{n \choose k} = \frac{n!}{(n-k)!k!}$
 	- ###### Permutations Formula
-		- $P^{n}_{k} = $ 
+		- $P^{n}_{k} = \frac{n!}{(n-k)!}$ 
