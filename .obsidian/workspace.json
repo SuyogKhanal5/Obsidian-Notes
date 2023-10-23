@@ -18,47 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6080d66b79dec6f1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "C:\\Obsidian Notes",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": {
-                    "columns": 123,
-                    "data": "Microsoft Windows [Version 10.0.19045.3570]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Obsidian Notes>git add .\r\nwarning: in the working copy of '.obsidian/community-plugins.json', LF will be replaced by CRLF the next time Git touche\r\ns it\r\nwarning: in the working copy of '.obsidian/plugins/obsidian-completr/scanned_words.txt', LF will be replaced by CRLF the\r\n next time Git touches it\r\nwarning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'Statistical Inference/Lecture 12 - More Regression.md', LF will be replaced by CRLF the\r\n next time Git touches it\r\n\r\nC:\\Obsidian Notes>git commi",
-                    "rows": 50
-                  }
-                }
-              },
-              "pinned": true
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md"
+              }
             }
           },
           {
@@ -200,7 +165,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "6080d66b79dec6f1",
+  "active": "65fa946a82b4f21d",
   "lastOpenFiles": [
     "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
     "Statistical Inference/Lecture 12 - More Regression.md",
