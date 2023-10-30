@@ -1,0 +1,34 @@
+- ### Constraints on the Pirates Problem
+	- ###### How many $8$ letter words contain only vowels?
+		- $5^8$
+	- ###### How many $8$ letter words contain only consonants?
+		- $21^8$
+	- ###### How many $8$ letter words contain both vowels and consonants?
+		- The word both means that we have to include at least one of each
+		- Meaning we cannot include words that include only vowels or only consonants
+		- We have $26^8$ total words
+		- So our answer is $26^8-21^8-5^8$
+	- ###### How many ways to divide $10$ identical Hershey bars among $3$ kids?
+		- Pirates problem: $12 \choose 2$
+	- ###### How many ways to divide a subset of $10$ identical Hershey bars among $3$ kids when you can decide to keep some of them for yourself
+		- Just add an extra divider
+		- ${13 \choose 3}$
+	- ###### How many solutions are there to the following equation where $x_1,x_2,x_3,x_4\in\mathbb{Z}^+$? $$x_1+x_2+x_3+x_4=20$$
+		- $3$ dividers to divide $20$ dots, ${23 \choose 3}$
+	- ###### What about when $x_{1}\ge 1$?
+		- $$x_1+x_2+x_3+x_4=19$$
+		- Now repeat what we did before, which gives us ${22 \choose 3}$
+	- ###### What if $x_{i}\ge 2$ for $i = 1,2,\dots4$
+		- Subtract $2$ for each possible $i$
+		- $$x_1+x_2+x_3+x_4=12$$
+		- Repeat again for ${15 \choose 3}$
+	- ###### What about $0 \le x_{1}\le 10$?
+		- Difference method, $\text{Total Set} - \text{Opposite Set}$
+		- For opposite set, consider $x_{1}\ge11$ so we give $x_1$ $11$ dots and then redo what we have to do. Now that we have given $x_1$ $11$ dots we continue with $9$ dots to divide with $3$ dividers
+		- ${23 \choose 3} - {12 \choose 3}$
+	- ###### Finally, what about $0 \le x_{1}\le 3$, and $1 \le x_{2}\le 4$, and $x_{3}\ge 15$
+		- Since $x_{3}\ge15$ and $x_2\ge1$, we give $x_3$ $15$ dots and $x_2$ gets $1$ dot. We are left with just $4$ dots. Our problem is now the following equation: $$x_1+x_2+x_3+x_4=4$$
+		- Now we take this equation and apply the constraint $0\le x_1\le3$
+		- Since we already gave $x_2$ a bar we also have the constraint $0 \le x_{2}\le 3$
+		- We take the total set and subtract our constraints, there are $2$ cases that do not work here, when $x_1=4$ or $x_{2} = 4$, since both can't be $\ge 4$ at the same time, there is only $2$ cases this can not work   
+		- ${7 \choose 3} - 1 - 1$

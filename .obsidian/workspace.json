@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3a3c7b0a5066fc0f",
+        "id": "4ae001a8ae48cefc",
         "type": "tabs",
         "children": [
           {
-            "id": "65fa946a82b4f21d",
+            "id": "f6d3fccbff14d606",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
+                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "759973b48adcfe5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
+                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
+                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete II/Lecture 11 - The Almighty Pirates Problem.md"
+                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md"
               }
             }
           },
@@ -162,48 +175,49 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "65fa946a82b4f21d",
+  "active": "759973b48adcfe5f",
   "lastOpenFiles": [
-    "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
-    "Statistical Inference/Lecture 12 - More Regression.md",
-    "Images/Pasted image 20231017125526.png",
-    "Images/Pasted image 20231017124037.png",
-    "Images/Pasted image 20231017123859.png",
-    "Images/Pasted image 20231017123021.png",
-    "Images/Pasted image 20231017122148.png",
-    "Images/Pasted image 20231017122132.png",
-    "Images/Pasted image 20231017122049.png",
-    "Images/Pasted image 20231017122035.png",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
+    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
     "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
+    "Images/Pasted image 20231030014231.png",
     "Discrete II/Lecture 7 - Product Method Examples.md",
+    "Discrete II/Lecture 6 - More Counting Methods.md",
+    "Discrete II/Lecture 11 - Permutations with Restriction.md",
+    "Discrete II/Lecture 10 - Repetition for Permutations.md",
+    "Discrete II/Lecture 9 - Permutations and Combinations.md",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
+    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
+    "Images/Pasted image 20231029215526.png",
+    "Images/Pasted image 20231029215514.png",
+    "Images/Pasted image 20231029212309.png",
+    "Images/Pasted image 20231029212252.png",
+    "Statistical Inference/Lecture 14 - Sampling.md",
+    "Images/Pasted image 20231027131510.png",
+    "Images/Pasted image 20231027130357.png",
+    "Images/Pasted image 20231027125831.png",
+    "Images/Pasted image 20231027125644.png",
+    "Images/Pasted image 20231027125135.png",
+    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
+    "Statistical Inference/Lecture 13 - Case Study.md",
+    "Statistical Inference/Lecture 12 - More Regression.md",
+    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
+    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
+    "Statistical Inference/Lecture 10 - Multiple Regression.md",
+    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Statistical Inference/Lecture 3 - Explore Data II.md",
     "Untitled.canvas",
     "Computer Architecture/Topic 3 - The C Programming Language.md",
     "Computer Architecture/Topic 2 - The Unix Shell.md",
-    "Images/Pasted image 20231014202038.png",
-    "Images/Pasted image 20231014202030.png",
     "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
-    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression.md",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Statistical Inference/Lecture 5 - Simple Regression II.md",
-    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
     "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Statistical Inference/Lecture 9 - Midterm Review.md",
-    "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Data Structures/Topic 6 - Undirected Graphs.md",
-    "Data Structures/Topic 7 - Sorting.md",
-    "Data Structures/Topic 5 - Hash Tables.md",
-    "Data Structures/Topic 3 - Trees.md",
-    "Data Structures/Topic 2 - Linked Lists.md",
-    "Data Structures/Topic 1 - Stacks and Queues.md",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",

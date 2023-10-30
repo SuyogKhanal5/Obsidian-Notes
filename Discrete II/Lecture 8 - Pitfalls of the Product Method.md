@@ -79,4 +79,5 @@
 			- We have $2^{8}$ possibilities for hostid, but we can't have all $1$s or $0$s so we actually have $2^{8}-2$
 			- Class C possibilities: $(2^{21})\cdot(2^{8}-2)$
 		- $|\text{Possible IP Addresses}|=|A| + |B| + |C|$
-	- ###### Triangle Problem Goes Here
+	- ###### How many ways to exit the Triangle from A to B?![[Pasted image 20231030014231.png]]
+- 

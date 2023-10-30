@@ -1,0 +1,27 @@
+- ### Combinations with Repetition
+	- ###### Ex. Choose $2$ letters from $\{L,U,C,K,Y\}$ where repetitions are allowed but order does not matter:
+		- Use partition rule 
+	- ###### Ex. You want to pick $10$ chocolates out of $4$ different types. We can pick multiple of the same type. How many different ways are there?
+		- Count all sequences of length $4$, $(a,b,c,d)$, where $a+b+c+d = 10$
+		- We use bijection method, take sequence of $4$ numbers to create sequence of $10$ digits with $3$ dividers
+		- We have $10$ digits and $3$ dividers for our combination
+		- $P{13 \choose 3} = \frac{13!}{(13-3)!3!}$
+- ### The Almighty Pirates Problem
+	 - ###### $k$ distinct pirates want to divide up $n$ identical invisible bars of gold. How many ways are there to divide the loot when each pirate must get at least $r$ bars of gold?
+	 - Order does not matter, but repetition is allowed
+	 - $k=5$ and $n=20$, $r$ does not matter
+		 - Arrange $20$ dots and $4$ dividers
+		 - $P{24 \choose 4} = \frac{24!}{20!4!}$
+	- Now lets say $r=1$
+		- We subtract $n$ by $rk$
+		- Now we just do the calculation again with $n=15$
+		- Arrange $15$ dots and $4$ dividers
+		 - $P{19 \choose 4} = \frac{19!}{15!4!}$
+
+- ### How many integer solutions?
+	- ###### Ex. How many integer solutions are there to the equation:
+		- $x_1+x_2+\dots+x_k=20$ where $x_1,x_2,\dots x_k\ge0$
+		- This is just same thing as pirates problem
+		- $k$ is number of pirates (also $k$ in this problem)
+		- $n$ is number of bars of gold
+		- $x_1,x_2,\dots x_k\ge0$ means each pirate cannot get a negative number of bars
