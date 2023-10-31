@@ -1,64 +1,39 @@
 {
   "main": {
-    "id": "ee038c75d83460cb",
+    "id": "ced203d6755c3448",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "4ae001a8ae48cefc",
+        "id": "9dd935eaf50b34b5",
         "type": "tabs",
         "children": [
           {
-            "id": "f6d3fccbff14d606",
+            "id": "8154e6d52bc3fa48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+                "file": "Lecture 15 - Bootstrapping.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "759973b48adcfe5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-                "mode": "source",
-                "source": false
-              }
-=======
-        "id": "806be8849f80a8ae",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7037b40524c6f586",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
->>>>>>> ce30e8de3d1129e9cf1324006ec09c452e18a2d0
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "17917e7a3168dc47",
+    "id": "1b13aaf76b57e70e",
     "type": "split",
     "children": [
       {
-        "id": "5fb20cdd0faec471",
+        "id": "a9254b67a14b8699",
         "type": "tabs",
         "children": [
           {
-            "id": "7eab9c3af2a1148c",
+            "id": "1cde3fcc6555ac32",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +43,7 @@
             }
           },
           {
-            "id": "7752389426374225",
+            "id": "33cf59f1daa475e9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +58,7 @@
             }
           },
           {
-            "id": "adc1356297f6321c",
+            "id": "5b2c5f72fc60d249",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -97,23 +72,28 @@
     "width": 300
   },
   "right": {
-    "id": "09e6cadd4ee26166",
+    "id": "4e03b8cbdc488bc6",
     "type": "split",
     "children": [
       {
-        "id": "bc5b169bbc494c24",
+        "id": "650156c0c2f2204b",
         "type": "tabs",
         "children": [
           {
-            "id": "18bd02ba590c8f41",
+            "id": "37868dbc7a2d74b9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "98a88227d4ceadae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-=======
->>>>>>> ce30e8de3d1129e9cf1324006ec09c452e18a2d0
+                "file": "Lecture 15 - Bootstrapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,22 +105,19 @@
             }
           },
           {
-            "id": "080657678376e9ab",
+            "id": "2eba3c8bce4f7d65",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-=======
->>>>>>> ce30e8de3d1129e9cf1324006ec09c452e18a2d0
+                "file": "Lecture 15 - Bootstrapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5b48e0a483c2cc17",
+            "id": "9ca56ec2f95ea337",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,26 +128,22 @@
             }
           },
           {
-            "id": "2e6ab7aebbd07a0d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-<<<<<<< HEAD
-              "state": {
-                "file": "Discrete II/Lecture 14 - Pirates Problem Constraints.md"
-              }
-=======
-              "state": {}
->>>>>>> ce30e8de3d1129e9cf1324006ec09c452e18a2d0
-            }
-          },
-          {
-            "id": "516279389e5a467a",
+            "id": "f26116fe294a3e6a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "9a93f0da9ea80ab4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lecture 15 - Bootstrapping.md"
               }
             }
           }
@@ -183,104 +156,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "terminal:Open terminal": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "terminal:Open terminal": false
     }
   },
-<<<<<<< HEAD
-  "active": "759973b48adcfe5f",
+  "active": "8154e6d52bc3fa48",
   "lastOpenFiles": [
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-    "Images/Pasted image 20231030014231.png",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 11 - Permutations with Restriction.md",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
-    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
-    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
-    "Images/Pasted image 20231029215526.png",
-    "Images/Pasted image 20231029215514.png",
-    "Images/Pasted image 20231029212309.png",
-    "Images/Pasted image 20231029212252.png",
-    "Statistical Inference/Lecture 14 - Sampling.md",
-    "Images/Pasted image 20231027131510.png",
-    "Images/Pasted image 20231027130357.png",
-    "Images/Pasted image 20231027125831.png",
-    "Images/Pasted image 20231027125644.png",
-    "Images/Pasted image 20231027125135.png",
-    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Statistical Inference/Lecture 13 - Case Study.md",
-    "Statistical Inference/Lecture 12 - More Regression.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
-    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Statistical Inference/Lecture 3 - Explore Data II.md",
-    "Untitled.canvas",
-    "Computer Architecture/Topic 3 - The C Programming Language.md",
-    "Computer Architecture/Topic 2 - The Unix Shell.md",
-    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
-    "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Statistical Inference/Lecture 5 - Simple Regression II.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Statistical Inference/Lecture 9 - Midterm Review.md",
-=======
-  "active": "7037b40524c6f586",
-  "lastOpenFiles": [
-    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
-    "Statistical Inference/Lecture 12 - More Regression.md",
-    "Images/Pasted image 20231017125526.png",
-    "Images/Pasted image 20231017124037.png",
-    "Images/Pasted image 20231017123859.png",
-    "Images/Pasted image 20231017123021.png",
-    "Images/Pasted image 20231017122148.png",
-    "Images/Pasted image 20231017122132.png",
-    "Images/Pasted image 20231017122049.png",
-    "Images/Pasted image 20231017122035.png",
-    "Images/Pasted image 20231014202038.png",
-    "Images/Pasted image 20231014202030.png",
-    "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
-    "Computer Architecture/Topic 3 - The C Programming Language.md",
-    "Computer Architecture/Topic 2 - The Unix Shell.md",
-    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Lecture 5 - Induction and Counting.pdf",
-    "Data Structures/Topic 6 - Undirected Graphs.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
-    "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Statistical Inference/Lecture 3 - Explore Data II.md",
-    "Statistical Inference/Lecture 2 - Explore Data.md",
-    "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Statistical Inference/Lecture 5 - Simple Regression II.md",
-    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Statistical Inference/Lecture 9 - Midterm Review.md",
-    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
-    "Data Structures/Topic 7 - Sorting.md",
-    "Data Structures/Topic 5 - Hash Tables.md",
-    "Data Structures/Topic 3 - Trees.md",
->>>>>>> ce30e8de3d1129e9cf1324006ec09c452e18a2d0
-    "Systems Programming",
-    "Data Structures",
-    "Computer Architecture",
-    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
-    "Excalidraw",
-    "Images",
-    "Discrete II",
-    "Statistical Inference"
+    "Images/Pasted image 20231031021208.png",
+    "Images/Pasted image 20231031021140.png",
+    "Images/Pasted image 20231031021112.png",
+    "Images/Pasted image 20231031021046.png",
+    "Images/Pasted image 20231031021009.png",
+    "Images/Pasted image 20231031020947.png",
+    "Images/Pasted image 20231031020633.png",
+    "Images/Pasted image 20231031020600.png",
+    "Lecture 15 - Bootstrapping.md"
   ]
 }
