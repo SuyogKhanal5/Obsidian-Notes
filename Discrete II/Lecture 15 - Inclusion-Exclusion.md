@@ -47,4 +47,4 @@
 		- $A_3=$ All of the ways to reorganize set such that rabbit 3 goes to its own hole
 		- The answer is $\text{all ways }-|A_{1}\cup A_{2}\cup A_{3}|$
 		- $3!-|A_{1}\cup A_{2}\cup A_{3}|$
-		- 
+		- $|A_{1}\cup A_{2}\cup A_{3}|=|A_{1}|+|A_{2}|+|A_{3}|-|A_{1} \cap A_{2}|+$
