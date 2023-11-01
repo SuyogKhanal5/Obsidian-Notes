@@ -34,3 +34,132 @@
 		- `short`, `long` - Control size/range of numbers
 			- Only applied to `int`
 		- `signed`, `unsigned`
+	- ###### Arithmetic Operators are the same as Java
+		* `/` and `%` have higher precedence than `+` and `-`
+		* Use parentheses when you can
+	* ###### Print is used as `printf();`
+		* String formatting can be passed in as an argument
+		* `puts();` also works, is faster, and doesn't worry about formatting at all. BUT *does not* convert integers to string.
+		* `scanf()` scans info for strings
+			- Returns `1` if success, `0` if failure
+			- Two parameters
+				- First for formatting/what type of data you are looking for
+				- Second is the destination for the data scanned, must be pointer
+					- Ex. `&n`
+	- ###### Preincrement and Postincrement
+		- `x++`: Increment AFTER using its value
+		- `x--` : Decrement AFTER using its value
+		- `++x`: Increment BEFORE using its value
+		- `--x`: Decrement BEFORE using its value
+		- Safest way to use this is on its own line, as it can get messy inside of an expression.
+	- ###### Executing with gcc from command line
+		- `gcc -std = c99 -Wall program.c -o function` 
+			- This is used to compile
+		- `./program `
+			- This is used to run
+		- `-std` 
+			- This indicates what C version to use
+		- `-Wall` 
+			- This indicates to give all warnings when compiling
+	- ###### Relational Operators
+		- Same as Java *EXCEPT THERE IS NO BOOL TYPE*
+		- Returns `1` for `True` and `0` for `False`
+	- ###### Logical Operators
+		- Same as Java, except treats entire value as `True` (non-zero) or `False` (zero)
+		- Returns `1` for `True` and `0` for `False`
+		- $x < y < z$ does not mean its math meaning (`x < y` returns `1` or `0`, then compare either `1` or `0` to `z`)
+	- ###### Bit Operator
+		- `~` - Complement 
+			- Ex. `~x`
+		- `&` - bit AND 
+			- Ex. `x & y`
+		- `|` -bit OR 
+			- `x | y`
+		- Operate on bits of variables or constants
+		- Ex.
+			- `~0101` = `1010` (Flip each value)
+			- `0101 & 1010` = `0000` (Every value must be 1)
+			- `0101 | 1010` = `1111` (A value must be one in either value)
+	- ###### Expressions and Assignments
+		- **Expression** - Computation with a result
+			- Be careful of type conversion	
+		- **Assignment** - Giving a variable the value of an expression
+
+- ### Control Statements
+	- ###### Conditional
+		- `If`/`Else`
+			- Continues until non-zero result
+		- `Switch`
+			- Finds case with matching content
+			- Continues executing until a `break` or end of switch statement. If there is no `break`, it will also execute `default`
+			- If none match, go to `default`
+			- Case statements must be constants (`int`, `char`, no user generated types)
+	- ###### Iteration
+		- `While`
+			- Compute expression before iteration
+		- `For`
+			- Compute start before first iteration, then compute expression after the following expressions
+			- Same as `while`
+		- `Do While`
+			- Compute expression after iteration
+		- There is no for each loop in C
+	- ###### Specialized "go-to"
+		- `Break`
+			- Force immediate exit from switch or loop
+		- `Continue`
+			- Skip the rest of the computation in the current iteration of a loop
+		- `return` statement works too, but exists the entire function
+
+- ### Functions
+	- ###### Components
+		- Name
+		- Return Type (or `void`)
+		- Parameters (pass-by-value)
+		- Body (return to exit)
+	- ###### Function Calls
+		- As part of expression 
+			- Ex. `x + Factorial(y)`
+			- Need parentheses to call a function
+			- Arguments evaluated before function call
+				- There is no defined order or evaluation for multiple arguments
+			- Returned value is used to compute expression
+			- Function cannot be `void` return type
+		- As a statement 
+			- Ex. `Factorial(y)`
+			- Can have void return type
+			- Returned value is discarded if there is one
+	- ###### Function Prototypes
+		- Can declare functions without specifying implementation
+			- `int Factorial(int)`
+			- Can specify parameter names, but don't have to.
+			- This is called a function signature
+			- Allows you to code functions at the bottom of your file after declaring them at the top
+		- Declarations allow functions to be "used" without having the implementation until link time
+			- Separate compilation
+				- Functions implemented in different files
+				- Functions in binary libraries
+			- Signatures are often given in header files
+				- Ex. `Stdio.h` gives signatures for standard input/output functions
+
+- ### Input/Output
+	- ###### I/O comes from `include <stdio.h>`
+		- `printf("%d\n", counter)`
+			- String contains characters to print and formatting directives for variables
+			- This call says to print the variable counter as a decimal integer, followed by creating a new line
+			- Write `%%` to `printf` a percent sign
+		- `scanf("%d", &startPoint)`
+			- String contains formatting directives for parsing input
+			- This call says to read a decimal integer and assign it to the variable startPoint
+				- `&` does something, will be covered later, is necessary
+
+- ### Memory
+	- ###### C's memory model matches the underlying (virtual) memory system
+		- A giant array of addressable bytes
+		- 8-bit
+	- ###### Variables are names that we use to refer to contiguous sequences of bytes
+		- Number of bytes given by type of variable![[Pasted image 20231101140812.png]]
+	- ###### Compiler translates names to addresses
+		- Typically maps to smallest address 
+
+- ### Pointers
+	- 

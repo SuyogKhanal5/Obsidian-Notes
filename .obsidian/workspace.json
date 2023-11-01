@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9dd935eaf50b34b5",
+        "id": "13a95a71fee7d7a4",
         "type": "tabs",
         "children": [
           {
-            "id": "8154e6d52bc3fa48",
+            "id": "610e587224b6c588",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 15 - Bootstrapping.md",
+                "file": "Computer Architecture/Topic 3 - The C Programming Language.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "621b56b75d5e5159",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 15 - Bootstrapping.md",
+                "file": "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 15 - Bootstrapping.md",
+                "file": "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 15 - Bootstrapping.md"
+                "file": "Discrete II/Lecture 15 - Inclusion-Exclusion.md"
               }
             }
           }
@@ -166,16 +179,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8154e6d52bc3fa48",
+  "active": "621b56b75d5e5159",
   "lastOpenFiles": [
+    "Discrete II/Lecture 7 - Product Method Examples.md",
+    "Discrete II/Lecture 2 - CS205 Recap.md",
+    "Discrete II/Lecture 1 - Syllabus.md",
+    "Discrete II/Lecture 11 - Permutations with Restriction.md",
+    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
+    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
+    "Computer Architecture/Topic 3 - The C Programming Language.md",
+    "Images/Pasted image 20231101140812.png",
+    "Images/Pasted image 20231101140710.png",
+    "Images/Pasted image 20231101140707.png",
+    "Images/Pasted image 20231101140704.png",
+    "Images/Pasted image 20231101140641.png",
+    "Images/Pasted image 20231101140619.png",
+    "Statistical Inference/Lecture 15 - Bootstrapping.md",
     "Images/Pasted image 20231031021208.png",
     "Images/Pasted image 20231031021140.png",
     "Images/Pasted image 20231031021112.png",
-    "Images/Pasted image 20231031021046.png",
-    "Images/Pasted image 20231031021009.png",
-    "Images/Pasted image 20231031020947.png",
-    "Images/Pasted image 20231031020633.png",
-    "Images/Pasted image 20231031020600.png",
-    "Lecture 15 - Bootstrapping.md"
+    "Images/Pasted image 20231031021046.png"
   ]
 }

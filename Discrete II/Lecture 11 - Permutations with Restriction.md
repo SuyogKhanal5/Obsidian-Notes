@@ -1,5 +1,5 @@
  - ### Permutations without Repetitions
-	 - ###### Ex.  A math debating team consists of $4$ speakers
+	 - ###### Ex. A math debating team consists of $4$ speakers
 		 - In how many ways can the speakers be arranged in a row for a photo?
 			 - 4 generators, $4$ options for the first, $3$ for the second, etc. $4!$
 		 - How many ways can the captain and vice captain be chosen?
