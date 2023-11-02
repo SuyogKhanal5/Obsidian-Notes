@@ -1,3 +1,4 @@
+
 - ### New Dataset: Seattle House Prices
 	- From `moderndive` package
 	- Sale prices of homes sold between May 2014 and May 2015 in King County, WA

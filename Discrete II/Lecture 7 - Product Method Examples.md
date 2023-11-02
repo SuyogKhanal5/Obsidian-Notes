@@ -1,3 +1,4 @@
+
 - ### Product Method Examples
 	- ###### How can you make the dice problem impossible with the Product Method?
 		- You can make both die the same color

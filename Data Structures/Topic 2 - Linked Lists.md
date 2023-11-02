@@ -1,3 +1,4 @@
+
 - ### Singly Linked List
 	- **Linked List** - Recursive data structure that is null or a reference to a node. It is a sequence of nodes joined together
 		- First node is called the head

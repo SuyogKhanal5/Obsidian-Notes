@@ -1,3 +1,4 @@
+
 - ### Constraints on the Pirates Problem
 	- ###### How many $8$ letter words contain only vowels?
 		- $5^8$

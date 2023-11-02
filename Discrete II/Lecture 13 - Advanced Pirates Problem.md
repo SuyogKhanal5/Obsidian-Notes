@@ -1,3 +1,4 @@
+
 - ### When not to use combinations with repetitions?
 	- The ability for some element to be size $0$ or size $n$ allows us apply the formula $${n + r - 1 \choose n-1}$$ If we are unable to choose $0$ or $n$ of an element, this formula is non applicable 
 

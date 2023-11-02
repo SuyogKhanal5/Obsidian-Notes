@@ -1,3 +1,4 @@
+
 - ### Repetition
 	- ###### Consider Repetition!
 		- If one event with $n$ outcomes occurs $r$ times with repetition allowed, then the number of ordered arrangements is $n^r$

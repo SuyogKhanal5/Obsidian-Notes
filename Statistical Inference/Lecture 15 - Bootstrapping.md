@@ -1,3 +1,4 @@
+
 - ### Think More
 	- ###### To get the distribution of sample proportion from last lecture  
 		- The population was known ($900$ out of $2400$ red balls)  

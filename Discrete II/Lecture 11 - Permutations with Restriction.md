@@ -1,3 +1,4 @@
+
  - ### Permutations without Repetitions
 	 - ###### Ex. A math debating team consists of $4$ speakers
 		 - In how many ways can the speakers be arranged in a row for a photo?

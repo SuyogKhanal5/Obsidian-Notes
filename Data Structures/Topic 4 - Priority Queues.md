@@ -1,3 +1,4 @@
+
 - ### Sample Class and Elementary Implementation
 	- **Collection** - Data Type that stores a group of items
 		- Examples: Stack, Queue, Priority Queue, Symbol Table, Set

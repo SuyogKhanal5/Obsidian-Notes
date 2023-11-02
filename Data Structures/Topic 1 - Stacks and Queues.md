@@ -1,3 +1,4 @@
+
 - ### Stacks
 	- Collection of objects, can add or remove to the stack
 	- FILO - *first in* is *last out*

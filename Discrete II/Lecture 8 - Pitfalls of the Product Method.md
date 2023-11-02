@@ -1,3 +1,4 @@
+
 - ### When to use Partition vs. Product Rule?
 	- *Key*: Do you have to choose an arrangement of a set $A$ *AND* and arrangement of set $B$, or an arrangement of $A$ *OR* an arrangement of $B$
 	- If you choose arrangements *for both* you will use the *product rule*: The set of all possible choices is the cartesian product of the choices for one, and the choices for the other

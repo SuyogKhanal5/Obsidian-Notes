@@ -1,3 +1,4 @@
+
 - ### Types of Applications of Statistics
 	- ###### Descriptive Statistics
 		- Look for patterns

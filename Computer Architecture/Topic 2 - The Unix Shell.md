@@ -1,3 +1,4 @@
+
 - ### Terminal/CLI
 	- A shell is a tool for interacting with a computer
 		- **CLI** - Command Line Interface
