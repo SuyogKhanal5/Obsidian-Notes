@@ -10,4 +10,4 @@ Notes written in Obsidian for various classes at Rutgers
 - Statistical Inference for Data Science
 
 ### Usage
-- Clone the repo and open an obsidian vault in the repo
+Clone the repo and open an obsidian vault in the repo
