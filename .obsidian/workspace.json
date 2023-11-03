@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/Topic 3 - The C Programming Language.md",
+                "file": "Statistical Inference/Lecture 15 - Bootstrapping.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "621b56b75d5e5159",
+            "id": "47ffee889a5257ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md"
               }
             }
           }
@@ -179,10 +179,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "621b56b75d5e5159",
+  "active": "47ffee889a5257ad",
   "lastOpenFiles": [
-    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
+    "Images/Pasted image 20231103125902.png",
+    "Images/Pasted image 20231103125342.png",
+    "Images/Pasted image 20231103123019.png",
+    "Images/Pasted image 20231103122955.png",
+    "Images/Pasted image 20231103122938.png",
+    "Images/Pasted image 20231103122919.png",
+    "Images/Pasted image 20231103122656.png",
+    "Images/Pasted image 20231103122615.png",
+    "Statistical Inference/Lecture 15 - Bootstrapping.md",
+    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+    "Computer Architecture/Topic 3 - The C Programming Language.md",
     "README.md",
+    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
     "Data Structures/Topic 7 - Sorting.md",
     "Data Structures/Topic 6 - Undirected Graphs.md",
     "Data Structures/Topic 5 - Hash Tables.md",
@@ -190,7 +201,6 @@
     "Data Structures/Topic 3 - Trees.md",
     "Data Structures/Topic 2 - Linked Lists.md",
     "Data Structures/Topic 1 - Stacks and Queues.md",
-    "Computer Architecture/Topic 3 - The C Programming Language.md",
     "Computer Architecture/Topic 2 - The Unix Shell.md",
     "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
     "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
@@ -204,18 +214,8 @@
     "Discrete II/Lecture 6 - More Counting Methods.md",
     "Discrete II/Lecture 5 - Induction and Counting.md",
     "Discrete II/Lecture 4 - More Proofs.md",
-    "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
-    "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Discrete II/Lecture 1 - Syllabus.md",
     "Images/Pasted image 20231101140812.png",
     "Images/Pasted image 20231101140710.png",
-    "Images/Pasted image 20231101140707.png",
-    "Images/Pasted image 20231101140704.png",
-    "Images/Pasted image 20231101140641.png",
-    "Images/Pasted image 20231101140619.png",
-    "Images/Pasted image 20231031021208.png",
-    "Images/Pasted image 20231031021140.png",
-    "Images/Pasted image 20231031021112.png",
-    "Images/Pasted image 20231031021046.png"
+    "Images/Pasted image 20231101140707.png"
   ]
 }
