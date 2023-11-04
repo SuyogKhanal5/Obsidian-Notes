@@ -34,6 +34,8 @@ held
 help
 hard
 harder
+horses
+having
 we
 will
 what
@@ -57,6 +59,10 @@ webpages
 way
 whereas
 whose
+without
+wish
+word
+why
 learned
 levels
 later
@@ -97,6 +103,7 @@ leading
 list
 longer
 layer
+loot
 Data
 Distributions
 Diagnostics
@@ -150,6 +157,8 @@ Tidy
 Transform
 Terminology
 Traverse
+Then
+Three
 and
 assumptions
 are
@@ -217,6 +226,8 @@ analogy
 alike
 aesthetic
 adjacency
+alternate
+assumes
 Structures
 Summary
 Statistics
@@ -301,6 +312,8 @@ Elements
 Every
 Exercise
 Edges
+Element
+Everything
 Visualization
 Vector
 View
@@ -337,6 +350,7 @@ Betas
 But
 Builder
 Breadth
+Boys
 distribution
 difference
 different
@@ -387,6 +401,7 @@ defines
 dots
 differences
 drawing
+debating
 Normal
 Numeric
 NG
@@ -402,6 +417,7 @@ Not
 NOT
 Note
 Notation
+Next
 Regression
 Read
 Rows
@@ -432,6 +448,9 @@ Rational
 Real
 Represent
 Representation
+Repetitions
+Repetition
+Reuse
 One
 Operator
 On
@@ -450,6 +469,7 @@ Outputs
 Objects
 Operations
 Often
+Once
 numerical
 not
 normal
@@ -475,6 +495,7 @@ numbers
 never
 named
 nodes
+next
 independent
 integers
 instead
@@ -516,6 +537,8 @@ including
 intersections
 ice
 intuition
+identical
+invisible
 variable
 vector
 value
@@ -536,6 +559,7 @@ vanilla
 valleys
 vertices
 visit
+vice
 categorical
 careful
 characters
@@ -619,6 +643,10 @@ colors
 customize
 connected
 costs
+captain
+chosen
+car
+choosing
 Logistic
 Logical
 List
@@ -640,6 +668,7 @@ Look
 Level
 Laplace
 Limit
+Length
 regression
 represent
 real
@@ -683,6 +712,11 @@ restricts
 raw
 representation
 right
+repetition
+restrictions
+repeated
+rolled
+repeating
 to
 the
 types
@@ -745,6 +779,10 @@ tail
 typical
 traverse
 those
+team
+trifectas
+too
+tiles
 mean
 much
 math
@@ -824,6 +862,11 @@ bar
 below
 boxplots
 back
+boys
+bench
+because
+boy
+begin
 Character
 Complex
 Columns
@@ -940,6 +983,9 @@ fit
 finish
 fully
 format
+four
+formula
+finishers
 Factor
 Frame
 Frames
@@ -1073,6 +1119,12 @@ skew
 single
 structure
 subtrees
+speakers
+subgroups
+stay
+sit
+selections
+subtraction
 Matrix
 Markdown
 Merge
@@ -1154,6 +1206,10 @@ observation
 observational
 operator
 outwards
+once
+overcounts
+occurs
+orderings
 Pipe
 Plot
 Patterns
@@ -1189,6 +1245,8 @@ Password
 Power
 Plots
 Path
+Permutation
+Pirates
 use
 using
 unit
@@ -1204,6 +1262,7 @@ until
 uncertain
 unions
 uses
+unique
 Add
 Approximately
 Analysis
@@ -1222,6 +1281,9 @@ As
 Aesthetic
 Art
 Adjacency
+Anne
+Almighty
+ABC
 Grammar
 Graph
 Graphs
@@ -1265,6 +1327,10 @@ graphs
 giving
 going
 go
+girls
+girl
+groups
+gold
 etric
 errors
 expected
@@ -1318,6 +1384,7 @@ Here
 Higher
 Hostids
 Health
+Have
 QQ
 Quetelet
 Question
@@ -1394,6 +1461,12 @@ pairwise
 path
 provides
 practice
+photo
+pirates
+pirate
+put
+plates
+paint
 quantile
 quantifying
 quarters
@@ -1409,3 +1482,4 @@ know
 kind
 just
 Java
+Jim

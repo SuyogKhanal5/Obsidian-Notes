@@ -11,7 +11,7 @@
 			- $3$ generators, no repetition allowed, order matters, $7 \cdot 6 \cdot 5 = 210$
 
 - ### Permutations with Restrictions
-	- ###### Ex. How many ways can $5$ boys be arranged on a bench if:
+	- ###### Ex. How many ways can $5$ boys and $4$ girls be arranged on a bench if:
 		- There are no restrictions?
 			- $9!$
 		- Boys and girls alternate?
