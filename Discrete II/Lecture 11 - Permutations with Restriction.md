@@ -1,5 +1,6 @@
+
  - ### Permutations without Repetitions
-	 - ###### Ex.  A math debating team consists of $4$ speakers
+	 - ###### Ex. A math debating team consists of $4$ speakers
 		 - In how many ways can the speakers be arranged in a row for a photo?
 			 - 4 generators, $4$ options for the first, $3$ for the second, etc. $4!$
 		 - How many ways can the captain and vice captain be chosen?
@@ -36,6 +37,16 @@
 			- $6! - 4! = 696$
 		- They have $\text{RE}$ together in order?
 			- $5!$
+	- ###### Ex. There are $6$ boys who enter a boat with $8$ seats, $4$ on each side. In how many ways can:
+		- They sit anywhere?
+			- $8$ choose $6$, meaning there are $\frac{8!}{(8-2)!} = \frac{8!}{6!} = 8 \cdot 7$
+	- ###### Ex. From the digits $2,3,4,5,6$:
+		- How many numbers greater than $4,000$ can be formed?
+			- Any permutation of these $5$ numbers will give us a number $\ge 4,000$
+		- How many $4$ digit numbers greater than $4,000$ can be formed?
+			- Must start with digit $\ge 4$
+			- $3$ options for first digit, $4$ options for the second one
+			- $12$ numbers
 
 - ### Permutations with Repetitions
 	- ###### Ex. How many permutations of the word $\text{PARRAMATTA}$ are possible
@@ -56,5 +67,3 @@
 		- One $7$
 		- $\frac{8!}{3!2!2!1!} = 1,680$
 
- - ### The Almighty Pirates Problem
-	 - ###### $k$ distinct pirates want to divide up $n$ identical invisible bars of gold. How many ways are there to divide the loot when each pirate must get at least $r$ bars of gold?

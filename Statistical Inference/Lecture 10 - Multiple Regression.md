@@ -1,3 +1,4 @@
+
 - ### General Multiple Regression Model
 	- ###### General Regression Model
 		- $y=\beta_0 + \beta_1x_1 + \dots + \beta_kx_k + \epsilon$

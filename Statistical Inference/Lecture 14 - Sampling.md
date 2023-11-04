@@ -1,0 +1,132 @@
+
+- ### Types of Applications of Statistics
+	- ###### Descriptive Statistics
+		- Look for patterns
+		- Summarize the information
+		- Present the information
+	- ###### Inferential Statistics
+		- Utilize sample data
+		- Draw conclusion about a larger set of data
+		- Conclusion: estimates, decisions, predictions, etc.
+
+- ### Examples of Practical Problems
+	- ###### Mean Problem
+		- Population: All Rutgers undergraduate students
+			- About $35,000$ students
+		- What is the estimated average SAT math score of all students?
+	- ###### Proportion Problem
+		- Population: A jar of m&m's from Costco
+			- About $2,000$ m&m's in the jar
+		- What is the proportion of m&m's in the jar that are red?
+	- ###### Sampling Problem
+		- Draw with/without replacement
+	- Can you (or do you want to) enumerate the population?
+
+- ### Parameter and Sample Statistic
+	- In reality, true mean and SD are not known and need to be estimated
+	- **Parameter**: a numerical descriptive measure of a *population*
+	- **Sample statistic**: a numerical descriptive measure of a *sample*![[Pasted image 20231027122507.png]]
+
+- ### Sampling
+	- It is time, labor, and cost consuming to get data for the whole population
+	- ###### Goal: Get a *representative* sample
+		- Individuals selected are representative of a larger population in terms of key characteristics 
+		- Truly representative sampling is extremely hard
+	- Avoid biased sample
+	- ###### Sampling design
+		- Simple probability sampling
+			- Random sample
+			- Systematic sample
+		- Stratified sampling
+		- Cluster sampling
+		- Multi-stage sampling
+		- Multi-phase sampling
+
+- ### Things to Avoid
+	- ###### Selection bias
+		- Use correct sampling strategy
+	- ###### Non-response bias
+		- Incentive for the survey
+		- Weighting
+		- Conduct non-response analysis
+	- ###### Measurement error
+		- Questionnaire design
+		- Manipulative or ambiguous questions
+
+- ### 1936 Presidential Election
+	- ###### Literacy Digest
+		- Predicted correctly presidential election winners since 1916
+		- Predicted that Landon $57$% vs Roosevelt $43$%
+	- Actual results: Landon $38$% vs. Roosevelt $62$%
+	- ###### Literacy Digest's Downfall
+		- Took samples from telephone directory, magazine subscribers, rosters of clubs and associations etc.
+			- Selection bias
+		- $10$ million sampled, $2.4$ million responded to the survey
+			- Non-response bias
+
+- ### Sampling Distribution
+	- ###### Point Estimate
+		- What you got from the sample
+		- For example: One shovel has $\hat{p}=\frac{17}{50}=0.34$
+		- Is point estimate enough? 
+	- ###### Is the sample mean or sample proportion a constant or random variable?
+		- Repeat the experiment again and again
+		- They have distributions, called sampling distribution
+	- Why do we care about the distribution?
+	- ###### How can we get the distribution of sample mean/proportion?
+		- Obtained by repetitive experiments
+		- Can be theoretically derived
+	- ###### What does the distribution depend on?
+		- When repeating the experiment, can we take samples with different sample sizes?
+	- Repeat experiment $33$ times, or $33$ shovels![[Pasted image 20231027124636.png]]
+	- We then observe the summary statistics and distribution
+
+- ### Virtual Shovel
+	- Let computer do the shoveling
+	- ###### Population: Saved in data "bowl" (`moderndive` package)
+		- In reality, population isn't known (most of the time)
+		- Each observation has `ball_ID` and `color`
+		- Distribution of color
+			- Population proportion $p=\frac{900}{2400}=0.375$
+			- Population size $N=2400$
+	- ###### Function to take random sample
+		- `rep_sample_n(size,reps)`
+			- `size`: The number of balls to shovel each time
+			- `reps`: The number of times to repeat the experiment
+		- `rep_sample_n(size=50, reps=1000)` will return
+			- $50 \cdot 1000 = 50,000$ observations
+			- $\forall$ reps from $1,2,\dots1000$ has $50$ samples each with corresponding `ball_ID` and `color`
+			- Can get the proportion of red from each rep and then summarize it
+	- ###### Results 
+	- For `size` $= 25, 50, 100,$ and $400$![[Pasted image 20231027125644.png]]
+	- For `size` $= 100,$ repeat $400, 600, 800, 1000$ times![[Pasted image 20231027125831.png]]
+
+- ### Center and Spread
+	- ###### Distribution
+		- Mean: Center of Distribution
+		- Standard Deviation: Measures the spread of the distribution![[Pasted image 20231027130357.png]]
+	- Observe the shape of the distribution, where the center is, and the spread with different sample sizes
+
+- ### Conclusions
+	- ###### The average of the sample population is close to the proportion population
+		- Sometimes $\hat{p}$ is larger, sometimes $\hat{p}$ is smaller than the true population proportion, but on average it is close enough
+	- ###### The variance of the sample population depends on the sample size
+		- The larger the sample size, the smaller the variance
+
+- ### Statistical Terminology and Conclusions: Sampling Distribution of $\bar{X}$
+	- ###### Mean: Mean of the sampling distribution equals mean of the population $\mu_{\bar{X}} = E(\bar{X}) = \mu$
+		- We say $\bar{X}$ is an unbiased estimate of $\mu$
+	- ###### Variance: Variance of the sample distribution equals the variance of the population divided by sample size. $\sigma^2_{\bar{X}}=\frac{\sigma^2}{n}$
+		- The Standard Deviation is called standard error of the mean
+		- $\sigma_{\bar{X}}= \frac{\sigma}{\sqrt{n}}$
+		- Standard Deviation vs. Standard Error
+	- True for any distributions
+	- $\hat{p}$ is the mean of dummy indicators
+	- If the sample size $n$ is large enough, the distribution is approximately normal (Central Limit Theorem)
+
+- ### Accuracy and Precision
+	- **Accuracy**: The estimate is on target
+		- $\hat{p}$ is unbiased, it is an accurate estimate
+	- **Precision**: "Consistency" (How variant the estimate is)
+		- Large sample size will yield precise estimates![[Pasted image 20231027131510.png]]
+

@@ -1,3 +1,4 @@
+
 - ### Hash Functions
 	- ###### Simple Hashing Idea
 		- If keys are small integers, we can use an array to implement a symbol table

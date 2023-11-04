@@ -1,3 +1,4 @@
+
 - ### Binary Search
 	- Needs sorted array
 	- Examines middle element

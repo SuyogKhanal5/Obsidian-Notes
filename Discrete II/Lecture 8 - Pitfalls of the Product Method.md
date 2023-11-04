@@ -1,3 +1,4 @@
+
 - ### When to use Partition vs. Product Rule?
 	- *Key*: Do you have to choose an arrangement of a set $A$ *AND* and arrangement of set $B$, or an arrangement of $A$ *OR* an arrangement of $B$
 	- If you choose arrangements *for both* you will use the *product rule*: The set of all possible choices is the cartesian product of the choices for one, and the choices for the other
@@ -79,4 +80,5 @@
 			- We have $2^{8}$ possibilities for hostid, but we can't have all $1$s or $0$s so we actually have $2^{8}-2$
 			- Class C possibilities: $(2^{21})\cdot(2^{8}-2)$
 		- $|\text{Possible IP Addresses}|=|A| + |B| + |C|$
-	- ###### Triangle Problem Goes Here
+	- ###### How many ways to exit the Triangle from A to B?![[Pasted image 20231030014231.png]]
+- 

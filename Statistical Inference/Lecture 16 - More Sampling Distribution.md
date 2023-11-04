@@ -1,0 +1,83 @@
+
+- ### Central Limit Theorem
+	- Let $X_{1},X_{2},\dots,X_{n}$ be independent and randomly distributed (iid) random variables with expected value $\mu$ and standard deviation $\sigma$ (from *any* probability distribution), then the distribution of the sample average $$\bar{X}=\frac{X_{1}+X_{2}+\dots+X_{n}}{n}$$is approximately normal with mean $\mu$ and variance $\frac{\sigma^2}{n}$ when the sample size $n$ is large, or $$\frac{\bar{X}-\mu}{\frac{\sigma}{\sqrt{n}}}\sim N(0,1)$$
+	- ###### Conditions of CLT
+		- iid sample
+		- Sample size is large
+	- ###### Discrete Illustration![[Pasted image 20231103122615.png]]
+	- ###### Binomial $B(4,0.1)$ Illustration![[Pasted image 20231103122656.png]]
+	- ###### Normal Population and Sample Sum
+		- When the population is approximately normal (with known variance), the sample sum (and hence sample mean), will be approximately normal for any sample size
+	- ###### Uniform Illustration![[Pasted image 20231103122919.png]]
+	- ###### Normal Illustration![[Pasted image 20231103122938.png]]
+	- ###### Poisson Illustration![[Pasted image 20231103122955.png]]
+	- ###### Exponential Illustration![[Pasted image 20231103123019.png]]
+
+- ### Binomial Distribution
+	- ###### First version of CLT
+		- De Moivre: Binomial distribution converges when $p=\frac{1}{2}$ (to something bell shaped and symmetric)
+		- Laplace: Generalized to any $p$ such that $0 < p < 1$
+		- Called De Moivre-Laplace Central Limit Theorem
+	- ###### Binomial Distribution $B(n,p)$
+		- $n$ - Total number of trials 
+		- `n_sample` - Sample size
+		- When $n$ is small: The sample mean is approximately normal only when `n_sample` is large
+		- When $n$ is large: The sample mean is approximately normal even when `n_sample` is small
+		- When $n$ is large and $p$ is really small: Binomial is approximately Poisson with $\uplambda=np$. When $\uplambda$ is small, the sample mean is approximately normal when `n_sample` is relatively large
+
+- ### CLT Related
+	- ###### In regression, why is the random error assumed to be normally distributed?
+		- History of normal distribution
+			- Properties of normal distribution
+		- **Random Error**: Sum of independent error terms
+		- By CLT, it is approximately normally distributed
+	- ###### Similar idea about Binomial
+		- Binomial with total number trials $n$ is the sum of $n$ independent Bernoulli trials
+		- By CLT, it is approximately normal when $n$ is large enough
+
+- ### Versions of CLT
+	- ###### iid samples, Sample sizes large
+		- Random sample
+		- Rule of Thumb
+			- Mean Problem: At least $30$ observations
+			- Proportion Problem: At least $15$ successes, at least $15$ failures
+	- ###### One Sample
+		- $\bar{X}\sim N(\mu,\frac{\sigma^2}{n})$
+		- $\hat{p}\sim N(p,\frac{p(1-p)}{n})$
+	- ###### Two Independent Samples
+		- $\bar{X_{1}}-\bar{X_{2}}\sim N(\mu_{1}-\mu_{2},\frac{\sigma_{1}^{2}}{n_{1}}+\frac{\sigma_{2}^{2}}{n_{2}})$
+		- $\hat{p_{1}}-\hat{p_{2}}\sim N(p_{1}-p_{2},\frac{p_{1}(1-p_{1})}{n_{1}}+\frac{p_{2}(1-p_{2})}{n_{2}})$
+
+- ### Histogram
+	- ###### $y$-axis of histogram
+		- Frequency count (default)
+		- Relative frequency
+			- `geom_histogram(aes(y=..count../sum(..count..)),...)`
+		- Relative frequency/width of interval (st. total area $= 1$)
+			- `geom_histogram(aes(y=..density..),...)`
+		- Add density curve on histogram
+			- `stat_function(fun = dnorm, args = list(mean = , sd = ))`  
+			- `stat_function(fun = dexp, args = (mean= ))`
+	- ###### Normal Example![[Pasted image 20231103125342.png]]
+
+- ### Sampling Distribution: Shovel Random Samples from Population
+	- ###### Population
+		- $900$ red balls, $2400$ total $\Rightarrow$ population $p = \frac{3}{8}$
+	- ###### Sample
+		- Sample Size: $50$ (most cases require more than $15$ red/white balls)
+	- ###### Theoretical True Distribution
+		- By CLT, $\hat{p}\sim N(p,\frac{p(1-p)}{n})=N(\frac{3}{8},\frac{3}{640})$
+		- Shown as red curve in following graphs
+	- ###### Sampling Distribution using Random Samples from Population
+		- Shown as blue curve in following graphs
+	- ###### Bootstrap with different initial samples![[Pasted image 20231103125902.png]]
+
+- ### What do we observe?
+	- ###### In Reality
+		- The population is not known
+		- We only observe one sample
+	- ###### Bootstrapping
+		- Start from the one sample we have
+		- Depends on the initial sample, the point estimate could be off the true parameter
+		- If we give a reasonable interval (centered at the sample proportion), it can cover the true parameter with a large chance
+		- Idea of confidence interval

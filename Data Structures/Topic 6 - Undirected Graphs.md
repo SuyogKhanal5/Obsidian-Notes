@@ -1,3 +1,4 @@
+
 - ### Graph Terminology
 	- **Graph** - Set of vertices connected pairwise by edges
 	- **Path** - Sequence of vertices connected by edges

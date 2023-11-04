@@ -1,0 +1,51 @@
+
+- ### Inclusion/Exclusion
+	- ###### Sum Rule: $A$ and $B$ are disjoint $\Rightarrow |A \cup B| = |A| + |B|$
+		- But what if $A$ and $B$ are not disjoint? i.e. They overlap
+	- ###### To fix this overlap, we do $|A \cup B| = |A| + |B| - |A \cap B|$
+		- We were overcounting if they were not disjoint, so we subtract the overcounted elements
+	- ###### Scaling up the number of sets
+		- $|A \cup B \cup C| = |A|+|B|+|C| - |A \cap B| - |B \cap C| - |A \cap C| + |A \cap B \cap C|$
+		- We get rid of all overlaps, but then we removed the intersection of all 3, so we add it back
+		- *Include*
+			- $|A|+|B|+|C|$
+			- $|A \cap B \cap C|$
+		- *Exclude*
+			- $|A \cap B|$
+			- $|B \cap C|$
+			- $|A \cap C|$
+	- ###### General Case
+		- $(-1)^{n+1}|$
+
+- ### Inclusion/Exclusion Examples
+	- ###### In the set $S=\{1,2,\dots100\}$ how many multiples of $6$ or $7$
+		- $A =$ All multiples of $6$
+		- $B=$ All multiples of $7$
+		- At first glance, these two sets seem to be disjoint, but $42$ and $84$ are multiples of $6$ AND $7$
+		- $|A| = 16$
+		- $|B| = 14$
+		- $|A \cap B| = 2$
+		- $16+14-2=28$ multiples
+	- ###### What are the solutions to $x+y+z=15$ with $x \le 3$ and $y\le 4$ where $x,y,z \ge 0$?
+		- $A_{1}=$ Number of solutions with $x\le3$
+		- $A_2=$ Number of solutions with $y \le4$
+		- We want to get $|A_1 \cup A_2|$ with $|A_1\cup A_2|=|A_1|+|A_2|-|A_1\cap A_2|$ 
+		- Lets find $|A_1|$ and $|A_2|$ using the *difference method*
+			- $|A_1|=\text{all solutions}-\text{solutions with }x\ge4$
+			- $|A_1|={17\choose2}-{13\choose2}$
+			- $|A_2|=\text{all solutions}-\text{solutions with }y\ge5$
+			- $|A_2|={17\choose2}-{12\choose2}$
+		- Now we can find $|A_1 \cup A_2|$
+			- $|A_1 \cup A_2|=\text{all solutions}-\text{solutions with }x\ge4 \text{ and } y\ge5$
+			- $|A_1 \cup A_2|={17\choose2}-{8\choose2}$
+		- Lets solve our equation
+			- $|A_1\cup A_2|=|A_1|+|A_2|-|A_1\cap A_2|$
+			- $|A_1\cup A_2|={17\choose2}-{13\choose2}+{17\choose2}-{12\choose2}-$
+			- $|A_1\cup A_2|=20$
+	- ###### A group of $3$ rabbits is playing outside their individual burrows when they are surprised by an eagle. Each rabbit escapes down a random hole. One rabbit per hole. How many ways to reorganize while avoiding their own hole?
+		- $A_1=$ All of the ways to reorganize set such that rabbit 1 goes to its own hole
+		- $A_2=$ All of the ways to reorganize set such that rabbit 2 goes to its own hole
+		- $A_3=$ All of the ways to reorganize set such that rabbit 3 goes to its own hole
+		- The answer is $\text{all ways }-|A_{1}\cup A_{2}\cup A_{3}|$
+		- $3!-|A_{1}\cup A_{2}\cup A_{3}|$
+		- $|A_{1}\cup A_{2}\cup A_{3}|=|A_{1}|+|A_{2}|+|A_{3}|-|A_{1} \cap A_{2}|+$

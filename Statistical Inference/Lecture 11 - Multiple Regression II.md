@@ -1,3 +1,4 @@
+
 - ### Exploratory Data Analysis
 	- We did teaching score vs beauty score and teaching score vs age before
 	- Age is continuous, represented as an integer in the data

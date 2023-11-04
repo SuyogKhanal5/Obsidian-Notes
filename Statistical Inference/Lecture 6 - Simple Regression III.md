@@ -12,7 +12,7 @@
 
 - ### Probability Distribution
 	- Gives the probabilities of occurrence of different possible outcomes
-	- ###### Discrete : Probability Mass Function (PMF)
+	- ###### Discrete: Probability Mass Function (PMF)
 		- Positive: $f(x) \ge 0$ $\forall x$
 		- Total Probability 1: $\sum f(x) = 1$
 		- Probability at given point: $P(X = x) = f(x)$

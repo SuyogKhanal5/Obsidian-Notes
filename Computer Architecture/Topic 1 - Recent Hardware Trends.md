@@ -1,3 +1,4 @@
+
 - ### What is a computer?
 	- ###### Main Components:
 		- **CPU** - Central Processing Unit
