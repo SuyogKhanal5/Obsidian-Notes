@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 6 - Simple Regression III.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Lecture 6 - Simple Regression III.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Lecture 6 - Simple Regression III.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Lecture 6 - Simple Regression III.md"
+                "file": "README.md"
               }
             }
           },
@@ -168,6 +168,11 @@
   "active": "7037b40524c6f586",
   "lastOpenFiles": [
     "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
+    "Discrete II/Lecture 11 - Permutations with Restriction.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Statistical Inference/Lecture 15 - Bootstrapping.md",
     "Statistical Inference/Lecture 14 - Sampling.md",
     "Statistical Inference/Lecture 13 - Case Study.md",
@@ -184,10 +189,6 @@
     "Images/Pasted image 20231101140710.png",
     "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
     "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
-    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
-    "Discrete II/Lecture 11 - Permutations with Restriction.md",
     "Discrete II/Lecture 10 - Repetition for Permutations.md",
     "Discrete II/Lecture 9 - Permutations and Combinations.md",
     "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
@@ -203,7 +204,6 @@
     "Lecture 5 - Induction and Counting.pdf",
     "Data Structures/Topic 6 - Undirected Graphs.md",
     "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",
