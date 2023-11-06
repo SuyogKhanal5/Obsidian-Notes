@@ -1,31 +1,19 @@
 {
   "main": {
-    "id": "ee038c75d83460cb",
+    "id": "ced203d6755c3448",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
         "id": "1aed7e23de257f9e",
         "type": "tabs",
         "children": [
           {
             "id": "36770f0db20ad597",
-=======
-        "id": "806be8849f80a8ae",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7037b40524c6f586",
->>>>>>> 80181507fc171ca14cf680bf5a2ff16e0bb5468c
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
-=======
-                "file": "README.md",
->>>>>>> 80181507fc171ca14cf680bf5a2ff16e0bb5468c
+                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "17917e7a3168dc47",
+    "id": "1b13aaf76b57e70e",
     "type": "split",
     "children": [
       {
-        "id": "5fb20cdd0faec471",
+        "id": "a9254b67a14b8699",
         "type": "tabs",
         "children": [
           {
-            "id": "7eab9c3af2a1148c",
+            "id": "1cde3fcc6555ac32",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +43,7 @@
             }
           },
           {
-            "id": "7752389426374225",
+            "id": "33cf59f1daa475e9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,7 +58,7 @@
             }
           },
           {
-            "id": "adc1356297f6321c",
+            "id": "5b2c5f72fc60d249",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -84,24 +72,28 @@
     "width": 300
   },
   "right": {
-    "id": "09e6cadd4ee26166",
+    "id": "4e03b8cbdc488bc6",
     "type": "split",
     "children": [
       {
-        "id": "bc5b169bbc494c24",
+        "id": "650156c0c2f2204b",
         "type": "tabs",
         "children": [
           {
-            "id": "18bd02ba590c8f41",
+            "id": "37868dbc7a2d74b9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "98a88227d4ceadae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
-=======
-                "file": "README.md",
->>>>>>> 80181507fc171ca14cf680bf5a2ff16e0bb5468c
+                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,23 +105,19 @@
             }
           },
           {
-            "id": "080657678376e9ab",
+            "id": "2eba3c8bce4f7d65",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
-=======
-                "file": "README.md",
->>>>>>> 80181507fc171ca14cf680bf5a2ff16e0bb5468c
+                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5b48e0a483c2cc17",
+            "id": "9ca56ec2f95ea337",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,17 +128,7 @@
             }
           },
           {
-            "id": "2e6ab7aebbd07a0d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
-            }
-          },
-          {
-            "id": "516279389e5a467a",
+            "id": "f26116fe294a3e6a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -160,18 +138,13 @@
             }
           },
           {
-            "id": "292f05790a733c4e",
+            "id": "9a93f0da9ea80ab4",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
               "type": "outline",
               "state": {
-                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md"
+                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md"
               }
-=======
-              "type": "calendar",
-              "state": {}
->>>>>>> 80181507fc171ca14cf680bf5a2ff16e0bb5468c
             }
           }
         ],
@@ -194,11 +167,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-<<<<<<< HEAD
   "active": "36770f0db20ad597",
   "lastOpenFiles": [
+    "Images/Pasted image 20231106160816.png",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
     "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
+    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
     "Discrete II/Lecture 16 - Pigeonhole Principle.md",
     "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
     "Discrete II/Lecture 10 - Repetition for Permutations.md",
@@ -208,34 +183,17 @@
     "Discrete II/Lecture 4 - More Proofs.md",
     "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
     "Discrete II/Lecture 1 - Syllabus.md",
-    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
     "Images/Pasted image 20231106144912.png",
     "Images/Pasted image 20231106144621.png",
     "Images/Pasted image 20231106144534.png",
     "Statistical Inference/Lecture 15 - Bootstrapping.md",
     "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
-=======
-  "active": "7037b40524c6f586",
-  "lastOpenFiles": [
-    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
-    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
-    "Discrete II/Lecture 11 - Permutations with Restriction.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-    "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Statistical Inference/Lecture 15 - Bootstrapping.md",
-    "Statistical Inference/Lecture 14 - Sampling.md",
-    "Statistical Inference/Lecture 13 - Case Study.md",
-    "README.md",
->>>>>>> 80181507fc171ca14cf680bf5a2ff16e0bb5468c
     "Images/Pasted image 20231103125902.png",
     "Images/Pasted image 20231103125342.png",
     "Images/Pasted image 20231103123019.png",
     "Images/Pasted image 20231103122955.png",
     "Images/Pasted image 20231103122938.png",
     "Images/Pasted image 20231103122919.png",
-<<<<<<< HEAD
     "Computer Architecture/Topic 3 - The C Programming Language.md",
     "README.md",
     "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
@@ -247,36 +205,5 @@
     "Data Structures/Topic 2 - Linked Lists.md",
     "Data Structures/Topic 1 - Stacks and Queues.md",
     "Computer Architecture/Topic 2 - The Unix Shell.md"
-=======
-    "Images/Pasted image 20231103122656.png",
-    "Images/Pasted image 20231103122615.png",
-    "Images/Pasted image 20231101140812.png",
-    "Images/Pasted image 20231101140710.png",
-    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
-    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
-    "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
-    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-    "Statistical Inference/Lecture 12 - More Regression.md",
-    "Computer Architecture/Topic 3 - The C Programming Language.md",
-    "Computer Architecture/Topic 2 - The Unix Shell.md",
-    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Lecture 5 - Induction and Counting.pdf",
-    "Data Structures/Topic 6 - Undirected Graphs.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Systems Programming",
-    "Data Structures",
-    "Computer Architecture",
-    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
-    "Excalidraw",
-    "Images",
-    "Discrete II",
-    "Statistical Inference"
->>>>>>> 80181507fc171ca14cf680bf5a2ff16e0bb5468c
   ]
 }
