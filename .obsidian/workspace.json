@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "13a95a71fee7d7a4",
+        "id": "1aed7e23de257f9e",
         "type": "tabs",
         "children": [
           {
-            "id": "610e587224b6c588",
+            "id": "36770f0db20ad597",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 15 - Bootstrapping.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47ffee889a5257ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,11 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Lecture 16 - More Sampling Distribution.md"
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -169,28 +157,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47ffee889a5257ad",
+  "active": "36770f0db20ad597",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
+    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
+    "Discrete II/Lecture 16 - Pigeonhole Principle.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Discrete II/Lecture 10 - Repetition for Permutations.md",
+    "Discrete II/Lecture 9 - Permutations and Combinations.md",
+    "Discrete II/Lecture 6 - More Counting Methods.md",
+    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Discrete II/Lecture 4 - More Proofs.md",
+    "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
+    "Discrete II/Lecture 1 - Syllabus.md",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
+    "Images/Pasted image 20231106144912.png",
+    "Images/Pasted image 20231106144621.png",
+    "Images/Pasted image 20231106144534.png",
+    "Statistical Inference/Lecture 15 - Bootstrapping.md",
+    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
     "Images/Pasted image 20231103125902.png",
     "Images/Pasted image 20231103125342.png",
     "Images/Pasted image 20231103123019.png",
     "Images/Pasted image 20231103122955.png",
     "Images/Pasted image 20231103122938.png",
     "Images/Pasted image 20231103122919.png",
-    "Images/Pasted image 20231103122656.png",
-    "Images/Pasted image 20231103122615.png",
-    "Statistical Inference/Lecture 15 - Bootstrapping.md",
-    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
     "Computer Architecture/Topic 3 - The C Programming Language.md",
     "README.md",
     "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
@@ -201,21 +203,6 @@
     "Data Structures/Topic 3 - Trees.md",
     "Data Structures/Topic 2 - Linked Lists.md",
     "Data Structures/Topic 1 - Stacks and Queues.md",
-    "Computer Architecture/Topic 2 - The Unix Shell.md",
-    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
-    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
-    "Discrete II/Lecture 11 - Permutations with Restriction.md",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
-    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Discrete II/Lecture 4 - More Proofs.md",
-    "Images/Pasted image 20231101140812.png",
-    "Images/Pasted image 20231101140710.png",
-    "Images/Pasted image 20231101140707.png"
+    "Computer Architecture/Topic 2 - The Unix Shell.md"
   ]
 }
