@@ -14,7 +14,7 @@
 	- ###### How many ways to divide a subset of $10$ identical Hershey bars among $3$ kids when you can decide to keep some of them for yourself
 		- Just add an extra divider
 		- ${13 \choose 3}$
-	- ###### How many solutions are there to the following equation where $x_1,x_2,x_3,x_4\in\mathbb{Z}^+$? $$x_1+x_2+x_3+x_4=20$$
+	- ###### How many solutions are there to the following equation where $x_1,x_2,x_3,x_{4}$ are non negative integers? $$x_1+x_2+x_3+x_4=20$$
 		- $3$ dividers to divide $20$ dots, ${23 \choose 3}$
 	- ###### What about when $x_{1}\ge 1$?
 		- $$x_1+x_2+x_3+x_4=19$$

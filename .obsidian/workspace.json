@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36770f0db20ad597",
+            "id": "979c8ef1e9e1a815",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+                "file": "Discrete II/Lecture 17 - Combinatorial Proofs and Binomial Coefficients.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+                "file": "Discrete II/Lecture 17 - Combinatorial Proofs and Binomial Coefficients.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+                "file": "Discrete II/Lecture 17 - Combinatorial Proofs and Binomial Coefficients.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete II/Lecture 13 - Advanced Pirates Problem.md"
+                "file": "Discrete II/Lecture 17 - Combinatorial Proofs and Binomial Coefficients.md"
               }
             }
           }
@@ -167,19 +167,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "36770f0db20ad597",
+  "active": "979c8ef1e9e1a815",
   "lastOpenFiles": [
-    "Images/Pasted image 20231106161327.png",
+    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
+    "Discrete II/Lecture 17 - Combinatorial Proofs and Binomial Coefficients.md",
+    "Statistical Inference/Lecture 10 - Multiple Regression.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Statistical Inference/Lecture 14 - Sampling.md",
+    "Statistical Inference/Lecture 17 - Midterm 2 Review.md",
+    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
     "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
+    "Discrete II/Lecture 9 - Permutations and Combinations.md",
+    "Discrete II/Lecture 10 - Repetition for Permutations.md",
+    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
+    "Discrete II/Lecture 11 - Permutations with Restriction.md",
+    "Images/Pasted image 20231106161327.png",
     "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
     "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
     "Images/Pasted image 20231106160816.png",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
     "Discrete II/Lecture 16 - Pigeonhole Principle.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
     "Discrete II/Lecture 6 - More Counting Methods.md",
     "Discrete II/Lecture 5 - Induction and Counting.md",
     "Discrete II/Lecture 4 - More Proofs.md",
@@ -189,21 +197,13 @@
     "Images/Pasted image 20231106144621.png",
     "Images/Pasted image 20231106144534.png",
     "Statistical Inference/Lecture 15 - Bootstrapping.md",
-    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
     "Images/Pasted image 20231103125902.png",
     "Images/Pasted image 20231103125342.png",
     "Images/Pasted image 20231103123019.png",
     "Images/Pasted image 20231103122955.png",
-    "Images/Pasted image 20231103122938.png",
     "Computer Architecture/Topic 3 - The C Programming Language.md",
     "README.md",
     "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
-    "Data Structures/Topic 7 - Sorting.md",
-    "Data Structures/Topic 6 - Undirected Graphs.md",
-    "Data Structures/Topic 5 - Hash Tables.md",
-    "Data Structures/Topic 4 - Priority Queues.md",
-    "Data Structures/Topic 3 - Trees.md",
-    "Data Structures/Topic 2 - Linked Lists.md",
-    "Data Structures/Topic 1 - Stacks and Queues.md"
+    "Data Structures/Topic 7 - Sorting.md"
   ]
 }

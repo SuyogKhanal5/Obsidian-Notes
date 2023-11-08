@@ -1,0 +1,38 @@
+
+- ### Pigeonhole Principle
+	- **Pigeonhole Principle** - If you have more pigeons than holes then *at least* one hole must have at least two pigeons
+		- ###### Ex. A drawer in a room contains red, blue, and green socks. How many must you withdraw before you see a matching pair?
+			- The minimum number is $2$, while the max is $4$
+		- ###### Mathematic Definition
+			- $m$ pigeons in $n$ holes, $m>n \Rightarrow$ at least one hole must hold $\lceil{\frac{m}{n}}\rceil$ pigeons 
+		- ###### Ex. Prove that if $6$ integers are selected from $\{3,4,5,6,7,8,9,10,11,12\}$, there must be $2$ integers whose sum is $15$
+			- Observe that we can add the $0^{\text{th}}$ and $n^{\text{th}}$ integers to make $15$, $1^{\text{st}}$ and $(n-1)^{\text{th}}$ make $15$, etc. 
+			- Label $5$ boxes: 
+				- $3,12$
+				- $4,11$
+				- $5,10$
+				- $6,9$
+				- $7,8$
+			- We select $6$ integers and place them in one of the boxes above, based on its label
+			- By the pigeonhole principle, one box must be filled with two numbers
+			- We pick $6$ integers (pigeons) and have $5$ holes (boxes), we must have one box that has more than one number
+		- ###### Ex. Consider any $5$ points in the interior of a square of unit length. Show that one can find two points that are at a distance of at most $\frac{\sqrt{2}}{2}$ away.
+			- If we pick $5$ points, then by PHP some box must contain $\ge 2$ points ![[Pasted image 20231106144912.png]]
+			- Maximum distance between any two points in a box is when they are diagonally opposite. The distance is $\sqrt{(\frac{1}{2})^2+(\frac{1}{2})^2}=\frac{\sqrt{2}}{2}$
+		- ###### Ex. In a group of $6$ people there are either $3$ mutual friends or $3$ mutual strangers
+			- $2$ holes, one for friends and one for strangers
+			- You pick one person and place people into holes depending on whether someone is a friend or stranger to this person
+			- By the pigeonhole principle, one of the two boxes must have at least $\lceil \frac{5}{2} \rceil = 3$ people (meaning the person we selected has either $3$ mutual friends or $3$ mutual strangers)
+		- ###### Ex. There are $n$ people in a room. Show that there must exist $2$ people with the same number of acquaintances.
+			- Make $n$ boxes ordered from $0$ to $(n-1)$
+			- Box $i$ is people who have $i$ acquaintances
+			- We have $n$ boxes and $n$ people so we can't directly apply PHP
+			- However, notice that Box $0$ is not empty $\Leftrightarrow$ Box $(n-1)$ is empty
+			- *Case 1*: Box $0$ is empty
+				- $n$ people go to remaining $(n-1)$ boxes, by PHP some box $\ge 2$ people
+			- *Case 2*: Box $(n-1)$ is empty
+				- $n$ people go to remaining $(n-1)$ boxes, by PHP some box $\ge 2$ people
+		- ###### Ex. There are $50$ baskets of apples. Each basket contains no more than $24$ apples. Show that there are at least $3$ baskets containing the same number of apples.
+			- We might think to make apples the pigeons, and baskets the holes, but this doesn't work. We don't know how many boxes are total. Even if we do know, apples can't independently go to any box. There is a constraint that each box has $\le 24$ boxes
+			- Instead, baskets are pigeons, and apples are holes. This works since we create $24$ boxes, and each basket goes to the apple corresponding to the number of apples that the basket has
+			- By PHP, there must exist a number of apples with at least $\lceil \frac{50}{24} \rceil=3$ baskets
