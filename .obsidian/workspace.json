@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
+                "file": "Statistical Inference/Lecture 15 - Bootstrapping.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
+                "file": "Statistical Inference/Lecture 15 - Bootstrapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
+                "file": "Statistical Inference/Lecture 15 - Bootstrapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md"
+                "file": "Statistical Inference/Lecture 15 - Bootstrapping.md"
               }
             }
           }
@@ -169,18 +169,20 @@
   },
   "active": "979c8ef1e9e1a815",
   "lastOpenFiles": [
-    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
-    "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
-    "Statistical Inference/Lecture 9 - Midterm Review.md",
-    "Discrete II/Lecture 16 - Pigeonhole Principle.md",
-    "Statistical Inference/Lecture 15 - Bootstrapping.md",
-    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
-    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
     "Statistical Inference/Lecture 14 - Sampling.md",
     "Statistical Inference/Lecture 17 - Midterm 2 Review.md",
+    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
+    "Statistical Inference/Lecture 15 - Bootstrapping.md",
+    "Statistical Inference/Lecture 13 - Case Study.md",
+    "Statistical Inference/Lecture 12 - More Regression.md",
+    "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
     "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Statistical Inference/Lecture 9 - Midterm Review.md",
+    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
+    "Discrete II/Lecture 16 - Pigeonhole Principle.md",
+    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
+    "Statistical Inference/Lecture 10 - Multiple Regression.md",
     "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
     "Discrete II/Lecture 9 - Permutations and Combinations.md",
     "Discrete II/Lecture 10 - Repetition for Permutations.md",
@@ -202,8 +204,6 @@
     "Images/Pasted image 20231103125342.png",
     "Images/Pasted image 20231103123019.png",
     "Images/Pasted image 20231103122955.png",
-    "Computer Architecture/Topic 3 - The C Programming Language.md",
-    "README.md",
-    "Computer Architecture/Topic 1 - Recent Hardware Trends.md"
+    "Computer Architecture/Topic 3 - The C Programming Language.md"
   ]
 }

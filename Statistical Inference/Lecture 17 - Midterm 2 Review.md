@@ -141,7 +141,7 @@
 	- ###### Theoretical Results (CLT)
 		- First version of CLT
 		- CLT for the sample mean and proportion
-		- True for any population distribution (the man and variance need to exist)
+		- True for any population distribution (the mean and variance need to exist)
 
 - ### Versions of CLT
 	- ###### iid samples, Sample sizes large

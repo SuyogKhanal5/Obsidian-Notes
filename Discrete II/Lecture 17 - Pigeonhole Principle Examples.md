@@ -1,0 +1,20 @@
+
+- ### Examples
+	- ###### Ex. Suppose $S$ is a set of $n+1$ distinct integers. Show that $\exists$ $a,b \in S$ such that $a-b$ is divisible by $n$
+				- $n+1$ integers are the pigeons
+				- Lets create $n$ holes
+				- Any $a \in S$ goes to hole $i$ if $a$ \% $n = i$
+				- By PHP $\exists$ hole $k$ that has $\ge 2$ integers, lets call them $a,b$
+				- $a=r_{1}n+i$ for some quotient $r_{1}$ and remainder $i$
+				- $b=r_{2}n+i$ for some quotient $r_{2}$ and remainder $i$
+				- $a-b = (r_{1}-r_{2})n$ by doing some algebra $\blacksquare$
+	- ###### Ex. In a room there are $10$ people, none of whom are older than $60$, each of whom is at least $1$ year old. Prove that one can always find two sub groups of people (with no common person) the sum of whose ages is the same.
+		- We really only care about subgroups of people and their total age
+		- Lets make the pigeons the subgroups, and put them in holes corresponding to their total age
+		- How many subgroups can we make? $2^{10}-1$ removing the subgroup of none
+		- Subgroup $S$ goes to hole $i$ if $\sum \text{ages} \in S=i$
+		- By PHP $\exists$ hole that has at least $\lceil \frac{1023}{600} \rceil=2$ pigeons
+		- Let $S_{1}$ and $S_{2}$ be two subgroups that go to hole $i$
+		- *No common person* $\Rightarrow$ Inclusion/Exclusion
+		- $\sum \text{ages} \in S_{1} = \sum \text{ages} \in S_{2}$
+		- 
