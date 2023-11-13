@@ -51,3 +51,13 @@
 	- ###### Prove that $\sum^{\frac{n}{2}}_{k=0} {n \choose k}=2^{n-1}$
 		- Let $S=\{1,2,\dots,n\}$
 		- Counting pattern: How many subsets of $S$?
+
+- ### Pascal's Triangle
+	- Construct a pascal triangle by adding the two elements above ![[Pasted image 20231113150540.png]]
+	- Each entry in Pascal's triangle is a binomial coefficient
+	- We will be using it to prove binomial identities
+
+- ### Binomial Coefficients
+	- ###### ${n \choose k}$ is known as the **Binomial Coefficient**
+		- Number of ways to pick $k$ out of $n$ distinct objects
+		- Intimately connected to algebraic polynomials
