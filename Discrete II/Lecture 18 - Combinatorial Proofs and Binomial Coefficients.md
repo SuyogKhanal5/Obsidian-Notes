@@ -1,2 +1,53 @@
 
-- ### 
+- ### Combinatorial Proofs
+	- In general, to give a combinatorial proof for a binomial identity, say $A=B$, you must do the following:
+		- *Find a counting problem* you will be answer in two ways
+		- Explain why one answer to the counting problem is $A$
+		- Explain why the other answer to the counting problem is $B$
+		- Since $A$ and $B$ are the answers to the same question, $A = B$ must be true
+		- The hardest part is coming up with the question, becomes easier the more counting problems you solve
+	- Hints for combinatorial proofs:
+		- Define a set $S$
+		- Show that $|S|=n$ one way
+		- Show that $|S|=m$ another way
+		- Conclude that $n=m$
+
+- ### Combinatorial Proofs Examples
+	- ###### Prove that ${n \choose k}={n \choose n-k}$
+		- Define a counting problem
+		- In this case counting problem, we are looking for the number of ways to select $k$ out of $n$ people
+		- One way to count is ${n \choose k}$, which is the left hand side
+		- Another way is to choose $n-k$ people to *NOT* select: ${n \choose n-k}$
+		- Both of these solve the same problem, so therefore are the same
+	- ###### How many $10$ letter words use exactly $4$ A's, $3$ B's, $2$ C's, and $1$ D?
+		- One way 
+	- ###### Prove that $1n+2(n-1)+3(n-2)+\dots+2(n-1)+1n={n+2\choose 3}$
+		- Define problem: We need to count the number of ways to select $3$ things from a group of $n+2$ things
+		- These things go from $1,2,3,\dots,n+2$
+		- In other words we want to find $3$ element subsets of those numbers
+			- Since order does not matter we consider subsets
+		- Break this problem up into cases by what the middle number in the subset is
+		- Say each subset is $\{a,b,c\}$ written in increasing order
+		- We count the number of subsets for each distinct value of $b$
+			- The smallest possible $b$ is $2$ and the largest is $n+1$
+			- When $b=2$, there are $1 \cdot n$ subsets: $1$ choice for each $a$ and $n$ choices ($3$ through $n+2$ for $c$)
+		- Therefore the total number of subsets is $1n+2(n-1)+3(n-2)+\dots+$ $2(n-1)+1n$ which is our left hand side
+	- ###### Prove that ${n \choose 0}^2+{n \choose 1}^2+{n \choose 2}^2+\dots+{n \choose n}^2={2n \choose n}$
+		- Define the question: How many pizzas can you make by using $n$ toppings when there are $2n$ toppings to choose from?
+		- Left side: Divide the toppings into two groups of $n$ toppings (perhaps $n$ meats and $n$ veggies)
+		- Any choice of $n$ toppings must include some number from the first group and some number from the second group
+		- Consider all possible cases
+			- $0$ meats: ${n \choose 0}{n \choose n}$, since you need to choose $0$ of the $n$ meats and $n$ of the $n$ veggies
+			- $1$ meat: ${n \choose 1}{n \choose n-1}$
+	- ###### Prove that $\sum^{n}_{k=0} {n \choose k}=2^{n}$
+		- Let $S=\{1,2,\dots,n\}$
+		- Counting pattern: How many subsets of $S$?
+		- Right side: $2$ choices for each element
+			- Number of subsets $=2^{n}$
+		- Left side: Use partition rule
+			- Count all subsets of size $0$ $\rightarrow {n \choose 0}$
+			- Count all subsets of size $1$ $\rightarrow {n \choose 1}=\sum^{n}_{k=0} {n \choose k}$
+			- Size $n \rightarrow {n \choose n}$
+	- ###### Prove that $\sum^{\frac{n}{2}}_{k=0} {n \choose k}=2^{n-1}$
+		- Let $S=\{1,2,\dots,n\}$
+		- Counting pattern: How many subsets of $S$?
