@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 19 - Hypothesis Testing I.md",
+                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 19 - Hypothesis Testing I.md",
+                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 19 - Hypothesis Testing I.md",
+                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 19 - Hypothesis Testing I.md"
+                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md"
               }
             }
           },
@@ -179,10 +179,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "54cbe750665b0aaa",
+  "active": "7eab9c3af2a1148c",
   "lastOpenFiles": [
     "Statistical Inference/Lecture 18 - Confidence Interval II.md",
-    "Lecture 19 - Hypothesis Testing I.md",
+    "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
     "Images/Pasted image 20240417031554.png",
     "Images/Pasted image 20240417031512.png",
     "Images/Pasted image 20240417031351.png",
