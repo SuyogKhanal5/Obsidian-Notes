@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "806be8849f80a8ae",
+        "id": "90af425d33f4829e",
         "type": "tabs",
         "children": [
           {
-            "id": "7037b40524c6f586",
+            "id": "dc4e98fee230be88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Statistical Inference/Lecture 18 - Confidence Interval II.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54cbe750665b0aaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 19 - Hypothesis Testing I.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Lecture 19 - Hypothesis Testing I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Lecture 19 - Hypothesis Testing I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Lecture 19 - Hypothesis Testing I.md"
               }
             }
           },
@@ -156,6 +169,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -165,45 +179,45 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "7037b40524c6f586",
+  "active": "54cbe750665b0aaa",
   "lastOpenFiles": [
+    "Statistical Inference/Lecture 18 - Confidence Interval II.md",
+    "Lecture 19 - Hypothesis Testing I.md",
+    "Images/Pasted image 20240417031554.png",
+    "Images/Pasted image 20240417031512.png",
+    "Images/Pasted image 20240417031351.png",
+    "Images/Pasted image 20240417030312.png",
+    "Images/Pasted image 20240417024454.png",
+    "Statistical Inference/Lecture 17 - Confidence Interval I.md",
     "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
-    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
-    "Discrete II/Lecture 11 - Permutations with Restriction.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Images/Pasted image 20240417022004.png",
+    "Images/Pasted image 20240417021905.png",
+    "Images/Pasted image 20240417021820.png",
+    "Images/Pasted image 20240417021503.png",
+    "Images/Pasted image 20240417002211.png",
+    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Statistical Inference/Lecture 15 - Bootstrapping.md",
-    "Statistical Inference/Lecture 14 - Sampling.md",
-    "Statistical Inference/Lecture 13 - Case Study.md",
-    "README.md",
-    "Images/Pasted image 20231103125902.png",
-    "Images/Pasted image 20231103125342.png",
-    "Images/Pasted image 20231103123019.png",
-    "Images/Pasted image 20231103122955.png",
-    "Images/Pasted image 20231103122938.png",
-    "Images/Pasted image 20231103122919.png",
-    "Images/Pasted image 20231103122656.png",
-    "Images/Pasted image 20231103122615.png",
-    "Images/Pasted image 20231101140812.png",
-    "Images/Pasted image 20231101140710.png",
-    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
+    "Statistical Inference/Lecture 8 - Simple Regression V.md",
     "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
-    "Discrete II/Lecture 11 - The Almighty Pirates Problem.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
+    "Discrete II/Lecture 4 - More Proofs.md",
+    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Discrete II/Lecture 6 - More Counting Methods.md",
+    "Discrete II/Lecture 7 - Product Method Examples.md",
     "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
+    "Discrete II/Lecture 9 - Permutations and Combinations.md",
+    "Discrete II/Lecture 10 - Repetition for Permutations.md",
+    "Discrete II/Lecture 11 - Permutations with Restriction.md",
+    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
+    "Statistical Inference/Lecture 15 - Bootstrapping.md",
     "Statistical Inference/Lecture 12 - More Regression.md",
-    "Computer Architecture/Topic 3 - The C Programming Language.md",
-    "Computer Architecture/Topic 2 - The Unix Shell.md",
+    "Statistical Inference/Lecture 9 - Midterm Review.md",
     "Statistical Inference/Lecture 11 - Multiple Regression II.md",
     "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Statistical Inference/Lecture 13 - Case Study.md",
+    "Statistical Inference/Lecture 14 - Sampling.md",
     "Lecture 5 - Induction and Counting.pdf",
-    "Data Structures/Topic 6 - Undirected Graphs.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",
