@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md"
+                "file": "Discrete II/Lecture 16 - Pigeonhole Principle.md"
               }
             }
           },
@@ -181,8 +181,18 @@
   },
   "active": "7eab9c3af2a1148c",
   "lastOpenFiles": [
-    "Statistical Inference/Lecture 18 - Confidence Interval II.md",
+    "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
     "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
+    "Statistical Inference/Lecture 17 - Midterm 2 Review.md",
+    "Images/Pasted image 20231106161327.png",
+    "Images/Pasted image 20231106160816.png",
+    "Images/Pasted image 20231106144912.png",
+    "Images/Pasted image 20231106144621.png",
+    "Images/Pasted image 20231106144534.png",
+    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
+    "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
+    "Discrete II/Lecture 16 - Pigeonhole Principle.md",
+    "Statistical Inference/Lecture 18 - Confidence Interval II.md",
     "Images/Pasted image 20240417031554.png",
     "Images/Pasted image 20240417031512.png",
     "Images/Pasted image 20240417031351.png",
@@ -190,11 +200,6 @@
     "Images/Pasted image 20240417024454.png",
     "Statistical Inference/Lecture 17 - Confidence Interval I.md",
     "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
-    "Images/Pasted image 20240417022004.png",
-    "Images/Pasted image 20240417021905.png",
-    "Images/Pasted image 20240417021820.png",
-    "Images/Pasted image 20240417021503.png",
-    "Images/Pasted image 20240417002211.png",
     "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Statistical Inference/Lecture 8 - Simple Regression V.md",
@@ -212,11 +217,6 @@
     "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
     "Statistical Inference/Lecture 15 - Bootstrapping.md",
     "Statistical Inference/Lecture 12 - More Regression.md",
-    "Statistical Inference/Lecture 9 - Midterm Review.md",
-    "Statistical Inference/Lecture 11 - Multiple Regression II.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression.md",
-    "Statistical Inference/Lecture 13 - Case Study.md",
-    "Statistical Inference/Lecture 14 - Sampling.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",

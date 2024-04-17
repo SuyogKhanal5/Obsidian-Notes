@@ -2,7 +2,7 @@
 - ### When not to use combinations with repetitions?
 	- The ability for some element to be size $0$ or size $n$ allows us apply the formula $${n + r - 1 \choose n-1}$$ If we are unable to choose $0$ or $n$ of an element, this formula is non applicable 
 
-- ### Permutations and Combinations Flowchart![[Pasted image 20231029215526.png]]
+- ### Permutations and Combinations Flowchart![[Pasted image 20231106161327.png]]
 
 - ### Advanced Pirates Problems
 	- ###### $5$ pirates want to divide $20$ bars of gold among them. How many ways to divide if each pirate wants at least $2$ bars, and no pirate can get more than $8$ bars

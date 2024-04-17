@@ -15,7 +15,7 @@
 			- $|B \cap C|$
 			- $|A \cap C|$
 	- ###### General Case
-		- $(-1)^{n+1}|$
+		- $(-1)^{n+1}|A_{1}\cap A_{2} \cap A_{3} \dots \cap A_{n}|$ 
 
 - ### Inclusion/Exclusion Examples
 	- ###### In the set $S=\{1,2,\dots100\}$ how many multiples of $6$ or $7$
