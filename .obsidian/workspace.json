@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a789e04f47383135",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Lecture 20 - Hypothesis Testing II.md",
+                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Lecture 20 - Hypothesis Testing II.md",
+                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Lecture 20 - Hypothesis Testing II.md"
+                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md"
               }
             }
           },
@@ -191,24 +203,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1b4f1409ca17016a",
+  "active": "a789e04f47383135",
   "lastOpenFiles": [
+    "Images/Pasted image 20240418165618.png",
+    "Images/Pasted image 20240418165322.png",
+    "Statistical Inference/Lecture 9 - Midterm Review.md",
+    "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
+    "Statistical Inference/Lecture 17 - Midterm 2 Review.md",
+    "Images/Pasted image 20240418163300.png",
+    "Images/Pasted image 20240418163206.png",
+    "Images/Pasted image 20240418154336.png",
+    "Images/Pasted image 20240418130715.png",
+    "Statistical Inference/Lecture 20 - Hypothesis Testing II.md",
     "Images/Pasted image 20240418005412.png",
     "Images/Pasted image 20240418005107.png",
     "Images/Pasted image 20240418004822.png",
     "Images/Pasted image 20240418004552.png",
     "Images/Pasted image 20240417231409.png",
-    "Images/Pasted image 20240417224812.png",
-    "Images/Pasted image 20240417224432.png",
-    "Images/Pasted image 20240417224012.png",
-    "Images/Pasted image 20240417221034.png",
     "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
-    "Statistical Inference/Lecture 20 - Hypothesis Testing II.md",
-    "Images/Pasted image 20240417200633.png",
-    "Images/Pasted image 20240417194254.png",
     "Discrete II/Lecture 16 - Pigeonhole Principle.md",
     "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
-    "Statistical Inference/Lecture 17 - Midterm 2 Review.md",
     "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
     "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
     "Statistical Inference/Lecture 18 - Confidence Interval II.md",
@@ -227,8 +241,6 @@
     "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
     "Discrete II/Lecture 9 - Permutations and Combinations.md",
     "Discrete II/Lecture 10 - Repetition for Permutations.md",
-    "Discrete II/Lecture 11 - Permutations with Restriction.md",
-    "Discrete II/Lecture 12 - Almighty Pirates Problem.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",
