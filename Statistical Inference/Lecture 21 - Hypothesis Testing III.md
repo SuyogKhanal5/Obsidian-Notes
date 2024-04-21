@@ -70,8 +70,8 @@
 	- ###### Two sample mean difference
 		- `ttest <- evals %>% specify(formula = score ~ gender) %>%  calculate(stat = "t", order = c("male", "female"))  2*pnorm(ttest$stat, 0,1, lower.tail=FALSE)`
 	- ###### One sample mean
-		- `ttest <- evals %>% specify(response = bty_avg ) %>%  hypothesize(null="point", mu=5) %>% calculate(stat = "t")  pnorm(ttest$stat,0,1,lower.tail=TRUE`
-	- ###### One sample promotion
+		- `ttest <- evals %>% specify(response = bty_avg ) %>%  hypothesize(null="point", mu=5) %>% calculate(stat = "t")  pnorm(ttest$stat,0,1,lower.tail=TRUE)`
+	- ###### One sample proportion
 		- `ztest <- promotions %>% specify(response = decision , success = "promoted") %>% hypothesize(null="point", p=0.7) %>%  calculate(stat = "z")`
 
 - ### Theoretical CI and HT

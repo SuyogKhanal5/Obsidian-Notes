@@ -85,7 +85,7 @@
 	- Hypothesis
 		- One tailed or two tailed
 	- Get distribution under null
-		- `null_evals <- evals %>% specify(formula = score~gender) %>% hypothesize(null = "independence") %>% generate(reps=1000, type="permute") %>% calculate(stat = "diff in means", order=c("male", "female")`
+		- `null_evals <- evals %>% specify(formula = score~gender) %>% hypothesize(null = "independence") %>% generate(reps=1000, type="permute") %>% calculate(stat = "diff in means", order=c("male", "female"))`
 
 - ### Sampling Distribution under Null and P-Value
 	- Distribution![[Pasted image 20240418004552.png]]
