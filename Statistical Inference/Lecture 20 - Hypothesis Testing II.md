@@ -108,7 +108,7 @@
 		- $p=0$
 
 - ### One Sample HT: More
-	- Are there more than $70$% employees who got  promoted?
+	- Are there more than $70$% employees who got promoted?
 	- Get distribution under null
 		- `null_promotions <- promotions %>% specify(response = decision, success = "promoted") %>% hypothesize (null = "point", p=0.7) %>%  generate(reps = 1000, type = "draw") %>% calculate(stat = "prop")`
 	- Distribution![[Pasted image 20240418005412.png]]

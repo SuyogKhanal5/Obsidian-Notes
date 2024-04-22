@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc4e98fee230be88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Inference/Lecture 18 - Confidence Interval II.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54cbe750665b0aaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b4f1409ca17016a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Inference/Lecture 20 - Hypothesis Testing II.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a789e04f47383135",
             "type": "leaf",
             "state": {
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
