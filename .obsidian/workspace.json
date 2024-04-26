@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
+                "file": "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4756a759eb4a5677",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30e9387b4cc4c050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
+                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
+                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Lecture 21 - Hypothesis Testing III.md"
+                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md"
               }
             }
           },
@@ -166,15 +191,33 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a789e04f47383135",
+  "active": "30e9387b4cc4c050",
   "lastOpenFiles": [
-    "Statistical Inference/Lecture 20 - Hypothesis Testing II.md",
-    "Statistical Inference/Lecture 19 - Hypothesis Testing I.md",
-    "Statistical Inference/Lecture 21 - Hypothesis Testing III.md",
+    "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
+    "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
+    "Images/Pasted image 20240425223705.png",
+    "Statistical Inference/Midterm 2 Review.md",
+    "Statistical Inference/Midterm 1 Review.md",
+    "Statistical Inference/Lecture 20 - Hypothesis Testing III.md",
+    "Statistical Inference/Lecture 19 - Hypothesis Testing II.md",
+    "Statistical Inference/Lecture 17 - Confidence Interval II.md",
+    "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
+    "Statistical Inference/Lecture 16 - Confidence Interval I.md",
+    "Statistical Inference/Lecture 14 - Bootstrapping.md",
+    "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
+    "Statistical Inference/Lecture 13 - Sampling.md",
+    "Statistical Inference/Lecture 12 - Case Study.md",
+    "Statistical Inference/Lecture 11 - More Regression.md",
+    "Statistical Inference/Lecture 10 - Multiple Regression II.md",
+    "Statistical Inference/Lecture 9 - Multiple Regression.md",
+    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
+    "Statistical Inference/Lecture 4 - Simple Regression I.md",
+    "Statistical Inference/Lecture 5 - Simple Regression II.md",
+    "Statistical Inference/Lecture 8 - Simple Regression V.md",
+    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
+    "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Images/Pasted image 20240418165618.png",
     "Images/Pasted image 20240418165322.png",
-    "Statistical Inference/Lecture 9 - Midterm Review.md",
-    "Statistical Inference/Lecture 17 - Midterm 2 Review.md",
     "Images/Pasted image 20240418163300.png",
     "Images/Pasted image 20240418163206.png",
     "Images/Pasted image 20240418154336.png",
@@ -182,27 +225,10 @@
     "Images/Pasted image 20240418005412.png",
     "Images/Pasted image 20240418005107.png",
     "Images/Pasted image 20240418004822.png",
-    "Images/Pasted image 20240418004552.png",
     "Discrete II/Lecture 16 - Pigeonhole Principle.md",
     "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
     "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
     "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
-    "Statistical Inference/Lecture 18 - Confidence Interval II.md",
-    "Statistical Inference/Lecture 17 - Confidence Interval I.md",
-    "Statistical Inference/Lecture 16 - More Sampling Distribution.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
-    "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
-    "Discrete II/Lecture 13 - Advanced Pirates Problem.md",
-    "Discrete II/Lecture 4 - More Proofs.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
-    "Discrete II/Lecture 9 - Permutations and Combinations.md",
-    "Discrete II/Lecture 10 - Repetition for Permutations.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",
