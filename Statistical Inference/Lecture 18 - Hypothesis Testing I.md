@@ -1,0 +1,103 @@
+
+- ### Two Types of Statistical Inference
+	- ###### Confidence Interval
+		- Don't know population parameters
+		- Want to estimate them
+	- ###### Hypothesis Testing
+		- Don't know the population parameters
+		- There are some statements about the parameters
+		- Want to decide whether agree or disagree
+
+- ### HT: Intuition
+	- Car manufacturer: MPG has mean $27$ and standard deviation $3$, and is approximately normally distributed
+	- You: Bought a car with 20 MP, do you believe the manufactures claim?
+	- What manufacture claimed: Null Hypothesis
+	- ###### How to make decision?
+		- Calculate a probability $P(X<20)$ if true mean is $27$
+			- What is this probability?
+		- Probability large or small?
+			- How small is considered small?
+		- What is your conclusion?
+	- ###### One more thing
+		- You should have *a sample* instead of a single observation
+			- If you have $49$ cars with a mean $26$ MPG, do you believe the manufacturer's claim?
+
+- ### Hypothesis
+	- **Statistical Hypothesis**: A statement about the numerical value of a *population* parameter
+		- Ex. The mean of the volume of the bottle is $16$ oz.
+	- **Null Hypothesis**: $H_0$
+		- Commonly the hypothesis that will be accepted unless the data provides convincing evidence that it is *false*
+	- **Alternative Hypothesis**: $H_a$
+		- Could be the opposite of null hypothesis, or not. But mutually exclusive.
+		- Will be accepted only if the data provides convincing evidence that it is *true*
+		- Also called research hypothesis
+	- ###### Hypothesis and court trial
+		- Court trial: presumption of innocence
+			- One is considered innocent until proven guilty
+			- Null hypothesis: Not guilty
+			- Alternative hypothesis: guilty
+		- Statistical hypothesis
+			- Don't reject null unless sample data is very unlikely to happen
+
+- ### One-sided vs. Two-sided Test
+	- Also called one-tailed or two-tailed
+	- Examples
+		- $H_{0} : \mu = 16$ $H_{a} : \mu < 16$
+		- $H_{0} : \mu = 16$ $H_{a} : \mu > 16$
+		- $H_{0} : \mu = 16$ $H_{a} : \mu \ne 16$
+		- $H_{0} : \mu \le 16$ $H_{a} : \mu > 16$
+		- $H_{0} : \mu \ge 16$ $H_{a} : \mu < 16$
+
+- ### Formulating Hypothesis
+	- ###### Hypothesis
+		- Null and alternative
+		- One-sided and two-sided
+	- ###### Question 1
+		- Formulate a one-sided or two-sided test
+		- Direction of comparison
+	- ###### Question 2
+		- Which one to put as null, which one to put as alternative?
+	- ###### Rule of thumb
+		- Pay attention to the direction of comparison
+		- Put what the sampling experiment is intended to establish as the alternative
+		- Put the status quo as the null
+		- Put equality sign ($\le$, $\ge$, $=$) in the null
+
+- ### Results of Hypothesis Testing
+	- Reject the null / Fail to reject null
+		- We don't say "we accept the null"
+	- How to make decision?
+	- ###### Test Statistic
+		- A sample statistic used to decide between the null and alternative hypothesis
+		- Computed from information in the sample
+		- Function of sample mean, sample proportion, sample mean difference, sample proportion difference
+	- ###### Rejection Region
+		- The set of possible values of the test statistic for which the null hypothesis will be rejected![[Pasted image 20240417194254.png]]
+
+- ### Type I and Type II Error
+	- ###### Type I error:
+		- The null is rejected when it is in fact true
+		- False positive
+		- $\alpha = P(\text{type I error})$
+	- ###### Type II error
+		- The null is accepted while it is in fact false
+		- False negative
+		- $\beta = P(\text{type I error})$
+
+- ### Significance Level and Power
+	- ###### Significance Level
+		- A fixed probability of wrongly rejecting the null hypothesis, if it is in fact true
+		- Threshold of making errors
+		- Equals Type I error
+		- Usually chosen as $0.05$
+	- ###### Power
+		- Measures the test's ability to reject the null hypothesis when it is actually false
+		- Equals 1 - Type II error
+		- Ideally we want a test to have high power, close to 1 
+	- Table![[Pasted image 20240417200633.png]]
+
+- ### P-Value
+	- The probability of getting a value of the test statistic as extreme as or more extreme than that observed by chance alone, if the null hypothesis is true
+	- ###### Comparison of $p-$value and significance level
+		- $p-$value $<$ significance level: The result is significant, and the null hypothesis is rejected
+		- Equivalently to have a rejection region such that type I error is the significance level
