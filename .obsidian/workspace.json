@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
+                "file": "Statistical Inference/Midterm 1 Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
+                "file": "Statistical Inference/Midterm 1 Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
+                "file": "Statistical Inference/Midterm 1 Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md"
+                "file": "Statistical Inference/Midterm 1 Review.md"
               }
             }
           },
@@ -193,8 +193,11 @@
   },
   "active": "30e9387b4cc4c050",
   "lastOpenFiles": [
-    "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
     "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
+    "Images/Pasted image 20240426134737.png",
+    "Images/Pasted image 20240426134723.png",
+    "Images/Pasted image 20240426134711.png",
+    "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
     "Images/Pasted image 20240425223705.png",
     "Statistical Inference/Midterm 2 Review.md",
     "Statistical Inference/Midterm 1 Review.md",
@@ -222,13 +225,9 @@
     "Images/Pasted image 20240418163206.png",
     "Images/Pasted image 20240418154336.png",
     "Images/Pasted image 20240418130715.png",
-    "Images/Pasted image 20240418005412.png",
-    "Images/Pasted image 20240418005107.png",
-    "Images/Pasted image 20240418004822.png",
     "Discrete II/Lecture 16 - Pigeonhole Principle.md",
     "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
     "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
-    "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",

@@ -1,2 +1,84 @@
 
-- ### 
+- ### Multinomial and One Way Chi-Squared Test
+	- Multinomial distribution
+		- Extension to binomial (with $k$ levels)
+	- How to test the proportions in each category?
+		- One way chi-square test
+	- ###### Conditions
+		- Multinomial experiment (random sample)
+		- Same size is large (each expected count $\ge 5$)
+	- ###### Hypotheses
+		- $H_{0}:p_{1}=p_{1,0},\dots p_{i}-p_{i,0},\dots p_{k}=p_{k,0}$
+		- $H_{a}:$ At least one of the probabilities is not the hypothesized value
+
+- ### One Way Chi-Squared Test in R
+	- ###### Teaching score example
+		- Is it true that equal number of teaching track and tenure track faculties, and number of tenured faculties doubles that for tenure track?
+		- $H_{0}:p_{1}=\frac{1}{4}, p_{2} = \frac{1}{4},p_{3} = \frac{1}{2}$
+	- Observed counts![[Pasted image 20240426134711.png]]
+	 - ###### Simple function in R
+		- `countrank <- table(evals$rank) chisq1 <- chisq.test(countrank, p=c(1/4, 1/4, 1/2)`
+	- $\text{Expected counts} = \text{total count} * p_{i,0}$
+		- `chisq1$expected$`![[Pasted image 20240426134723.png]]
+	- Check expected counts to make sure that they are larger than 5
+	- Check $p-$value to see if you can reject null![[Pasted image 20240426134737.png]]
+
+- ### One Way Chi-Squared Test: More
+	- When $k=2$, this is binomial
+		- $H_{0}: p_{1} = p_{1,0}, p_{2,0} \Leftrightarrow H_{0} : p_{1} = p_{1,0}$
+	- ###### Promotion example
+		- Proportion of promoted $= 70$%
+		- Proportion of not $= 1-70=30$%
+		- Chi-Squared $p=0.6592$
+	- ###### Chi-Squared Test and One Sample Proportion $z$ test
+		- Chi-Squared is two tailed
+		- $z$ test can be one tailed or two tailed
+		- They are equivalent for two tailed test
+
+- ### Two Way Contingency Table
+	- Data is classified according to two criteria (two scales, dimensions, classifications)
+	- ###### Two types of contingency table
+		- One margin is fixed (predetermined sample size in one dimension)
+			- Test of homogeneity
+		- Neither margin is fixed (data can be simultaneously classified)
+			- Test of independency
+		- Tested same way
+
+- ### Two Way Chi-Squared Test
+	- ###### Conditions
+		- Multinomial experiment (random sample) in two dimension
+		- Same size is large (each expected count $\ge 5$)
+	- ###### Hypothesis
+		- $H_{0}:$ The two classifications are independent
+		- $H_{a}:$ The two classifications are dependent
+	- `chisq <- chisq.test(evals$rank, evals$gender)`
+	- $\text{Expected counts} = \text{row total} * \text{column total} / \text{total count}$
+		- Make sure $\ge 5$
+	- `chisq2$expected$`
+
+- ### Two Way Chi-Squared Test: More
+	- When $2 \times 2$ contingency table
+	- $H_{0}:$ The two classifications are independent $\Leftrightarrow H_{0}:p_{1}=p_{2}$
+	- ###### Promotion Example
+		- 2 levels in decision, 2 levels in gender
+		- Decision and gender are independent $\Leftrightarrow$ the proportion of men who got promoted is the same as the proportion of women who got promoted
+	- ###### $2 \times 2$ contingency table
+		- Chi-squared test: Two tailed test
+			- Expected counts $\ge 5$
+		- Two sample proportion difference $z$ test: can be one tailed or two tailed
+			- Number of successes in each sample $\ge 15$
+		- Equivalent to two tailed $z$ test
+
+- ### More on Chi-Square Independence Test
+	- Reject the null: association/correlation doesn’t mean causal relationship
+	- Fail to reject: doesn’t mean accept the null
+
+- ### More on Contingency Table
+	- ###### Conditions
+		- Multinomial experiment (random sample) in two dimensions
+		- Sample size is large (each expected count $\ge 5$)
+	- ###### What if conditions are not satisfied?
+		- Not random independent sample
+			- Paired sample $2 \times 2$ contingency table: McNemar's test
+		- Sample size small
+			- $2 \times 2$ contingency table: Fisher's exact test
