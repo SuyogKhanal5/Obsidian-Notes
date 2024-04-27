@@ -23,7 +23,7 @@
 			- We are doing this since the order of which character in the password that we pick does not matter
 				- Ex. We have the password `1f3adz`, we pick the digits in this order: `1` $\rightarrow$  `f` $\rightarrow$  `3` $\rightarrow$  `a` $\rightarrow$  `d` $\rightarrow$  `z`. However, what if we start with `3` first? We would do `_` $\rightarrow$  `_` $\rightarrow$  `3` $\rightarrow$  `_` $\rightarrow$  `_` $\rightarrow$  `_` and then pick another digit and still end up with `1f3adz`, but the product rule counts this as another combination
 				- Ordering is being imposed on the problem when it does not apply
-	- ###### Ex. How many binary string of length 8 have exactly two 0s?
+	- ###### Ex. How many binary strings of length 8 have exactly two 0s?
 		- Pick location of the first 0: $8$ ways
 		- Pick location of the second 0: $7$ ways
 		- Naïve (wrong) answer: $8 \cdot 7 = 56$
@@ -81,4 +81,3 @@
 			- Class C possibilities: $(2^{21})\cdot(2^{8}-2)$
 		- $|\text{Possible IP Addresses}|=|A| + |B| + |C|$
 	- ###### How many ways to exit the Triangle from A to B?![[Pasted image 20231030014231.png]]
-- 
