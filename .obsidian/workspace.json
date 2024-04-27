@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8e90540f7fa08cbf",
+        "id": "bbfe9c4ce5f7b5c3",
         "type": "tabs",
         "children": [
           {
-            "id": "2bb51cb11f1fe8f1",
+            "id": "211abd966f5aa4ba",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -167,7 +165,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2bb51cb11f1fe8f1",
+  "active": "211abd966f5aa4ba",
   "lastOpenFiles": [
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
     "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
