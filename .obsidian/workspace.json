@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Midterm 1 Review.md",
+                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Midterm 1 Review.md",
+                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Midterm 1 Review.md",
+                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Midterm 1 Review.md"
+                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md"
               }
             }
           },
@@ -193,29 +193,29 @@
   },
   "active": "30e9387b4cc4c050",
   "lastOpenFiles": [
+    "Statistical Inference/Lecture 14 - Bootstrapping.md",
+    "Statistical Inference/Midterm 2 Review.md",
+    "Statistical Inference/Midterm 1 Review.md",
+    "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
+    "Statistical Inference/Lecture 17 - Confidence Interval II.md",
+    "Statistical Inference/Lecture 19 - Hypothesis Testing II.md",
+    "Statistical Inference/Lecture 20 - Hypothesis Testing III.md",
+    "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
+    "Statistical Inference/Lecture 10 - Multiple Regression II.md",
     "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
+    "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Images/Pasted image 20240426134737.png",
     "Images/Pasted image 20240426134723.png",
     "Images/Pasted image 20240426134711.png",
-    "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
     "Images/Pasted image 20240425223705.png",
-    "Statistical Inference/Midterm 2 Review.md",
-    "Statistical Inference/Midterm 1 Review.md",
-    "Statistical Inference/Lecture 20 - Hypothesis Testing III.md",
-    "Statistical Inference/Lecture 19 - Hypothesis Testing II.md",
-    "Statistical Inference/Lecture 17 - Confidence Interval II.md",
-    "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
     "Statistical Inference/Lecture 16 - Confidence Interval I.md",
-    "Statistical Inference/Lecture 14 - Bootstrapping.md",
     "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
     "Statistical Inference/Lecture 13 - Sampling.md",
     "Statistical Inference/Lecture 12 - Case Study.md",
     "Statistical Inference/Lecture 11 - More Regression.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression II.md",
     "Statistical Inference/Lecture 9 - Multiple Regression.md",
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
     "Statistical Inference/Lecture 4 - Simple Regression I.md",
-    "Statistical Inference/Lecture 5 - Simple Regression II.md",
     "Statistical Inference/Lecture 8 - Simple Regression V.md",
     "Statistical Inference/Lecture 7 - Simple Regression IV.md",
     "Statistical Inference/Lecture 6 - Simple Regression III.md",

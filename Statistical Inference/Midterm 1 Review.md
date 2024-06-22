@@ -41,7 +41,7 @@
 		- Select Rows: `filter()`
 		- Select Columns: `select()`
 		- Add Rows: `rbind()`
-		- Add Columns: `mutate()`, `'cbind()'`
+		- Add Columns: `mutate()`, `cbind()`
 		- Rename Columns: `rename()`
 		- Merge Data Frames: `merge()`
 		- Summary Statistics: `group_by()`, `summarize()`
