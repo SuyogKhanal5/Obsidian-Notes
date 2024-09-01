@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
+                "file": "Statistical Inference/Lecture 9 - Multiple Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
+                "file": "Statistical Inference/Lecture 9 - Multiple Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
+                "file": "Statistical Inference/Lecture 9 - Multiple Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistical Inference/Lecture 15 - More Sampling Distribution.md"
+                "file": "Statistical Inference/Lecture 9 - Multiple Regression.md"
               }
             }
           },
@@ -160,7 +160,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -193,6 +195,13 @@
   },
   "active": "30e9387b4cc4c050",
   "lastOpenFiles": [
+    "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
+    "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
+    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Discrete II/Lecture 7 - Product Method Examples.md",
+    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
     "Statistical Inference/Lecture 14 - Bootstrapping.md",
     "Statistical Inference/Midterm 2 Review.md",
     "Statistical Inference/Midterm 1 Review.md",
@@ -209,7 +218,6 @@
     "Images/Pasted image 20240426134711.png",
     "Images/Pasted image 20240425223705.png",
     "Statistical Inference/Lecture 16 - Confidence Interval I.md",
-    "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
     "Statistical Inference/Lecture 13 - Sampling.md",
     "Statistical Inference/Lecture 12 - Case Study.md",
     "Statistical Inference/Lecture 11 - More Regression.md",
@@ -217,17 +225,12 @@
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
     "Statistical Inference/Lecture 4 - Simple Regression I.md",
     "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
-    "Statistical Inference/Lecture 6 - Simple Regression III.md",
     "Images/Pasted image 20240418165618.png",
     "Images/Pasted image 20240418165322.png",
     "Images/Pasted image 20240418163300.png",
     "Images/Pasted image 20240418163206.png",
     "Images/Pasted image 20240418154336.png",
     "Images/Pasted image 20240418130715.png",
-    "Discrete II/Lecture 16 - Pigeonhole Principle.md",
-    "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
-    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",
