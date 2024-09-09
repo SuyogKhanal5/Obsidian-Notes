@@ -1,0 +1,96 @@
+
+- ### Artificial Intelligence vs Machine Learning vs Deep Learning
+	- **Artificial Intelligence**: Programming systems to perform tasks which usually require human intelligence
+		- Examples of systems that are AI but not ML
+			- AI chess player using heuristic search algorithms like BFS and DFS
+			- AI path finder using heuristic search
+	- **Machine Learning**: Training algorithms to solve tasks by pattern recognition instead of specifically programming them how to solve the task
+		- Examples of algorithms that are ML but not DL
+			- Decision Trees
+			- Bayesian Networks
+			- K Nearest Neighbors
+	- **Deep Learning**: Training algorithms using deep neural networks w/ multiple layers![[Pasted image 20240905155336.png]]
+
+- ### Components of Machine Learning
+	- ###### Data
+		- $(x,y)$ pair for supervised learning
+		- Only $x$ for unsupervised learning
+		- $(x_1$, $\dots$ $x_T)$ for sequential data
+	- ###### Model
+		- Polynomial function, Logistic regression, Neural Networks, etc.
+	- ###### Objective
+		- Mean Squared Error (MSE), Maximum Likelihood, Posterior Inference, Maximum-A-Posteriori
+	- ###### Learning Algorithm
+		- Learning Algorithms: Closed-form solution, Gradient descent (backpropagation), MCMC, Variational Inference, etc.
+		- Regularization Algorithms: L1/L2 Normalization, Weight decay, dropout, batch normalization, etc.
+
+- ### Types of ML Problems
+	- ###### Supervised Learning
+		- When an observation has the input-output $D=(x_n,y_n)$ with $y$ as the label of $x$
+	- ###### Unsupervised Learning
+		- The dataset consists of only observations (inputs) $D=\{x_n\}$
+	- ###### Reinforcement Learning
+		- Sequential decision making with delayed reward
+	- ###### Self-Supervised Learning
+		- e.g. Learn to predict future
+	- ###### Semi-Supervised Learning
+		- Only a part of the data has labels
+
+- ### Supervised Learning
+	- ###### Classification
+		- Output $y$ is categorical (nominal)
+		- Examples
+			- Multiclass Classification: Classify object types, digit classes $(0-9)$
+			- Binary Classification: Spam email or not
+	- ###### Regression
+		- Output $y \in \mathbb{R}$
+		- Examples
+			- Predict stock price
+			- Energy consumption
+	- ###### Parametric Supervised Learning
+		- Typically uses function approximation
+		- $y$ is response variable
+		- $f()$ is the model
+		- $\theta$ is the model parameter and *hyperparameter*
+		- $x$ is the features, attributes, and covariates
+		- The equation for our function is $y=f_{\theta}(x)$
+	- ###### Polynomial Curve Fitting Example
+		- $M$ is the polynomial degree of our model
+		- $y(x,w)=w_0+w_1x+w_2x^2+\dots+w_Mx^M=\sum_{j=0}^{M} w_jx^j$
+		- $w_0+w_1x+w_2x^2+\dots+w_Mx^M$ is our model while $\sum_{j=0}^{M} w_jx^j$ is our parameters![[Pasted image 20240905160645.png]]
+	- ###### Objective Function
+		- $E(w)=\frac{1}{2}\sum_{n=1}^{N} (y(x_{n},w)-t_{n})^2$![[Pasted image 20240905161448.png]]
+	- ###### How to get optimal $w$?
+		- Learning Algorithm
+			- Learning algorithms: Closed-form solution, Gradient Descent (backpropagation), MCMC, Variational Inference, etc.
+			- Regularization algorithms: L1/L2 norm, weight decay, dropout, batch normalization, etc.
+	- ###### Gradient Descent
+		- $y(x,w)=w_0+w_1x+w_2x^2+\dots+w_Mx^M=\sum_{j=0}^{M} w_jx^j$
+		- $w=w-p\frac{\partial E(w)}{\partial w}$
+	- ###### Closed-Form Solution
+		- $E(w)=\frac{1}{2}||Xw-t||^2_2$
+	- ###### Generalization
+		- The objective function should be designed to optimize generalization performance
+			- Generalization accuracy is the accuracy on the TEST set (not training)
+			- Memorization of the training set can provide perfect training error but very poor test performance
+
+- ### Overfitting
+	- A good generalization will give low test error which is similar to training error
+	- If training error << test error, we say the model is **overfitted**
+	- ###### Why does overfitting happen?
+		- Because the model is too complex
+		- To obtain low training error the model should have high complexity, capacity, and flexibility
+		- In general, the more parameters, the more complex the model is. This allows it to capture more complex phenomena but this can lead to overfitting
+	- ###### How can we prevent overfitting?
+		- Limit the model complexity, we call this **regularization**
+		- Model complexity is a function of learnable model parameters and the value range the parameters can take
+		- We can make it less complex by limiting the number of parameters, limiting the value range parameters can take, and other techniques like dropout![[Pasted image 20240905165934.png]]
+	- ###### Regularization
+		- Prevent parameter value from becoming too large
+			- $\tilde{E}(w)=\frac{1}{2}\sum_{n=1}^{N} (y(x_{n},w)-t_{n})^{2}+ \frac{\lambda}{2}||w||^2$
+		- $\lambda$ is regularization strength parameter $\lambda \ge 0$
+			- This is a hyperparameter which we manually set before training and keep constant during training (*do not learn it*)![[Pasted image 20240905170820.png]]
+	- ###### Data Size
+		- Proper model complexity depends on training data
+			- A model can overfit on small data but may not if we provide more data
+		- So often another way to avoid overfitting is to provide more data

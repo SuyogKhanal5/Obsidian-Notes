@@ -13,6 +13,25 @@
   "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
+    "b97e952b-502b-4821-8dd2-b94f9f7941f9": {
+      "args": [],
+      "executable": "/bin/bash",
+      "name": "",
+      "platforms": {
+        "darwin": true,
+        "linux": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
     "win32ExternalDefault": {
       "args": [],
       "executable": "C:\\Windows\\System32\\cmd.exe",
