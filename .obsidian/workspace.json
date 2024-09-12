@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "47b81aa518b252a9",
+        "id": "0169a13f399db06a",
         "type": "tabs",
         "children": [
           {
-            "id": "cece1c46efd50e36",
+            "id": "155bbf9bb0892536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef8839a8f872a006",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -38,7 +50,7 @@
                   },
                   "serial": {
                     "columns": 125,
-                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a -m\r\nerror: switch `m' requires a value\r\nbash-3.2$ git commit -a -m ",
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git add .\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a -F true\r\nfatal: could not read log file 'true': No such file or directory\r\nbash-3.2$ git commit -a -m ",
                     "rows": 46
                   }
                 }
@@ -46,7 +58,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,31 +205,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cece1c46efd50e36",
+  "active": "ef8839a8f872a006",
   "lastOpenFiles": [
-    "Data in Context/Lecture 1 - Introduction.md",
+    "Algorithms/Topic 3 - Recurrences.md",
+    "Algorithms/Topic 2 - Analysis of Algorithms.md",
+    "Algorithms/Topic 1 - Introduction.md",
+    "Algorithms/Lecture 4 - Recurrences.md",
+    "Data Management/Lecture 3 - Python Lists.md",
     "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
+    "Images/Pasted image 20240910170103.png",
+    "Images/Pasted image 20240910165943.png",
+    "Images/Pasted image 20240910165754.png",
+    "Images/Pasted image 20240910163938.png",
+    "Images/Pasted image 20240910163928.png",
+    "Images/Pasted image 20240910163914.png",
+    "Images/Pasted image 20240910163843.png",
+    "Images/Pasted image 20240910163646.png",
+    "Images/Pasted image 20240910163023.png",
+    "Images/Pasted image 20240910161412.png",
+    "Data Management/Lecture 2 - Python Basics.md",
+    "Data in Context/Lecture 1 - Introduction.md",
     "Data in Context",
-    "Images/Pasted image 20240905170820.png",
-    "Images/Pasted image 20240905165934.png",
-    "Images/Pasted image 20240905161448.png",
-    "Images/Pasted image 20240905160645.png",
     "Deep Learning/Lecture 2 -.md",
-    "Algorithms/Lecture 2 - Analysis of Algorithms.md",
-    "Images/Pasted image 20240905155336.png",
-    "Images/Pasted image 20240905145909.png",
-    "Images/Pasted image 20240905145900.png",
     "Data Management/Lecture 1 - Introduction.md",
     "Data Management",
-    "Algorithms/Lecture 1 - Introduction.md",
     "Deep Learning",
     "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
     "Algorithms",
     "Statistical Inference/Lecture 10 - Multiple Regression II.md",
     "Statistical Inference/Lecture 3 - Explore Data II.md",
-    "Images/Pasted image 20240426134737.png",
-    "Images/Pasted image 20240426134723.png",
-    "Images/Pasted image 20240426134711.png",
     "Discrete II/Lecture 8 - Pitfalls of the Product Method.md",
     "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
     "Discrete II/Lecture 16 - Pigeonhole Principle.md",
@@ -229,10 +246,6 @@
     "Discrete II/Lecture 10 - Repetition for Permutations.md",
     "Discrete II/Lecture 9 - Permutations and Combinations.md",
     "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Discrete II/Lecture 4 - More Proofs.md",
-    "Discrete II/Lecture 3 - Sets, Functions, and Proofs.md",
-    "Discrete II/Lecture 2 - CS205 Recap.md"
+    "Discrete II/Lecture 6 - More Counting Methods.md"
   ]
 }

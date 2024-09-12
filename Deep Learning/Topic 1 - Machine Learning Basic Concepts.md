@@ -56,19 +56,20 @@
 		- The equation for our function is $y=f_{\theta}(x)$
 	- ###### Polynomial Curve Fitting Example
 		- $M$ is the polynomial degree of our model
-		- $y(x,w)=w_0+w_1x+w_2x^2+\dots+w_Mx^M=\sum_{j=0}^{M} w_jx^j$
+		- $y(x,\vec{w})=w_0+w_1x+w_2x^2+\dots+w_Mx^M=\sum_{j=0}^{M} w_jx^j$
 		- $w_0+w_1x+w_2x^2+\dots+w_Mx^M$ is our model while $\sum_{j=0}^{M} w_jx^j$ is our parameters![[Pasted image 20240905160645.png]]
 	- ###### Objective Function
-		- $E(w)=\frac{1}{2}\sum_{n=1}^{N} (y(x_{n},w)-t_{n})^2$![[Pasted image 20240905161448.png]]
-	- ###### How to get optimal $w$?
+		- $E(\vec{w})=\frac{1}{2}\sum_{n=1}^{N} (y(x_{n},\vec{w})-t_{n})^2$![[Pasted image 20240905161448.png]]
+	- ###### How to get optimal $\vec{w}$?
 		- Learning Algorithm
 			- Learning algorithms: Closed-form solution, Gradient Descent (backpropagation), MCMC, Variational Inference, etc.
 			- Regularization algorithms: L1/L2 norm, weight decay, dropout, batch normalization, etc.
 	- ###### Gradient Descent
-		- $y(x,w)=w_0+w_1x+w_2x^2+\dots+w_Mx^M=\sum_{j=0}^{M} w_jx^j$
-		- $w=w-p\frac{\partial E(w)}{\partial w}$
+		- $y(x,\vec{w})=w_0+w_1x+w_2x^2+\dots+w_Mx^M=\sum_{j=0}^{M} w_jx^j$
+		- $\vec{w}=\vec{w}-p\frac{\partial E(\vec{w})}{\partial \vec{w}}$
 	- ###### Closed-Form Solution
-		- $E(w)=\frac{1}{2}||Xw-t||^2_2$
+		- $E(\vec{w})=\frac{1}{2}||X\vec{w}-\vec{t}||^2_2$
+		- $E(\vec{w})=\frac{1}{2}(\vec{w}^TX^TX\vec{w}-2(\vec{t}^TX)\vec{w}+\vec{t}^Tt)$
 	- ###### Generalization
 		- The objective function should be designed to optimize generalization performance
 			- Generalization accuracy is the accuracy on the TEST set (not training)
@@ -87,10 +88,56 @@
 		- We can make it less complex by limiting the number of parameters, limiting the value range parameters can take, and other techniques like dropout![[Pasted image 20240905165934.png]]
 	- ###### Regularization
 		- Prevent parameter value from becoming too large
-			- $\tilde{E}(w)=\frac{1}{2}\sum_{n=1}^{N} (y(x_{n},w)-t_{n})^{2}+ \frac{\lambda}{2}||w||^2$
+			- $\tilde{E}(\vec{w})=\frac{1}{2}\sum_{n=1}^{N} (y(x_{n},\vec{w})-t_{n})^{2}+ \frac{\lambda}{2}||\vec{w}||^2$
 		- $\lambda$ is regularization strength parameter $\lambda \ge 0$
 			- This is a hyperparameter which we manually set before training and keep constant during training (*do not learn it*)![[Pasted image 20240905170820.png]]
 	- ###### Data Size
 		- Proper model complexity depends on training data
 			- A model can overfit on small data but may not if we provide more data
 		- So often another way to avoid overfitting is to provide more data
+			- But often getting more data is expensive
+	- ###### How do we know when overfitting happens?
+		- Compare the training error and validation error
+		- In iterative learning algorithms like gradient descent we do this as the learning proceeds or just use the final errors
+		- In non-iterative learning algorithms (e.g. closed form solutions) we can only compare final errors![[Pasted image 20240910161059.png]]
+
+- ### Underfitting
+	- A model is underfitting if there is still room to improve the generalization error by using a more complex model or training longer![[Pasted image 20240910161318.png]]![[Pasted image 20240910161412.png]]
+
+- ### Model Search and Hyperparameter Search
+	- When we have a variety of models with different complexity
+	- Finding a model (often specified by hyperparameters) that provides the best generalization performance
+	- Here, a model means any aspect of the learning model (besides the learning parameters) affecting the performance
+		- How many hidden units, layers, etc.
+		- Types of non-linear activation (sigmoid, tanh, ReLU, etc.)
+		- Learning rate of stochastic gradient descent
+		- The value of regularization (weight decay) parameter $\lambda$
+
+- ### K-Fold Cross Validation
+	- We may overfit to a specific validation set
+	- We can do $k$-Fold cross validation
+		- Split the non-test data set into $k$-fold, and use one for validation
+		- Train a model by using each fold as a validation fold (other $k$-1 folds used as the training set)
+		- When $k=N$ (the number of observations), the $k$-fold cross validation is the Leave-One-Out Cross Validation (LOOCV), which is not good for large datasets![[Pasted image 20240910163023.png]]
+
+- ### Unsupervised Learning
+	- ###### Types of Problems
+		- Knowledge Discovery
+			- Finding interesting structure (e.g., clustering structure)![[Pasted image 20240910163843.png]]
+		- Discovering Latent Factors / Representation Learning
+			- Dimensionality reduction (for visualization or downstream tasks)![[Pasted image 20240910163646.png]]
+		- Density Estimation
+			- Learning $P(x;\theta)$, Generative Modeling; Anomaly Detection![[Pasted image 20240910163914.png]]
+		- Discovering Graph Structure![[Pasted image 20240910163928.png]]
+		- Matrix Completion![[Pasted image 20240910163938.png]]
+	- Often hard to evaluate
+	- ###### Clustering
+		- ***K-Means***
+			- Given $N$ data points, $x_1,x_{2,\dots}x_n$ finding $K$ clusters
+			- Assign each data point $x_i$ into a cluster $k \in \{1,\dots K\}$
+			- $K$ is hyperparameter![[Pasted image 20240910165754.png]]
+			- Steps
+				- Initialization: $k$ initial means are randomly generated within the data domain![[Pasted image 20240910165943.png]]
+				- Assignment: $k$ clusters are created by associating every observation with the nearest mean. The partitions here represent the Voronoi diagram generated by the means![[Pasted image 20240910170103.png]]
+				- Center Adjustment: The centroid of each of the clusters becomes the new mean
+				- Assignment and Adjustment are repeated until convergence
