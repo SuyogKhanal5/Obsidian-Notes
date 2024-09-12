@@ -41,3 +41,4 @@
 		- This is asymptotically faster than the $O(n^2)$ method
 
 - ### Matrix Multiplication
+	- Divide and conquer also works on matrices
