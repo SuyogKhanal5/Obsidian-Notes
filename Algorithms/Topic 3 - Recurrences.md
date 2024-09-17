@@ -42,4 +42,26 @@
 
 - ### Matrix Multiplication
 	- Divide and conquer also works on matrices
+	- # DO LATER
+
+- ### Recursive Tree Method
+	- # DRAW WITH EXCALIDRAW
+	- Visualize the work done at each level with a recursion tree
+
+- ### Master Theorem
+	- Let $a \ge 1$ and $b > 1$ be constants. Let $f(n)$ be a function, and let $T(n)$ be defined on the non-negative integers by the recurrence $T(n)=aT(\frac{n}{b})+f(n)$
+		- If $f(n)=O(n^{\log_{b} a - \epsilon})$ for some constant $\epsilon > 0$ then $T(n)=\Theta(n^{\log_{b} a})$
+		- If $f(n)= \Theta(n^{\log_{b} a})$ then $T(n)=\Theta(n^{\log_{b} a} \log n)$
+		- If $f(n)=\Omega(Theta(n^{\log_{b} a + \epsilon}))$ for some constant $\epsilon > 0$ and if $af\left(\frac{n}{b}\right)\le cf(n)$ for some constant $c < 1$ and all sufficiently large $n$, then $T(n)=\Theta(f(n))$
+	- Each corresponds to the following:
+		- The weight increases geometrically from node to leaves
+		- The weight is roughly equal in each layer
+		- The weight decreases geometrically from node to leaves
+
+- ### Change of Variables
+	- Solve the recurrence $T(n)=2T(\sqrt{n}+\log n)$
+	- Use substitution: Let $n=2^m$
+	- Now the recurrence becomes $S(m)=2S(\frac{m}{2})+m$
+	- This is now a standard recurrence
+	- $S(m)=O(m \log m) \Rightarrow T(n) = O(\log n \log \log n)$
 	- 

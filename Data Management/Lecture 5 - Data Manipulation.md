@@ -1,0 +1,22 @@
+
+- ### Operations
+	- `head` - Displays top few rows
+	- `size` - Gives the total number of data points
+	- `shape` - Gives the size of the data in rows and columns
+	- `describe` - Gives summary of data
+	- Use `pd.concat()` to append dataframes
+	- ###### Left and Right Join
+		- **Left Join** - Keep all rows of left table, and add entries from right table that match the corresponding columns
+		- **Right Join** - Keep all rows of right table, and add entries from left table that match the corresponding columns
+		- `.merge()` combines dataframes by key
+			- **Inner Join (Intersect)** - Only include rows where the joined columns contain the same values
+			- **Outer Join (Union)** - Include all rows from left and right join
+	- ###### Selecting Columns with Boolean Criteria
+		- `df[df[midterm] > 50]`
+			- Gives all rows with `midterm` $> 50$
+
+- ### Sorting, Counts, Uniques
+	- `df.sort_values('colName', ascending=False)`
+		- This creates a copy of the dataframe
+		- This also works on series/columns
+	- `df['colName']`

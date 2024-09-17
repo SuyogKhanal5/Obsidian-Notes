@@ -161,4 +161,30 @@
 		- Space volume grows exponentially to the growing input space
 			- To work properly, KNN needs to fill the volume space densely enough
 			- Neighboring area becomes increasingly sparser![[Pasted image 20240912164524.png]]![[Pasted image 20240912164534.png]]
-		- 
+	- ###### Density Estimation
+		- $p(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$
+		- Kernel function or Parzen Window ($N$ data points, $D$ is the dimension of each data point, $h$ is the window width)
+			- $\begin{equation*} k(\vec{u}) = \begin{cases} 1, |u_{i}| \le \frac{1}{2}, i = 1, \dots, D  \\ 0, \text{otherwise} \end{cases}\end{equation*}$
+			- $p(\vec{x})=\frac{1}{N} \sum_{n=1}^{N} \frac{1}{h^D}k(\frac{\vec{x}-\vec{x_{n}}}{h})$
+			- Discontinuity problem
+		- With a smoother kernel function
+			- $p(\vec{x})=\frac{1}{N} \sum_{n=1}^{N} \frac{1}{(2\pi h^2)^{\frac{1}{2}}}\text{exp}\{-\frac{||\vec{x}-\vec{x_{n}}||^2}{2h^2}\}$
+			- The density model is obtained by placing a Gaussian over each data point and then adding up the contributions over the whole data set, and then dividing by $N$ such that the density is correctly normalized
+
+- ### No Free Lunch Theorem
+	- "All models are wrong but some models are useful" - George Box
+	- No universally best model, we should use assumptions (inductive bias) that fit well to the given task or dataset
+		- A set of assumptions made for one dataset might not work for another
+	- Consequently we must develop many different algorithms
+
+- ### Bias and Inductive Bias
+	- ###### Restriction Bias
+		- Machine Learning: In the model (hypothesis) space $H$, search for the best model $h* \in H$
+		- The range of models $H$ is restriction bias (e.g. The set of all polynomial functions)
+	- ###### Preference Bias -> Inductive Bias
+		- Among similar models $h_1,h_{2},\dots h_{n}\in H$ (e.g. with identical training error), which one does the algorithm prefer
+		- Ex. L2 regularized polynomial regression prefers smaller $\vec{w}$ with smaller $||\vec{w}||_{2}^{2}$
+	- A classic example of inductive bias is Occam's razor
+		- The simplest consistent hypothesis is the best
+
+- 
