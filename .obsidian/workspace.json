@@ -1,76 +1,64 @@
 {
   "main": {
-    "id": "ced203d6755c3448",
+    "id": "ee038c75d83460cb",
     "type": "split",
     "children": [
       {
-        "id": "0169a13f399db06a",
+        "id": "90af425d33f4829e",
         "type": "tabs",
         "children": [
           {
-            "id": "77c20141e928b7a7",
-            "type": "leaf",
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/suyogkhanal/Documents/Notes/Obsidian-Notes",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/bash",
-                    "name": "",
-                    "platforms": {
-                      "darwin": true,
-                      "linux": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": {
-                    "columns": 125,
-                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git ad",
-                    "rows": 46
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": "81e0b10c56dcdab2",
+            "id": "a789e04f47383135",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
+                "file": "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4756a759eb4a5677",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30e9387b4cc4c050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1b13aaf76b57e70e",
+    "id": "17917e7a3168dc47",
     "type": "split",
     "children": [
       {
-        "id": "a9254b67a14b8699",
+        "id": "5fb20cdd0faec471",
         "type": "tabs",
         "children": [
           {
-            "id": "1cde3fcc6555ac32",
+            "id": "7eab9c3af2a1148c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +68,7 @@
             }
           },
           {
-            "id": "33cf59f1daa475e9",
+            "id": "7752389426374225",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +83,7 @@
             }
           },
           {
-            "id": "5b2c5f72fc60d249",
+            "id": "adc1356297f6321c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,27 +97,20 @@
     "width": 300
   },
   "right": {
-    "id": "4e03b8cbdc488bc6",
+    "id": "09e6cadd4ee26166",
     "type": "split",
     "children": [
       {
-        "id": "650156c0c2f2204b",
+        "id": "bc5b169bbc494c24",
         "type": "tabs",
         "children": [
           {
-            "id": "37868dbc7a2d74b9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "98a88227d4ceadae",
+            "id": "18bd02ba590c8f41",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,18 +122,19 @@
             }
           },
           {
-            "id": "2eba3c8bce4f7d65",
+            "id": "080657678376e9ab",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9ca56ec2f95ea337",
+            "id": "5b48e0a483c2cc17",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -163,7 +145,17 @@
             }
           },
           {
-            "id": "f26116fe294a3e6a",
+            "id": "2e6ab7aebbd07a0d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md"
+              }
+            }
+          },
+          {
+            "id": "516279389e5a467a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -175,15 +167,14 @@
             }
           },
           {
-            "id": "9a93f0da9ea80ab4",
+            "id": "292f05790a733c4e",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "calendar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,44 +183,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "terminal:Open terminal": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "terminal:Open terminal": false
     }
   },
-  "active": "77c20141e928b7a7",
+  "active": "30e9387b4cc4c050",
   "lastOpenFiles": [
+    "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
     "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
-    "Statistical Inference/Lecture 19 - Hypothesis Testing II.md",
-    "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
-    "Statistical Inference/Lecture 17 - Confidence Interval II.md",
-    "Statistical Inference/Lecture 16 - Confidence Interval I.md",
-    "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
-    "Statistical Inference/Lecture 14 - Bootstrapping.md",
-    "Statistical Inference/Lecture 13 - Sampling.md",
-    "Statistical Inference/Lecture 12 - Case Study.md",
-    "Statistical Inference/Lecture 11 - More Regression.md",
-    "Statistical Inference/Lecture 10 - Multiple Regression II.md",
-    "Statistical Inference/Lecture 9 - Multiple Regression.md",
-    "Statistical Inference/Lecture 8 - Simple Regression V.md",
-    "Statistical Inference/Lecture 7 - Simple Regression IV.md",
-    "Statistical Inference/Lecture 6 - Simple Regression III.md",
-    "Statistical Inference/Lecture 5 - Simple Regression II.md",
-    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Statistical Inference/Lecture 2 - Explore Data.md",
-    "Statistical Inference/Lecture 3 - Explore Data II.md",
-    "Statistical Inference/Lecture 4 - Simple Regression I.md",
-    "Data Management/Lecture 3 - Python Lists.md",
-    "Data Management/Lecture 5 - Data Manipulation.md",
-    "Statistical Inference/Lecture 20 - Hypothesis Testing III.md",
-    "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
-    "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
-    "Algorithms/Topic 3 - Recurrences.md",
     "Images/Pasted image 20240912164534.png",
     "Images/Pasted image 20240912164524.png",
     "Images/Pasted image 20240912163611.png",
@@ -240,9 +207,38 @@
     "Images/Pasted image 20240910163928.png",
     "Images/Pasted image 20240910163914.png",
     "Images/Pasted image 20240910163843.png",
-    "Data in Context",
-    "Data Management",
     "Deep Learning",
-    "Algorithms"
+    "Data Management/Lecture 5 - Data Manipulation.md",
+    "Data Management/Lecture 4 - Dictionaries.md",
+    "Data Management/Lecture 3 - Python Lists.md",
+    "Data Management/Lecture 2 - Python Basics.md",
+    "Data Management/Lecture 1 - Introduction.md",
+    "Data Management",
+    "Algorithms/Topic 3 - Recurrences.md",
+    "Algorithms/Topic 2 - Analysis of Algorithms.md",
+    "Algorithms/Topic 1 - Introduction.md",
+    "Algorithms",
+    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
+    "Discrete II/Lecture 6 - More Counting Methods.md",
+    "Discrete II/Lecture 2 - CS205 Recap.md",
+    "Discrete II/Lecture 1 - Syllabus.md",
+    "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
+    "Statistical Inference/Lecture 9 - Multiple Regression.md",
+    "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
+    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
+    "Discrete II/Lecture 7 - Product Method Examples.md",
+    "Discrete II/Lecture 5 - Induction and Counting.md",
+    "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
+    "Statistical Inference/Lecture 14 - Bootstrapping.md",
+    "Statistical Inference/Midterm 2 Review.md",
+    "Statistical Inference/Midterm 1 Review.md",
+    "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
+    "Lecture 5 - Induction and Counting.pdf",
+    "Systems Programming",
+    "Data Structures",
+    "Computer Architecture",
+    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
+    "Excalidraw",
+    "Images"
   ]
 }
