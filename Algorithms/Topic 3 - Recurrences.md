@@ -42,11 +42,36 @@
 
 - ### Matrix Multiplication
 	- Divide and conquer also works on matrices
-	- # DO LATER
+	- We are interested in multiplying two square matrices $A$ and $B$ to compute product matrix $C$, where each entry of $C$ is given by $c_{ij}=\sum_{k=1}^{n}a_{ik} \cdot b_{jk}$
+	- A naïve algorithm computes this in $O(n^3)$ time
+	- We divide each matrix into four $\frac{n}{2} \times \frac{n}{2}$ submatrices
+		- $A=\begin{bmatrix}A_{11} & A_{12} \\ A_{21} & A_{22} \end{bmatrix}$ $B=\begin{bmatrix}B_{11} & B_{12} \\ B_{21} & B_{22} \end{bmatrix}$
+	- The product matrix $C$ is computed using the following equations:
+		- $C=\begin{bmatrix}C_{11} & C_{12} \\ C_{21} & C_{22} \end{bmatrix}=\begin{bmatrix}A_{11} \times B_{11} + A_{12} \times B_{21} & A_{11} \times B_{12} +A_{12} \times B_{22} \\ A_{21} \times B_{11} + A_{22} \times B_{21} & A_{21} \times B_{12} +A_{22} \times B_{22} \end{bmatrix}$
+	- ###### Time Complexity of Naive Approach
+		- Recurrence for the running time 
+			- $T(n)=8T(\frac{n}{2}+O(n^2))$
+		- By solving this recurrence we obtain:
+			- $T(n)=O(n^3)$
+		- This divide and conquer algorithm achieves the same asymptotic time complexity as the naïve approach
+	- ###### Strassen's Algorithm
+		- $M_{1}=(A_{11}+A_{22})\times (B_{11}+B_{22})$
+		- $M_{2}=(A_{21}+A_{22})\times B_{11}$
+		- $M_{3}=A_{11}\times(B_{12}-B_{22})$
+		- $M_{4}=A_{22}\times(B_{21}-B_{11})$
+		- $M_{5}=(A_{11}+A_{12})\times B_{22}$
+		- $M_{6}=(A_{21}-A_{11})\times(B_{11}+B_{12})$
+		- $M_7=(A_{12}-A_{22})\times (B_{21}+B_{22})$
+		- $C=\begin{bmatrix}C_{11} & C_{12} \\ C_{21} & C_{22} \end{bmatrix}=\begin{bmatrix}M_{1}+M_{4}-M_{5}+M_{7} & M_{3}+M_{5} \\ M_{2}+M_{4} & M_{1}-M_{2}+M_{3}+M_{6} \end{bmatrix}$
+		- Note that there are only 7 multiplications of smaller matrices
+	- ###### Time Complexity of Strassen's Algorithm
+		- Recurrence for the running time:
+			- $T(n)=7T(\frac{n}{2})+O(n^2)$
+		- By solving for the recurrence we obtain:
+			- $T(n)=\Theta(n \log_{2}7)=O(n^{2.81})$
 
 - ### Recursive Tree Method
-	- # DRAW WITH EXCALIDRAW
-	- Visualize the work done at each level with a recursion tree
+	- Visualize the work done at each level with a recursion tree ![[Drawing 2024-09-22 17.55.38.excalidraw|5000]]
 
 - ### Master Theorem
 	- Let $a \ge 1$ and $b > 1$ be constants. Let $f(n)$ be a function, and let $T(n)$ be defined on the non-negative integers by the recurrence $T(n)=aT(\frac{n}{b})+f(n)$

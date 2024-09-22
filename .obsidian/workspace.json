@@ -42,9 +42,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9154391db664f5d2",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png"
+              }
+            }
+          },
+          {
+            "id": "be2d66b46f072a73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ceabbab8dbb9e1b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -193,8 +227,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "30e9387b4cc4c050",
+  "active": "ceabbab8dbb9e1b9",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-09-22 17.55.38.excalidraw.md",
+    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
+    "Algorithms/Topic 3 - Recurrences.md",
+    "Excalidraw/Drawing 2024-09-22 17.57.36.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
     "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
     "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
     "Images/Pasted image 20240912164534.png",
@@ -206,7 +248,6 @@
     "Images/Pasted image 20240910163938.png",
     "Images/Pasted image 20240910163928.png",
     "Images/Pasted image 20240910163914.png",
-    "Images/Pasted image 20240910163843.png",
     "Deep Learning",
     "Data Management/Lecture 5 - Data Manipulation.md",
     "Data Management/Lecture 4 - Dictionaries.md",
@@ -214,7 +255,6 @@
     "Data Management/Lecture 2 - Python Basics.md",
     "Data Management/Lecture 1 - Introduction.md",
     "Data Management",
-    "Algorithms/Topic 3 - Recurrences.md",
     "Algorithms/Topic 2 - Analysis of Algorithms.md",
     "Algorithms/Topic 1 - Introduction.md",
     "Algorithms",
@@ -227,12 +267,6 @@
     "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
     "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
     "Discrete II/Lecture 7 - Product Method Examples.md",
-    "Discrete II/Lecture 5 - Induction and Counting.md",
-    "Statistical Inference/Lecture 15 - More Sampling Distribution.md",
-    "Statistical Inference/Lecture 14 - Bootstrapping.md",
-    "Statistical Inference/Midterm 2 Review.md",
-    "Statistical Inference/Midterm 1 Review.md",
-    "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",
