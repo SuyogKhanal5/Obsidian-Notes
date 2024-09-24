@@ -37,10 +37,73 @@
                   },
                   "serial": {
                     "columns": 125,
-                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git ad",
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git add .\r\nbash-3.2$ git commit -a -m more notes\r\nfatal: paths 'notes ...' with -a does not make sense\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -F more notes\r\nerror: pathspec 'notes' did not match any file(s) known to git\r\nbash-3.2$ git commit -m  more notes\r\nerror: pathspec 'notes' did not match any file(s) known to git\r\nbash-3.2$ git commit -m  notes\r\n[main 17b4342] notes\r\n Committer: Suyog Khanal <suyogkhanal@Suyogs-MacBook-Pro.local>\r\nYour name and email address were configured automatically based\r\non your username and hostname. Please check that they are accurate.\r\nYou can suppress this message by setting them explicitly:\r\n\r\n    git config --global user.name \"Your Name\"\r\n    git config --global user.email you@example.com\r\n\r\nAfter doing this, you may fix the identity used for this commit with:\r\n\r\n    git commit --amend --reset-author\r\n\r\n 8 files changed, 148 insertions(+), 32 deletions(-)\r\n create mode 100644 Data Management/Lecture 4 - Dictionaries.md\r\n create mode 100644 Data Management/Lecture 5 - Data Manipulation.md\r\n create mode 100644 Images/Pasted image 20240912163611.png\r\n create mode 100644 Images/Pasted image 20240912164524.png\r\n create mode 100644 Images/Pasted image 20240912164534.png\r\nbash-3.2$ git push\r\nEnumerating objects: 24, done.\r\nCounting objects: 100% (24/24), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (15/15), done.\r\nWriting objects: 100% (15/15), 452.16 KiB | 34.78 MiB/s, done.\r\nTotal 15 (delta 7), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (7/7), completed with 7 local objects.\r\nTo https://github.com/SuyogKhanal5/Obsidian-Notes.git\r\n   098c1a5..17b4342  main -> main\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a -m \"next lecture",
                     "rows": 46
                   }
                 }
+              }
+            }
+          },
+          {
+            "id": "bf9891aaf17175a7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/suyogkhanal/Documents/Notes/Obsidian-Notes",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/bash",
+                    "name": "",
+                    "platforms": {
+                      "darwin": true,
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": {
+                    "columns": 125,
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git pull\r\nremote: Enumerating objects: 27, done.\r\nremote: Counting objects: 100% (27/27), done.\r\nremote: Compressing objects: 100% (8/8), done.\r\nremote: Total 17 (delta 14), reused 12 (delta 9), pack-reused 0 (from 0)\r\nUnpacking objects: 100% (17/17), 4.04 KiB | 243.00 KiB/s, done.\r\nFrom https://github.com/SuyogKhanal5/Obsidian-Notes\r\n   17b4342..60d13f3  main       -> origin/main\r\nUpdating 17b4342..60d13f3\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\n\u001b[8CAlgorithms/Topic 3 - Recurrences.md\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nbash-3.2$ git stash\r\nSaved working directory and index state WIP on main: 17b4342 notes\r\nbash-3.2$ git pull\r\nUpdating 17b4342..60d13f3\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nbash-3.2$ git stash\r\nSaved working directory and index state WIP on main: 17b4342 notes\r\nbash-3.2$ git pull\r\nUpdating 17b4342..60d13f3\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nbash-3.2$ git ",
+                    "rows": 46
+                  }
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7fef18c2156aafd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Management/Lecture 5 - Data Manipulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40c831eefc9ae1af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -204,7 +267,14 @@
   },
   "active": "77c20141e928b7a7",
   "lastOpenFiles": [
+    "Algorithms/Topic 3 - Recurrences.md",
+    "Data Management/Lecture 6 - File Processing.md",
+    "Data Management/Lecture 5 - Data Manipulation.md",
+    "Deep Learning/Topic 2 - Linear Neural Networks.md",
     "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
+    "Images/Pasted image 20240919161337.png",
+    "Images/Pasted image 20240919143544.png",
+    "Algorithms/Topic 2 - Analysis of Algorithms.md",
     "Statistical Inference/Lecture 19 - Hypothesis Testing II.md",
     "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
     "Statistical Inference/Lecture 17 - Confidence Interval II.md",
@@ -224,12 +294,6 @@
     "Statistical Inference/Lecture 2 - Explore Data.md",
     "Statistical Inference/Lecture 3 - Explore Data II.md",
     "Statistical Inference/Lecture 4 - Simple Regression I.md",
-    "Data Management/Lecture 3 - Python Lists.md",
-    "Data Management/Lecture 5 - Data Manipulation.md",
-    "Statistical Inference/Lecture 20 - Hypothesis Testing III.md",
-    "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
-    "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
-    "Algorithms/Topic 3 - Recurrences.md",
     "Images/Pasted image 20240912164534.png",
     "Images/Pasted image 20240912164524.png",
     "Images/Pasted image 20240912163611.png",
@@ -238,8 +302,6 @@
     "Images/Pasted image 20240910165754.png",
     "Images/Pasted image 20240910163938.png",
     "Images/Pasted image 20240910163928.png",
-    "Images/Pasted image 20240910163914.png",
-    "Images/Pasted image 20240910163843.png",
     "Data in Context",
     "Data Management",
     "Deep Learning",

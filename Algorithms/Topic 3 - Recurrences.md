@@ -64,4 +64,19 @@
 	- Now the recurrence becomes $S(m)=2S(\frac{m}{2})+m$
 	- This is now a standard recurrence
 	- $S(m)=O(m \log m) \Rightarrow T(n) = O(\log n \log \log n)$
-	- 
+
+- ### Unbalanced Trees
+	- Upper bounds can be found by bounding the contributions till the larger height
+	- Lower bounds can be found by using the smaller height
+	- These bounds are not typically tight, look at Akra-Bazzi method
+	- # Excalidraw this too
+
+- ### Domain Transformations
+	- The actual recurrence have floor and ceiling functions
+		- $T(n)=T\left(\lceil \frac{n}{2} \rceil\right)+T\left(\lfloor \frac{n}{2} \rfloor\right) + O(n)$
+	- We can ignore them and consider:
+		- $T(n)=2T\left(\frac{n}{2}\right)+ O(n)$
+		- $T(n)\le 2T\left(\lceil \frac{n}{2} \rceil\right) + n \le 2T(\frac{n}{2}+1)+ n$
+		- $S(n)=T(n+2)\Rightarrow S(n)\le2T(\frac{n}{2}+\frac{2}{2}+1)+n+2=2S(\frac{n}{2})+n+2$
+
+- 
