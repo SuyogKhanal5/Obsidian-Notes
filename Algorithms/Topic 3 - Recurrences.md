@@ -71,7 +71,7 @@
 			- $T(n)=\Theta(n \log_{2}7)=O(n^{2.81})$
 
 - ### Recursive Tree Method
-	- Visualize the work done at each level with a recursion tree ![[Drawing 2024-09-22 17.55.38.excalidraw|5000]]
+	- Visualize the work done at each level with a recursion tree ![[Pasted image 20240930204338.png]]
 
 - ### Master Theorem
 	- Let $a \ge 1$ and $b > 1$ be constants. Let $f(n)$ be a function, and let $T(n)$ be defined on the non-negative integers by the recurrence $T(n)=aT(\frac{n}{b})+f(n)$
