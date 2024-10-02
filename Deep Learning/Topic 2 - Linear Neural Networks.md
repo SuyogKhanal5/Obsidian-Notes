@@ -6,6 +6,8 @@
 		- General form: $\hat{y}=w_{1}x_{1}+w_{2}x_{2}+\dots+w_{d}x_{d}+b$
 		- Vector form: $\hat{y}=\vec{w}^T\vec{x}+b$
 		- Matrix form: $\hat{y}=X\vec{w}+b$
+	- ###### Neural Network Interpretation
+		- Weights can be considered as the connection between neurons
 
 - ### Loss Function
 	- How to measure the quality of the model
@@ -71,3 +73,9 @@
 		- Instead of using the same $\sigma$ for all data points, we can use another network to predict $\sigma^{(i)} \text{ } \forall \text{ } \vec{x}^{(i)}$
 			- $\mu^{(i)}=\vec{w}^T_{\mu}\vec{x}^{(i)}+b_{\mu}$
 			- $\sigma^{(i)}=\vec{w}^{T}_{\sigma}\vec{x}^{(i)}+b_{\sigma}$
+
+- ### Linear Classification with Softmax
+	- In regression, the label $(y)$ is a real value
+	- In classification we represent the class label as a one hot vector
+	- Ex. $[1,0,0]$ is cat, $[0,1,0]$ is dog, $[0,0,1]$ is chicken![[Pasted image 20240924160607.png]]
+	- 

@@ -45,7 +45,7 @@
 	- # DO LATER
 
 - ### Recursive Tree Method
-	- # DRAW WITH EXCALIDRAW
+	- # DRAW WITH eEXCALIDRAW
 	- Visualize the work done at each level with a recursion tree
 
 - ### Master Theorem

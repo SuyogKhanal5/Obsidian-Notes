@@ -37,7 +37,7 @@
                   },
                   "serial": {
                     "columns": 125,
-                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git add .\r\nbash-3.2$ git commit -a -m more notes\r\nfatal: paths 'notes ...' with -a does not make sense\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -F more notes\r\nerror: pathspec 'notes' did not match any file(s) known to git\r\nbash-3.2$ git commit -m  more notes\r\nerror: pathspec 'notes' did not match any file(s) known to git\r\nbash-3.2$ git commit -m  notes\r\n[main 17b4342] notes\r\n Committer: Suyog Khanal <suyogkhanal@Suyogs-MacBook-Pro.local>\r\nYour name and email address were configured automatically based\r\non your username and hostname. Please check that they are accurate.\r\nYou can suppress this message by setting them explicitly:\r\n\r\n    git config --global user.name \"Your Name\"\r\n    git config --global user.email you@example.com\r\n\r\nAfter doing this, you may fix the identity used for this commit with:\r\n\r\n    git commit --amend --reset-author\r\n\r\n 8 files changed, 148 insertions(+), 32 deletions(-)\r\n create mode 100644 Data Management/Lecture 4 - Dictionaries.md\r\n create mode 100644 Data Management/Lecture 5 - Data Manipulation.md\r\n create mode 100644 Images/Pasted image 20240912163611.png\r\n create mode 100644 Images/Pasted image 20240912164524.png\r\n create mode 100644 Images/Pasted image 20240912164534.png\r\nbash-3.2$ git push\r\nEnumerating objects: 24, done.\r\nCounting objects: 100% (24/24), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (15/15), done.\r\nWriting objects: 100% (15/15), 452.16 KiB | 34.78 MiB/s, done.\r\nTotal 15 (delta 7), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (7/7), completed with 7 local objects.\r\nTo https://github.com/SuyogKhanal5/Obsidian-Notes.git\r\n   098c1a5..17b4342  main -> main\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a -m \"next lecture\"\r\n[main 91bdca5] next lecture\r\n Committer: Suyog Khanal <suyogkhanal@Suyogs-MacBook-Pro.local>\r\nYour name and email address were configured automatically based\r\non your username and hostname. Please check that they are accurate.\r\nYou can suppress this message by setting them explicitly:\r\n\r\n    git config --global user.name \"Your Name\"\r\n    git config --global user.email you@example.com\r\n\r\nAfter doing this, you may fix the identity used for this commit with:\r\n\r\n    git commit --amend --reset-author\r\n\r\n 2 files changed, 87 insertions(+), 10 deletions(-)\r\nbash-3.2$ git push\r\nTo https://github.com/SuyogKhanal5/Obsidian-Notes.git\r\n \u001b[31m! [rejected]       \u001b[0m main -> main (non-fast-forward)\r\n\u001b[31merror: failed to push some refs to 'https://github.com/SuyogKhanal5/Obsidian-Notes.git'\r\n\u001b[33mhint: Updates were rejected because the tip of your current branch is behind\r\nhint: its remote counterpart. Integrate the remote changes (e.g.\r\nhint: 'git pull ...') before pushing again.\r\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\r\n\u001b[0mbash-3.2$ git pull\r\n\u001b[33mhint: You have divergent branches and need to specify how to reconcile them.\r\nhint: You can do so by running one of the following commands sometime before\r\nhint: your next pull:\r\nhint: \r\nhint:   git config pull.rebase false  # merge\r\nhint:   git config pull.rebase true   # rebase\r\nhint:   git config pull.ff only       # fast-forward only\r\nhint: \r\nhint: You can replace \"git config\" with \"git config --global\" to set a default\r\nhint: preference for all repositories. You can also pass --rebase, --no-rebase,\r\nhint: or --ff-only on the command line to override the configured default per\r\nhint: invocation.\r\n\u001b[0mfatal: Need to specify how to reconcile divergent branches.\r\nbash-3.2$ git pull.rebase false\r\ngit: 'pull.rebase' is not a git command. See 'git --help'.\r\nbash-3.2$ git config  pull.rebase false\r\nbash-3.2$ git config  pull.rebase false\r\nbash-3.2$ git pull\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nMerge with strategy ort failed.\r\nbash-3.2$ git config  pull.rebase true\r\nbash-3.2$ git pull\r\nerror: cannot pull with rebase: You have unstaged changes.\r\nerror: please commit or stash them.\r\nbash-3.2$ git config  pull.rebase true\r\nbash-3.2$ git config  pull.rebase false\r\nbash-3.2$ git stash\r\nSaved working directory and index state WIP on main: 91bdca5 next lecture\r\nbash-3.2$ git pull\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nMerge with strategy ort failed.\r\nbash-3.2$ git ignore .obsidian/\r\ngit: 'ignore' is not a git command. See 'git --help'.\r\n\r\nThe most similar command is\r\n\u001b[8Cdiagnose\r\nbash-3.2$ git commit -a -m \"next lecture\"\r\n",
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git add .\r\nbash-3.2$ git commit -a -m more notes\r\nfatal: paths 'notes ...' with -a does not make sense\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -F more notes\r\nerror: pathspec 'notes' did not match any file(s) known to git\r\nbash-3.2$ git commit -m  more notes\r\nerror: pathspec 'notes' did not match any file(s) known to git\r\nbash-3.2$ git commit -m  notes\r\n[main 17b4342] notes\r\n Committer: Suyog Khanal <suyogkhanal@Suyogs-MacBook-Pro.local>\r\nYour name and email address were configured automatically based\r\non your username and hostname. Please check that they are accurate.\r\nYou can suppress this message by setting them explicitly:\r\n\r\n    git config --global user.name \"Your Name\"\r\n    git config --global user.email you@example.com\r\n\r\nAfter doing this, you may fix the identity used for this commit with:\r\n\r\n    git commit --amend --reset-author\r\n\r\n 8 files changed, 148 insertions(+), 32 deletions(-)\r\n create mode 100644 Data Management/Lecture 4 - Dictionaries.md\r\n create mode 100644 Data Management/Lecture 5 - Data Manipulation.md\r\n create mode 100644 Images/Pasted image 20240912163611.png\r\n create mode 100644 Images/Pasted image 20240912164524.png\r\n create mode 100644 Images/Pasted image 20240912164534.png\r\nbash-3.2$ git push\r\nEnumerating objects: 24, done.\r\nCounting objects: 100% (24/24), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (15/15), done.\r\nWriting objects: 100% (15/15), 452.16 KiB | 34.78 MiB/s, done.\r\nTotal 15 (delta 7), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (7/7), completed with 7 local objects.\r\nTo https://github.com/SuyogKhanal5/Obsidian-Notes.git\r\n   098c1a5..17b4342  main -> main\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a -m \"next lecture\"\r\n[main 91bdca5] next lecture\r\n Committer: Suyog Khanal <suyogkhanal@Suyogs-MacBook-Pro.local>\r\nYour name and email address were configured automatically based\r\non your username and hostname. Please check that they are accurate.\r\nYou can suppress this message by setting them explicitly:\r\n\r\n    git config --global user.name \"Your Name\"\r\n    git config --global user.email you@example.com\r\n\r\nAfter doing this, you may fix the identity used for this commit with:\r\n\r\n    git commit --amend --reset-author\r\n\r\n 2 files changed, 87 insertions(+), 10 deletions(-)\r\nbash-3.2$ git push\r\nTo https://github.com/SuyogKhanal5/Obsidian-Notes.git\r\n \u001b[31m! [rejected]       \u001b[0m main -> main (non-fast-forward)\r\n\u001b[31merror: failed to push some refs to 'https://github.com/SuyogKhanal5/Obsidian-Notes.git'\r\n\u001b[33mhint: Updates were rejected because the tip of your current branch is behind\r\nhint: its remote counterpart. Integrate the remote changes (e.g.\r\nhint: 'git pull ...') before pushing again.\r\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\r\n\u001b[0mbash-3.2$ git pull\r\n\u001b[33mhint: You have divergent branches and need to specify how to reconcile them.\r\nhint: You can do so by running one of the following commands sometime before\r\nhint: your next pull:\r\nhint: \r\nhint:   git config pull.rebase false  # merge\r\nhint:   git config pull.rebase true   # rebase\r\nhint:   git config pull.ff only       # fast-forward only\r\nhint: \r\nhint: You can replace \"git config\" with \"git config --global\" to set a default\r\nhint: preference for all repositories. You can also pass --rebase, --no-rebase,\r\nhint: or --ff-only on the command line to override the configured default per\r\nhint: invocation.\r\n\u001b[0mfatal: Need to specify how to reconcile divergent branches.\r\nbash-3.2$ git pull.rebase false\r\ngit: 'pull.rebase' is not a git command. See 'git --help'.\r\nbash-3.2$ git config  pull.rebase false\r\nbash-3.2$ git config  pull.rebase false\r\nbash-3.2$ git pull\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nMerge with strategy ort failed.\r\nbash-3.2$ git config  pull.rebase true\r\nbash-3.2$ git pull\r\nerror: cannot pull with rebase: You have unstaged changes.\r\nerror: please commit or stash them.\r\nbash-3.2$ git config  pull.rebase true\r\nbash-3.2$ git config  pull.rebase false\r\nbash-3.2$ git stash\r\nSaved working directory and index state WIP on main: 91bdca5 next lecture\r\nbash-3.2$ git pull\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nMerge with strategy ort failed.\r\nbash-3.2$ git ignore .obsidian/\r\ngit: 'ignore' is not a git command. See 'git --help'.\r\n\r\nThe most similar command is\r\n\u001b[8Cdiagnose\r\nbash-3.2$ git commit -a -m \"next lecture\"\r\n[main 306c514] next lecture\r\n Committer: Suyog Khanal <suyogkhanal@Suyogs-MacBook-Pro.local>\r\nYour name and email address were configured automatically based\r\non your username and hostname. Please check that they are accurate.\r\nYou can suppress this message by setting them explicitly:\r\n\r\n    git config --global user.name \"Your Name\"\r\n    git config --global user.email you@example.com\r\n\r\nAfter doing this, you may fix the identity used for this commit with:\r\n\r\n    git commit --amend --reset-author\r\n\r\n 8 files changed, 76 insertions(+), 3 deletions(-)\r\n create mode 100644 .DS_Store\r\n create mode 100644 .obsidian/.DS_Store\r\n create mode 100644 Data Management/Lecture 6 - File Processing.md\r\n create mode 100644 Deep Learning/Topic 2 - Linear Neural Networks.md\r\n create mode 100644 Images/Pasted image 20240919143544.png\r\n create mode 100644 Images/Pasted image 20240919161337.png\r\nbash-3.2$ git push\r\nTo https://github.com/SuyogKhanal5/Obsidian-Notes.git\r\n \u001b[31m! [rejected]       \u001b[0m main -> main (non-fast-forward)\r\n\u001b[31merror: failed to push some refs to 'https://github.com/SuyogKhanal5/Obsidian-Notes.git'\r\n\u001b[33mhint: Updates were rejected because the tip of your current branch is behind\r\nhint: its remote counterpart. Integrate the remote changes (e.g.\r\nhint: 'git pull ...') before pushing again.\r\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\r\n\u001b[0mbash-3.2$ git pull\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nMerge with strategy ort failed.\r\nbash-3.2$ git stash .obsidian/workspace.json\r\nfatal: subcommand wasn't specified; 'push' can't be assumed due to unexpected token '.obsidian/workspace.json'\r\nbash-3.2$ git stash\r\nSaved working directory and index state WIP on main: 306c514 next lecture\r\nbash-3.2$ git pull\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nMerge with strategy ort failed.\r\nbash-3.2$ ",
                     "rows": 46
                   }
                 }
@@ -84,6 +84,45 @@
             }
           },
           {
+            "id": "c1500a2e50c31363",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/suyogkhanal/Documents/Notes/Obsidian-Notes",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/bash",
+                    "name": "",
+                    "platforms": {
+                      "darwin": true,
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": {
+                    "columns": 125,
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git pull\r\nremote: Enumerating objects: 11, done.\r\nremote: Counting objects: 100% (11/11), done.\r\nremote: Compressing objects: 100% (1/1), done.\r\nremote: Total 6 (delta 5), reused 6 (delta 5), pack-reused 0 (from 0)\r\nUnpacking objects: 100% (6/6), 614 bytes | 61.00 KiB/s, done.\r\nFrom https://github.com/SuyogKhanal5/Obsidian-Notes\r\n   60d13f3..6b8c2b0  main       -> origin/main\r\nerror: Your local changes to the following files would be overwritten by merge:\r\n\u001b[8C.obsidian/workspace.json\r\n\u001b[8CAlgorithms/Topic 3 - Recurrences.md\r\nPlease commit your changes or stash them before you merge.\r\nAborting\r\nMerge with strategy ort failed.\r\nbash-3.2$ git commit -a -m algos",
+                    "rows": 46
+                  }
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "7fef18c2156aafd9",
             "type": "leaf",
             "state": {
@@ -119,7 +158,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -265,16 +305,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "77c20141e928b7a7",
+  "active": "c1500a2e50c31363",
   "lastOpenFiles": [
-    "Data Management/Lecture 5 - Data Manipulation.md",
     "Algorithms/Topic 3 - Recurrences.md",
-    "Data Management/Lecture 6 - File Processing.md",
+    "Algorithms/Topic 2 - Analysis of Algorithms.md",
     "Deep Learning/Topic 2 - Linear Neural Networks.md",
+    "Images/Pasted image 20240924160607.png",
+    "Data Management/Lecture 5 - Data Manipulation.md",
+    "Data Management/Lecture 6 - File Processing.md",
     "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
     "Images/Pasted image 20240919161337.png",
     "Images/Pasted image 20240919143544.png",
-    "Algorithms/Topic 2 - Analysis of Algorithms.md",
     "Statistical Inference/Lecture 19 - Hypothesis Testing II.md",
     "Statistical Inference/Lecture 18 - Hypothesis Testing I.md",
     "Statistical Inference/Lecture 17 - Confidence Interval II.md",
@@ -301,7 +342,6 @@
     "Images/Pasted image 20240910165943.png",
     "Images/Pasted image 20240910165754.png",
     "Images/Pasted image 20240910163938.png",
-    "Images/Pasted image 20240910163928.png",
     "Data in Context",
     "Data Management",
     "Deep Learning",
