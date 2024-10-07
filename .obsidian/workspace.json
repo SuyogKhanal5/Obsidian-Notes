@@ -20,15 +20,42 @@
             }
           },
           {
-            "id": "fb498066e39087c9",
+            "id": "a46cae3d6352f6c2",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "terminal:terminal",
               "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
-                "mode": "source",
-                "source": false
-              }
+                "terminal:terminal": {
+                  "cwd": "/Users/suyogkhanal/Documents/Notes/Obsidian-Notes",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/bash",
+                    "name": "",
+                    "platforms": {
+                      "darwin": true,
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": {
+                    "columns": 71,
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a help\r\nfatal: paths 'help ...' with -a does not make sense\r\nbash-3.2$ git commit -a -m help\u001b[4D",
+                    "rows": 40
+                  }
+                }
+              },
+              "pinned": true
             }
           },
           {
@@ -156,7 +183,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +199,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,9 +220,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md"
-              }
+              "state": {}
             }
           },
           {
@@ -239,11 +262,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "fb498066e39087c9",
+  "active": "a46cae3d6352f6c2",
   "lastOpenFiles": [
+    "Algorithms/Topic 3 - Recurrences.md",
+    "Data Management/Lecture 4 - Dictionaries.md",
+    "Data Management/Lecture 5 - Data Manipulation.md",
     "Images/Pasted image 20240930204338.png",
     "Excalidraw/Drawing 2024-09-22 17.55.38.excalidraw.md",
-    "Algorithms/Topic 3 - Recurrences.md",
     "Algorithms/Topic 2 - Analysis of Algorithms.md",
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
@@ -262,10 +287,7 @@
     "Images/Pasted image 20240910165754.png",
     "Images/Pasted image 20240910163938.png",
     "Images/Pasted image 20240910163928.png",
-    "Images/Pasted image 20240910163914.png",
     "Deep Learning",
-    "Data Management/Lecture 5 - Data Manipulation.md",
-    "Data Management/Lecture 4 - Dictionaries.md",
     "Data Management/Lecture 3 - Python Lists.md",
     "Data Management/Lecture 2 - Python Basics.md",
     "Data Management/Lecture 1 - Introduction.md",
