@@ -48,9 +48,44 @@
                     "type": "integrated",
                     "useWin32Conhost": true
                   },
+                  "serial": null
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "23df9cefbc811e63",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/suyogkhanal/Documents/Notes/Obsidian-Notes",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/bash",
+                    "name": "",
+                    "platforms": {
+                      "darwin": true,
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
                   "serial": {
                     "columns": 71,
-                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a help\r\nfatal: paths 'help ...' with -a does not make sense\r\nbash-3.2$ git commit -a -m help\u001b[4D",
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git commit -a -m \"update gitignore",
                     "rows": 40
                   }
                 }
@@ -115,9 +150,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "64e3c57ad1d2154b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -262,9 +309,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a46cae3d6352f6c2",
+  "active": "23df9cefbc811e63",
   "lastOpenFiles": [
     "Algorithms/Topic 3 - Recurrences.md",
+    "Computer Architecture/Topic 3 - The C Programming Language.md",
+    "Computer Architecture/Topic 2 - The Unix Shell.md",
+    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
+    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw 1.png",
+    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw 1.md",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw 1.md",
+    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw 1.md",
+    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw 1.md",
     "Data Management/Lecture 4 - Dictionaries.md",
     "Data Management/Lecture 5 - Data Manipulation.md",
     "Images/Pasted image 20240930204338.png",
@@ -273,10 +331,6 @@
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
     "Excalidraw/Drawing 2024-09-22 17.57.36.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
     "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
     "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
     "Images/Pasted image 20240912164534.png",
@@ -286,7 +340,6 @@
     "Images/Pasted image 20240910165943.png",
     "Images/Pasted image 20240910165754.png",
     "Images/Pasted image 20240910163938.png",
-    "Images/Pasted image 20240910163928.png",
     "Deep Learning",
     "Data Management/Lecture 3 - Python Lists.md",
     "Data Management/Lecture 2 - Python Basics.md",
@@ -297,11 +350,6 @@
     "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
     "Discrete II/Lecture 6 - More Counting Methods.md",
     "Discrete II/Lecture 2 - CS205 Recap.md",
-    "Discrete II/Lecture 1 - Syllabus.md",
-    "Statistical Inference/Lecture 22 - More on Regression, CI, and HT.md",
-    "Statistical Inference/Lecture 9 - Multiple Regression.md",
-    "Discrete II/Lecture 17 - Pigeonhole Principle Examples.md",
-    "Discrete II/Lecture 14 - Pirates Problem Constraints.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",
