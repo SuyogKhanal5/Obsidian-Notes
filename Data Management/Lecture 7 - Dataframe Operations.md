@@ -1,0 +1,47 @@
+
+- ### Pandas Operations
+	- `head` - Displays top few rows
+	- `size` - Gives the total number of data points
+	- `shape` - Gives the size of the data in rows and columns
+	- `describe` - Gives summary of data
+	- Use `pd.concat()` to append dataframes
+	- ###### Left and Right Join
+		- **Left Join** - Keep all rows of left table, and add entries from right table that match the corresponding columns
+		- **Right Join** - Keep all rows of right table, and add entries from left table that match the corresponding columns
+		- `.merge()` combines dataframes by key
+			- **Inner Join (Intersect)** - Only include rows where the joined columns contain the same values
+			- **Outer Join (Union)** - Include all rows from left and right join
+	- ###### Selecting Columns with Boolean Criteria
+		- `df[df[midterm] > 50]`
+			- Gives all rows with `midterm` $> 50$
+	- ###### Finding and Dropping Null Values
+		- Find the null values in the data frame in each column![[Pasted image 20241008160601.png]]
+		- Replace the null values![[Pasted image 20241008160638.png]]
+
+- ### Sorting, Counts, Uniques
+	- `df.sort_values('colName', ascending=False)`
+		- This creates a copy of the dataframe
+		- This also works on series/columns
+	- `df['colName'].value_counts()`
+		- Returns series showing counts of each value
+	- `df['colName'].unique()`
+		- Returns series of unique values
+
+- ### Indexing Dataframes
+	- `df['colName']` - Selects colName
+	- `df[['colName', 'colName2']]` - Selects colName and colName2
+	- `df[0:3]` - Select rows 0, 1, 2
+	- `df[0:3]['midterm']` - Get midterm scores for students 0, 1, 2
+	- ###### .loc and .iloc
+		- `df.loc`![[Pasted image 20241008161145.png]]
+		- `df.iloc`
+			- Integer based indexing ![[Pasted image 20241008161213.png]]
+- ### GroupBy Operation
+	- ###### Three Major Operations
+		- Split - Split data into groups based on some criteria
+		- Apply - Apply a function to the groups independently
+		- Combine - Combine the results into a data structure
+	- GroupBy code example:![[Pasted image 20241008161432.png]]
+	- Extracting values from GroupBy:![[Pasted image 20241008161502.png]]
+	- ###### Filter By Group
+		- `df.filter(f)` where `f` is a function that takes a dataframe as input and returns either true or false

@@ -8,54 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a789e04f47383135",
+            "id": "37c41de6dba9b966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
+                "file": "Data Management/Lecture 4 - Dictionaries.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a46cae3d6352f6c2",
+            "id": "4fda80a6634bd027",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "terminal:terminal",
+              "type": "markdown",
               "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/suyogkhanal/Documents/Notes/Obsidian-Notes",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/bash",
-                    "name": "",
-                    "platforms": {
-                      "darwin": true,
-                      "linux": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true
+                "file": "Data Management/Lecture 8 - Data Collection.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "23df9cefbc811e63",
+            "id": "35f8606f93b2c3c7",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -84,83 +61,13 @@
                     "useWin32Conhost": true
                   },
                   "serial": {
-                    "columns": 71,
-                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git commit -a -m \"update gitignore",
-                    "rows": 40
+                    "columns": 125,
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ git add .\r\nbash-3.2$ git commit -a\r\nhint: Waiting for your editor to close the file... code --wait: code: command not found\r\nerror: There was a problem with the editor 'code --wait'.\r\nPlease supply the message using either -m or -F option.\r\nbash-3.2$ git commit -a -m \"doing 210 notes again i hate git clean",
+                    "rows": 46
                   }
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "4756a759eb4a5677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistical Inference/Lecture 21 - More on Regression, CI,  and HT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30e9387b4cc4c050",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9154391db664f5d2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png"
-              }
-            }
-          },
-          {
-            "id": "be2d66b46f072a73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ceabbab8dbb9e1b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64e3c57ad1d2154b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Topic 3 - Recurrences.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ],
@@ -309,13 +216,34 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "23df9cefbc811e63",
+  "active": "35f8606f93b2c3c7",
   "lastOpenFiles": [
+    "Data Management/Lecture 8 - Data Collection.md",
+    "Data Management/Lecture 7 - Dataframe Operations.md",
+    "Images/Pasted image 20241008161502.png",
+    "Images/Pasted image 20241008161432.png",
+    "Images/Pasted image 20241008161213.png",
+    "Images/Pasted image 20241008161145.png",
+    "Images/Pasted image 20241008160638.png",
+    "Images/Pasted image 20241008160601.png",
+    "Data Management/Lecture 6 - NumPy and Pandas.md",
+    "Images/Pasted image 20241008155739.png",
+    "Images/Pasted image 20241008155722.png",
+    "Data Management/Lecture 5 - File Processing.md",
+    "Data Management/Lecture 4 - Dictionaries.md",
+    "Algorithms/Topic 4 - Sorting.md",
     "Algorithms/Topic 3 - Recurrences.md",
+    "Images/Pasted image 20241007195225.png",
+    "Deep Learning/Topic 2 - Linear Neural Networks.md",
     "Computer Architecture/Topic 3 - The C Programming Language.md",
+    "Data Management/Lecture 1 - Introduction.md",
+    "Computer Architecture/Topic 1 - Recent Hardware Trends.md",
+    "Algorithms/Topic 1 - Introduction.md",
+    "Images/Pasted image 20240919161337.png",
+    "Images",
+    "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
     "Computer Architecture/Topic 2 - The Unix Shell.md",
     "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
-    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw 1.png",
     "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw 1.md",
     "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw 1.md",
     "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw 1.md",
@@ -323,39 +251,18 @@
     "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
     "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
     "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw 1.md",
-    "Data Management/Lecture 4 - Dictionaries.md",
     "Data Management/Lecture 5 - Data Manipulation.md",
-    "Images/Pasted image 20240930204338.png",
     "Excalidraw/Drawing 2024-09-22 17.55.38.excalidraw.md",
     "Algorithms/Topic 2 - Analysis of Algorithms.md",
     "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
-    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png",
-    "Excalidraw/Drawing 2024-09-22 17.57.36.excalidraw.md",
-    "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
-    "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
-    "Images/Pasted image 20240912164534.png",
-    "Images/Pasted image 20240912164524.png",
-    "Images/Pasted image 20240912163611.png",
-    "Images/Pasted image 20240910170103.png",
-    "Images/Pasted image 20240910165943.png",
-    "Images/Pasted image 20240910165754.png",
-    "Images/Pasted image 20240910163938.png",
     "Deep Learning",
-    "Data Management/Lecture 3 - Python Lists.md",
-    "Data Management/Lecture 2 - Python Basics.md",
-    "Data Management/Lecture 1 - Introduction.md",
     "Data Management",
-    "Algorithms/Topic 1 - Introduction.md",
     "Algorithms",
-    "Discrete II/Lecture 15 - Inclusion-Exclusion.md",
-    "Discrete II/Lecture 6 - More Counting Methods.md",
-    "Discrete II/Lecture 2 - CS205 Recap.md",
     "Lecture 5 - Induction and Counting.pdf",
     "Systems Programming",
     "Data Structures",
     "Computer Architecture",
     "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
-    "Excalidraw",
-    "Images"
+    "Excalidraw"
   ]
 }

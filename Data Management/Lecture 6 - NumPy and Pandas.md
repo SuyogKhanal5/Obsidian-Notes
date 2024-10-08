@@ -1,0 +1,25 @@
+
+- ### NumPy Basics
+	- **ndarray** - $n$-dimensional array is core object
+		- Arrays are homogenous, one data type for all elements
+		- `np.array()`, `np.zeroes()`, `np.ones()`, `np.arrange()`
+		- Attributes: `shape`, `size`, `dtype`
+	- ###### Reshaping Arrays
+		- Turn 1D array into 2D![[Pasted image 20241008155722.png]]
+		- Flatten 2D Array![[Pasted image 20241008155739.png]]
+	- ###### Array Operations
+		- Element Wise - Add, Subtract, Multiply, element by element
+		- Broadcasting - Operate on arrays of different sizes
+		- Mathematical functions: `np.sum()`, `np.mean()`, `np.dot()` (matrix mult)
+		- Slicing and Indexing similar to lists
+	- ###### Internal Storage
+		- Single contiguous block of memory
+		- Bytes of each object determined by data type
+		- Inherently one dimensional
+
+- ### Pandas Basics
+	- ###### Information
+		- Single threaded
+		- Memory efficient for large datasets, not for very large ones
+		- I/O Handling
+		- `axis=0` refers to rows, `axis=1` refers to columns
