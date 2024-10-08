@@ -8,6 +8,9 @@ Notes written in Obsidian for various classes at Rutgers
 - Systems Programming
 - Discrete Structures II
 - Statistical Inference for Data Science
+- Design and Analysis of Computer Algorithms
+- Deep Learning
+- Data Management for Data Science
 
 ### Usage
 - Clone the repo
