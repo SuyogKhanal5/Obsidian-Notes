@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "95672b56abe1f006",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regression Methods/Topic 1 - Linear Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Topic 1 - Linear Regression"
-            }
-          },
-          {
-            "id": "bdee67a5c6fa7374",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regression Methods/Topic 1 - Linear Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Topic 1 - Linear Regression"
-            }
-          },
-          {
-            "id": "2436ecd47402578d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regression Methods/Topic 2 - Hypothesis Testing and Confidence Intervals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Topic 2 - Hypothesis Testing and Confidence Intervals"
-            }
-          },
-          {
-            "id": "e20a25aa948a076a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regression Methods/Topic 3 - Multiple Linear Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Topic 3 - Multiple Linear Regression"
-            }
-          },
-          {
             "id": "5c22a1ae8663b217",
             "type": "leaf",
             "state": {
@@ -92,21 +36,35 @@
             }
           },
           {
-            "id": "d393cdb993f1bc92",
+            "id": "f0f1d60eb9daa6b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Inference/Lecture 6 - Simple Regression III.md",
+                "file": "Bayesian Data Analysis/Class 3 - Bayesian Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 6 - Simple Regression III"
+              "title": "Class 3 - Bayesian Model"
+            }
+          },
+          {
+            "id": "704529e35cf30419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bayesian Data Analysis/Class 4 - Beta Distribution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Class 4 - Beta Distribution"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,11 +228,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "be6302938d897883",
+  "active": "704529e35cf30419",
   "lastOpenFiles": [
+    "Bayesian Data Analysis/Class 3 - Bayesian Model.md",
+    "Bayesian Data Analysis/Class 4 - Beta Distribution.md",
+    "Bayesian Data Analysis/Class 2 - Bayes Theorem.md",
     "Images/Pasted image 20250905085523.png",
     "Bayesian Data Analysis/Class 1 - Introduction.md",
-    "Bayesian Data Analysis/Class 2 - Bayes Theorem.md",
     "Images/Pasted image 20250905084542.png",
     "Regression Methods/Topic 3 - Multiple Linear Regression.md",
     "Bayesian Data Analysis",
@@ -301,7 +261,6 @@
     "Data Management/Lecture 6 - NumPy and Pandas.md",
     "Data Management/Lecture 1 - Introduction.md",
     "Data Management/Lecture 7 - Dataframe Operations.md",
-    "Data Management/Lecture 8 - Data Collection.md",
     "Images/Pasted image 20241008161502.png",
     "Images/Pasted image 20241008161432.png",
     "Images/Pasted image 20241008161213.png",
@@ -310,7 +269,6 @@
     "Images/Pasted image 20241008160601.png",
     "Images/Pasted image 20241008155739.png",
     "Images/Pasted image 20241008155722.png",
-    "Images/Pasted image 20241007195225.png",
     "Images",
     "Deep Learning",
     "Data Management",

@@ -25,4 +25,5 @@
 			- $P(A|B)$: The evidence
 		- You are asked to solve
 			- $P(B|A)$: The posterior
+	- No need to memorize formula, use tree diagram
 
