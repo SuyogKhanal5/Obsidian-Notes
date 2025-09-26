@@ -62,9 +62,62 @@
               "icon": "lucide-file",
               "title": "Class 4 - Beta Distribution"
             }
+          },
+          {
+            "id": "58d338ef835b9b5f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
+            "id": "1586e3a40de2c8d8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/suyogkhanal/Documents/Notes/Obsidian-Notes",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/bash",
+                    "name": "",
+                    "platforms": {
+                      "darwin": true,
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": {
+                    "columns": 124,
+                    "data": "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nbash-3.2$ gitadd .\r\nbash: gitadd: command not found\r\nbash-3.2$ git add .\r\nbash-3.2$ git commit -a -m \"comm",
+                    "rows": 38
+                  }
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: bash"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -218,6 +271,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -228,7 +282,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "704529e35cf30419",
+  "active": "1586e3a40de2c8d8",
   "lastOpenFiles": [
     "Bayesian Data Analysis/Class 3 - Bayesian Model.md",
     "Bayesian Data Analysis/Class 4 - Beta Distribution.md",
