@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "ee038c75d83460cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "27fb3c7dbad202e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f77078acb6eeabac",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20241215155128.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241215155128"
+            }
+          },
+          {
+            "id": "4252f777a568fef2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Topic 3 - Recurrences.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Topic 3 - Recurrences"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17917e7a3168dc47",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fb20cdd0faec471",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7eab9c3af2a1148c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7752389426374225",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "adc1356297f6321c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "09e6cadd4ee26166",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc5b169bbc494c24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18bd02ba590c8f41",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data Management/Lecture 7 - Dataframe Operations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lecture 7 - Dataframe Operations"
+            }
+          },
+          {
+            "id": "080657678376e9ab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Data Management/Lecture 7 - Dataframe Operations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 7 - Dataframe Operations"
+            }
+          },
+          {
+            "id": "5b48e0a483c2cc17",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2e6ab7aebbd07a0d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Data Management/Lecture 7 - Dataframe Operations.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lecture 7 - Dataframe Operations"
+            }
+          },
+          {
+            "id": "516279389e5a467a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "292f05790a733c4e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "7eab9c3af2a1148c",
+  "lastOpenFiles": [
+    "Images/Pasted image 20240905145909.png",
+    "Images/Pasted image 20240905145900.png",
+    "Images/Pasted image 20230905124501.png",
+    "Images/Pasted image 20230905124304.png",
+    "Algorithms/Topic 2 - Analysis of Algorithms.md",
+    "Algorithms/Final Notes.md",
+    "Algorithms/Topic 4 - Sorting.md",
+    "Algorithms/Topic 3 - Recurrences.md",
+    "Images/Pasted image 20241215155128.png",
+    "Images/Pasted image 20241214131559.png",
+    "Images/Pasted image 20241214121825.png",
+    "Algorithms/Topic 1 - Introduction.md",
+    "Data Management/Lecture 7 - Dataframe Operations.md",
+    "Data Management/Lecture 8 - Data Collection.md",
+    "Deep Learning/Topic 1 - Machine Learning Basic Concepts.md",
+    "Data Management/Lecture 6 - NumPy and Pandas.md",
+    "Images/Pasted image 20241008161502.png",
+    "Images/Pasted image 20241008161432.png",
+    "Images/Pasted image 20241008161213.png",
+    "Images/Pasted image 20241008161145.png",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw 1.md",
+    "Deep Learning/Topic 2 - Linear Neural Networks.md",
+    "Data Management/Lecture 5 - File Processing.md",
+    "Excalidraw/Drawing 2024-09-22 17.55.38.excalidraw.md",
+    "Statistical Inference/Lecture 1 - Introduction to Statistics and Data Science.md",
+    "Excalidraw/Drawing 2024-09-22 17.57.36.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-06 14.42.36.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-29 21.24.28.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-20 14.45.20.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-20 14.19.18.excalidraw.md",
+    "Discrete II/Lecture 18 - Combinatorial Proofs and Binomial Coefficients.md",
+    "Deep Learning",
+    "Data Management/Lecture 5 - Data Manipulation.md",
+    "Data Management/Lecture 4 - Dictionaries.md",
+    "Data Management/Lecture 3 - Python Lists.md",
+    "Data Management/Lecture 2 - Python Basics.md",
+    "Data Management/Lecture 1 - Introduction.md",
+    "Data Management",
+    "Algorithms",
+    "Lecture 5 - Induction and Counting.pdf",
+    "Systems Programming",
+    "Data Structures",
+    "Computer Architecture",
+    "Excalidraw/Drawing_2023-09-20_14.31.19.excalidraw.png.crdownload",
+    "Excalidraw",
+    "Images"
+  ]
+}
