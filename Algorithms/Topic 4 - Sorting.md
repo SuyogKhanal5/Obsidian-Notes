@@ -29,3 +29,6 @@
 			- For each element in the array, extract the minimum and insert the next element
 		- Total Complexity: $O(n \log k)$, better than $O(n \log n)$ if $k < n$
 
+- ### Greedy Algorithms
+	- Locally good choices (typically very bad)
+	- Most greedy algorithms don't work, therefore need a proof of correctness

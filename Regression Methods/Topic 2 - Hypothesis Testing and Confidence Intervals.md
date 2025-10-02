@@ -1,0 +1,53 @@
+
+- ### Confidence Intervals
+	- $\alpha$ is error (kinda, like $95$% confidence means alpha is $0.05$)
+	- Confidence Interval of $\beta_1$
+		- Let $t^{\alpha / 2}_{n-2}$ be the $(1-\alpha/2)$-th quantile of $t_{n-2}$
+			- $1-\alpha = \mathbb{P}[-t^{\alpha/2}_{n-2}\le t_{n-2} \le t^{\alpha/2}_{n-2}]$
+			- $=\mathbb{P}[-t^{\alpha/2}_{n-2}\le \frac{\hat{\beta_1}-{\beta_1}}{se(\hat \beta_1)} \le t^{\alpha/2}_{n-2}]$
+			- $=\mathbb{P}[\hat \beta_{1} -t^{\alpha/2}_{n-2}\cdot se(\hat \beta_1)\le\beta_{1} \le \hat\beta_{1}+t^{\alpha/2}_{n-2}\cdot se(\hat \beta_1)]$
+		- The $100(1-\alpha)$% Confidence Interval (CI) of $\beta_1$ is
+			- $[\hat \beta_{1} - t^{\alpha}{2}_{n-2}\cdot se(\hat \beta_1),\hat\beta_1+t^{\alpha/2}_{n-2}\cdot se(\hat \beta_1)]$
+		- E.g when $\alpha=0.05$, $n=434$, we can calculate $t^{0.025}_{432}=1.965$ so the $95$% CI is $\hat\beta_{1}\pm 1.965\cdot se(\hat\beta_1)$
+	- Confidence Interval of $\beta_0$
+		- Similarly it holds that $\frac{\hat \beta_0-\beta_0}{se(\hat \beta_0)}\sim t_{n-2}$ 
+		- Therefore, the $100(1-\alpha)$% Confidence Interval (CI) of $\beta_0$ is:
+			- $[\hat \beta_0-t^{\alpha/2}_{n-2}\cdot se(\hat \beta_0),\hat\beta_0+t^{\alpha/2}_{n-2}\cdot se(\hat \beta_0)]$
+		- Using the $95$% confidence interval for $\beta_1$ from above, $25.80\pm 1.965\times5.92=[14.17,37.43]$
+		- With this we can find the 95% CI of $\beta_1$ with $0.61\pm1.965\times0.059=[0.49,0.72]$
+
+- ### Hypothesis Testing
+	- Does kids IQ depend on mom's IQ?
+	- In statistical language: Does $\beta_1=0$ or not?
+	- Hypothesis Test: $H_0:\beta_1=0$ vs $H_1:\beta_1\ne0$
+	- We do not know $\beta_1$ but we have an estimate $\hat \beta_1$. Large value of $|\hat \beta_1|$ is in favor of alternate hypothesis $H_1$
+	- But $\hat \beta_1$ does not give enough information on its own, so we take its standard error into account
+	- Under the null hypothesis $H_0:\beta_1=0$ so $\frac{\hat \beta_1}{se(\hat \beta_1)}\sim t_{n-2}$
+	- Given the size of test $\alpha$, find the cut off value $C_{\alpha}=t^{\alpha / 2}_{n-2}$
+	- If $|\frac{\hat \beta_1}{se(\hat \beta_1)}|>C_{\alpha}$ then the estimate $\hat \beta_1$ is too extreme under $H_0$, and we reject $H_0$
+
+- ### P-Value
+	- How likely are we to have a more extreme $\hat \beta_1$?
+	- We calculate the $p$-value: $p=\mathbb{P}[|t_{n-2}|>|\frac{\hat \beta_1}{se(\hat \beta_1)}|]$
+	- If $p<\alpha$ then the value of $\hat \beta_1$ is too extreme, reject $H_0$
+
+- ### Prediction
+	- Statistically suppose we observe the value of predictor $x_{0}$ on a new unit, but not the response $y_0$
+	- According to the model $y_0=\beta_0+\beta_1x_0+\epsilon_{0} \sim N(\mu_{0},\sigma^{2})$, where $\mu_0=\mathbb{E}(y_0)=\beta_0+\beta_1x_0$
+		- How many points do we expect the kid to score? Estimate/Predict $\mu_0$
+		- How many points will the kid actually score? Predict $y_0$
+	- We make the same prediction of $\hat y_{0}=\hat \beta_{1}x_{0} + \hat \beta_0$ for both
+	- If we know the true $\beta$s then we can predict $\mu_0$ with no error, but we still will not be sure about the true value of $y_0$
+
+- ### Confidence and Prediction Intervals
+	- Since we use $\hat y_{0}=\hat \beta_{0}+\hat \beta_{1}x_0$ to predict $\mu_0$ the estimation error carries over to prediction
+	- The $100(1-\alpha)$% confidence interval for $\mu_0$:
+		- $[\hat y_{0}-t^{\alpha / 2}_{n-2}se\sqrt{\frac{1}{n}+\frac{(x_{0}-\bar x)^{2}}{(n-1)s^{2}_x}},\hat y_{0}-t^{\alpha / 2}_{n-2}se\sqrt{\frac{1}{n}+\frac{(x_{0}-\bar x)^{2}}{(n-1)s^{2}_x}}]$
+	- The $100(1-\alpha)$% prediction interval for $y_0$:
+		- $[\hat y_{0}-t^{\alpha / 2}_{n-2}se\sqrt{1+\frac{1}{n}+\frac{(x_{0}-\bar x)^{2}}{(n-1)s^{2}_x}},\hat y_{0}-t^{\alpha / 2}_{n-2}se\sqrt{1+\frac{1}{n}+\frac{(x_{0}-\bar x)^{2}}{(n-1)s^{2}_x}}]$
+	- Both intervals center at $y_{0}$
+	- There is an extra term $1$ in the prediction interval since the extra uncertainty from the error $\epsilon_0$
+	- Both of these intervals are random, i.e if you repeat the experiment or take another sample you will get a different interval
+	- Interpretation:
+		- $100(1-\alpha)$% of the time the resulting CI covers the true $\mu_0$
+		- $100(1-\alpha)$ the resulting PI covers the true $y_0$
