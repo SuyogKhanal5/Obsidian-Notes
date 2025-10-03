@@ -8,7 +8,7 @@
 - ### Properties of Beta Distribution
 	- Two parameters: $\alpha, \beta$
 	- PDF function
-		- $f(x)=\frac{1}{B(\alpha,\beta)}x^{\alpha-1}(1-x)^{\beta-1}$, $0<x<1$, $(\alpha,\beta>0)$
+		- $f(x)=\frac{1}{B(\alpha,\beta)}x^{\alpha-1}(1-x)^{\beta-1}$, where $0<x<1$, $(\alpha,\beta>0)$
 	- Beta function
 		- $B(\alpha,\beta)=\int_0^1x^{\alpha-1}(1-x)^{\beta-1}dx$
 	- Gamma function
