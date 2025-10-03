@@ -1,2 +1,31 @@
 
-- ### 
+- ### Thinking More about Prior
+	- Last class we had the prior of $\pi$
+		- Only take on three possible values, while it is more natural that is should take anywhere between $[0,1]$, a continuous one
+	- Looking for a distribution that is used to model any number from $0$ to $1$
+		- This is the beta distribution
+
+- ### Properties of Beta Distribution
+	- Two parameters: $\alpha, \beta$
+	- PDF function
+		- $f(x)=\frac{1}{B(\alpha,\beta)}x^{\alpha-1}(1-x)^{\beta-1}$, $0<x<1$, $(\alpha,\beta>0)$
+	- Beta function
+		- $B(\alpha,\beta)=\int_0^1x^{\alpha-1}(1-x)^{\beta-1}dx$
+	- Gamma function
+		- $\Gamma(z)=\int_0^\infty x^{z-1}e^{-x}dx$
+		- $\Gamma(z+1)=z\Gamma(z)$
+	- Relationship between Beta and Gamma
+		- $B(\alpha,\beta)=\frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$
+	- Beta distribution is an extension to uniform distribution on (0,1)
+		- Uniform $\alpha=1,\beta=1$
+	- ###### Mean, Variance, Median, and Mode
+		- Mean: $\mu=\frac{\alpha}{\alpha+\beta}$
+		- Variance: $\sigma^2=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$
+		- Median: No closed form solution
+		- Mode: In the Bayesian world, the mode of the posterior is often called the maximum a posteriori, or MAP
+			- When $\alpha>1,\beta>1,M_{0}=\frac{\alpha-1}{\alpha+\beta-2}$
+		- Choose different $\alpha,\beta$ to have your desired prior
+	- ###### Properties of the density
+		- The larger $\alpha$ is relative to $\beta$, the less probability mass on the left
+		- The smaller $\alpha$ is relative to $\beta$, the less probability mass on the right
+		- The larger $\alpha+\beta$, the more concentrated the probability mass, otherwise it is more dispersed
