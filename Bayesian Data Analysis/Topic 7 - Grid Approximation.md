@@ -1,7 +1,9 @@
 
 - ### Bayesian Computation
 	- If $\theta$ is a discrete parameter
+		- $P(\theta|D) = \frac{P(D|\theta)P(\theta)}{\sum_{\text{all possible } \theta^*} P(D|\theta^*)P(\theta^*)}$
 	- If $\theta$ is a continuous parameter
+		- $f(\theta|D) = \frac{f(D|\theta)f(\theta)}{\int f(D|\theta^*)f(\theta^*)d\theta^*}$
 	- ###### Methods for posterior
 		- Analytically (i.e conjugate families)
 		- Quadratic approximation (Laplace approximation)
@@ -12,7 +14,37 @@
 		- Markov Chain Monte Carlo (MCMC)
 
 - ### Bayes Box
-	- Visual and intuitive method to solve Bayes Rule problems
+	- Visual and intuitive method to solve Bayes Rule problems rather than the formula
 	- Usually to create probability box
 	- Typically for a discrete parameter
-	- 
+	- ###### Example
+		- Suppose we have a coin with probability $\theta$ of heads
+		- Also suppose we toss it twice and observe two heads
+		- Finally, also suppose that there are only three values of $\theta$, meaning that the probability of heads can only be one of three values: $\frac{1}{4}, \frac{1}{2},$ and $\frac{3}{4}$, and we judge them to be equally likely.
+		- $\theta=\frac{1}{4}, P(\theta)=\frac{1}{3}$
+		- $\theta=\frac{1}{2}, P(\theta)=\frac{1}{3}$
+		- $\theta=\frac{3}{4}, P(\theta)=\frac{1}{3}$
+		- Using Bayes rule we can calculate the chances of getting two heads in a row with $P(HH|\theta)$ for each value of $\theta$
+
+- ### Grid Approximation
+	- ###### Illustration of Grid Approximation
+		- **Assumptions**:
+			- Suppose we have a Beta-Binomial model
+			- Suppose that we have a coin with probability of $\theta$ of heads
+			- Suppose we toss it twice and observe 2 heads
+			- Suppose that $\theta\sim \text{Beta}(2,2)$
+		- We don't need to approximate this posterior since we know exactly what it is: $\theta|y=2\sim\text{Beta}(4,2)$
+		- But it allows us to compare the numerical method with the analytical solution
+		- How many possible $\theta$ values?
+			- First for simplicity, lets choose $\theta$ be $0,\frac{1}{3},\frac{2}{3},1$
+			- Probability $P(\theta)$ can be found in R with `pbeta()`
+		- We can use Bayes Box, but our chosen $\theta$ values are far too dispersed to draw any conclusions
+			- $P(0)=0, P(\frac{1}{3})=\frac{4}{3}, P(\frac{2}{3})=\frac{4}{3},P(1)=0$
+			- We could do hundred or thousands of values by hand, or just use R
+
+- ### Potential Issues
+	- There may be a problem if we don't have a bound for:
+		- When $\theta$ is defined on the real line (or the positive real line) e.g. Poisson and Normal parameters
+		- We can specify a wide bound to work with. The bound should be chosen so that virtually no posterior mass falls outside of it, but it is still workable
+	- There will definitely be a problem if there are more than just a few parameters (i.e. high-dimensional parameters)
+		- the number of grid points necessary will become very, very large.
